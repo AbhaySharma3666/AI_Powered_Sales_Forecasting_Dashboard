@@ -1,0 +1,327 @@
+================================================================================
+       AI-POWERED SALES FORECASTING DASHBOARD — BUSINESS UNDERSTANDING
+================================================================================
+
+Document Version : 1.0
+Created          : June 22, 2026
+Project          : AI-Powered Sales Forecasting Dashboard
+Domain           : Retail Analytics & Business Intelligence
+Dataset          : Global Superstore (Kaggle)
+
+================================================================================
+1. PROJECT CHARTER
+================================================================================
+
+1.1 Project Title
+    AI-Powered Sales Forecasting Dashboard
+
+1.2 Project Objective
+    Build an enterprise-grade Business Intelligence and Machine Learning
+    solution that transforms raw retail sales data into actionable business
+    insights and predictive sales forecasts.
+
+1.3 Business Problem
+    The Global Superstore operates across 147 countries with 7 distinct
+    markets. Without data-driven insights, the business faces:
+    
+    - Inability to predict future sales trends
+    - No visibility into regional profitability differences
+    - Unknown customer behavior patterns and churn risk
+    - Lack of product performance optimization
+    - Inefficient inventory and supply chain decisions
+    - Missed revenue opportunities from poor discount strategies
+
+1.4 Business Value
+    This project delivers:
+    
+    [1] Revenue Optimization     — Identify top-performing products & regions
+    [2] Cost Reduction           — Spot unprofitable segments and products
+    [3] Customer Retention       — Predict at-risk customers via RFM analysis
+    [4] Demand Forecasting       — Predict next 12 months of sales
+    [5] Strategic Decision Making — Executive dashboard for C-level stakeholders
+
+1.5 Stakeholders
+    - Executive Leadership (CEO, CFO)     → Strategic decisions
+    - Sales & Marketing Team              → Revenue growth
+    - Supply Chain & Operations           → Inventory planning
+    - Data Analytics Team                 → Ongoing insights
+    - Finance Team                        → Budgeting & forecasting
+
+1.6 Project Timeline
+
+    Phase  | Description                        | Duration
+    -------+------------------------------------+----------
+    1      | Business Understanding             | Week 1
+    2      | Data Preparation & Star Schema     | Week 1-2
+    3      | SQL Business Analytics             | Week 2-3
+    4      | Power BI Dashboard Development     | Week 3-4
+    5      | Executive Power BI Dashboard       | Week 4-5
+    6      | Python Advanced Analytics          | Week 5-6
+    7      | ML Sales Forecasting               | Week 6-7
+    8      | Streamlit Deployment               | Week 7-8
+
+1.7 Success Criteria
+    - 50+ SQL analytical queries with documented insights
+    - 5-page Power BI executive dashboard
+    - Customer segmentation with 4+ distinct clusters
+    - Sales forecast model with MAPE < 15%
+    - Deployed Streamlit web application
+    - Complete GitHub portfolio documentation
+
+================================================================================
+2. BUSINESS REQUIREMENTS
+================================================================================
+
+2.1 Core Business Questions
+
+    SALES PERFORMANCE
+    -----------------------------------------------------------------
+    Q1.  What is the total sales revenue?
+    Q2.  What is the total profit and overall profit margin?
+    Q3.  How has revenue trended monthly, quarterly, and yearly?
+    Q4.  Which months show peak and trough sales?
+    Q5.  What is the year-over-year growth rate?
+
+    PRODUCT ANALYSIS
+    -----------------------------------------------------------------
+    Q6.  Which are the Top 10 products by revenue?
+    Q7.  Which are the Bottom 10 underperforming products?
+    Q8.  Which products generate the highest profit margins?
+    Q9.  How does each category contribute to total revenue?
+    Q10. Which sub-categories are losing money?
+
+    CUSTOMER ANALYSIS
+    -----------------------------------------------------------------
+    Q11. Who are the Top 10 customers by lifetime value?
+    Q12. How many customers are repeat buyers?
+    Q13. What is the Customer Lifetime Value (CLV) distribution?
+    Q14. Which customer segment is most profitable?
+    Q15. Which customers are at risk of churning?
+
+    REGIONAL ANALYSIS
+    -----------------------------------------------------------------
+    Q16. Which market/region generates the most revenue?
+    Q17. Which region has the worst profitability?
+    Q18. How do product preferences vary by region?
+    Q19. Which cities are the top revenue contributors?
+    Q20. What is the geographic distribution of orders?
+
+    ADVANCED ANALYTICS
+    -----------------------------------------------------------------
+    Q21. What are the RFM scores for each customer?
+    Q22. How many distinct customer clusters exist?
+    Q23. Which customers should receive promotional offers?
+    Q24. What are the predicted sales for the next 12 months?
+    Q25. Which ML model provides the most accurate forecast?
+
+2.2 Non-Functional Requirements
+    - Dashboard must load within 5 seconds
+    - Streamlit app must be responsive on desktop/tablet
+    - All visualizations must be colorblind-friendly
+    - Code must be well-documented and reproducible
+    - Project must be version-controlled on GitHub
+
+================================================================================
+3. KPI DEFINITIONS
+================================================================================
+
+3.1 Primary KPIs
+
+    KPI Name           | Formula                            | Target
+    -------------------+------------------------------------+--------
+    Total Revenue      | SUM(Sales)                         | Track
+    Total Profit       | SUM(Profit)                        | Track
+    Profit Margin %    | (Total Profit / Total Revenue)×100 | > 10%
+    Total Orders       | COUNT(DISTINCT Order ID)           | Track
+    Avg Order Value    | Total Revenue / Total Orders       | Track
+    Customer Count     | COUNT(DISTINCT Customer ID)        | Track
+
+3.2 Growth KPIs
+
+    KPI Name           | Formula                            | Target
+    -------------------+------------------------------------+--------
+    YoY Revenue Growth | (Current - Previous) / Previous    | > 5%
+    MoM Revenue Growth | (Current Month - Prev) / Prev      | Track
+    New Customer Rate  | New Customers / Total Customers     | Track
+    Repeat Buy Rate    | Repeat Buyers / Total Customers     | > 30%
+
+3.3 Operational KPIs
+
+    KPI Name           | Formula                            | Target
+    -------------------+------------------------------------+--------
+    Avg Shipping Days  | AVG(Ship Date - Order Date)        | < 5 days
+    Discount Rate      | AVG(Discount)                      | < 20%
+    Return Rate        | Negative Profit Orders / Total      | < 25%
+    Revenue/Unit       | Total Revenue / Total Quantity       | Track
+
+3.4 Forecasting KPIs
+
+    KPI Name           | Formula                            | Target
+    -------------------+------------------------------------+--------
+    Forecast Accuracy  | 1 - MAPE                           | > 85%
+    R² Score           | Model R-squared                     | > 0.80
+    MAE                | Mean Absolute Error                 | Minimize
+    RMSE               | Root Mean Squared Error             | Minimize
+
+================================================================================
+4. DATA DICTIONARY (SUMMARY)
+================================================================================
+
+4.1 Source Dataset: Global Superstore (Kaggle)
+    - 51,290 transactions
+    - 24 original columns
+    - Date Range: January 2011 – December 2014
+    - 147 countries across 7 global markets
+
+4.2 Key Data Fields
+
+    Field            | Type     | Example              | Business Use
+    -----------------+----------+----------------------+------------------
+    Order ID         | String   | CA-2012-124891       | Order tracking
+    Order Date       | Date     | 2012-07-31           | Time analysis
+    Customer ID      | String   | RH-19495             | Customer analytics
+    Segment          | Category | Consumer             | Segmentation
+    Country          | String   | United States        | Geo analysis
+    Market           | Category | US                   | Market analysis
+    Region           | Category | East                 | Regional analysis
+    Product ID       | String   | TEC-AC-10003033      | Product analytics
+    Category         | Category | Technology           | Category analysis
+    Sub-Category     | Category | Accessories          | Sub-cat analysis
+    Sales            | Numeric  | $2,309.65            | Revenue tracking
+    Quantity         | Integer  | 7                    | Volume analysis
+    Discount         | Decimal  | 0.10                 | Pricing strategy
+    Profit           | Numeric  | $762.18              | Profitability
+    Shipping Cost    | Numeric  | $933.57              | Cost analysis
+    Order Priority   | Category | Critical             | Ops planning
+
+4.3 Markets & Regions
+
+    Market    | Regions
+    ----------+------------------------------------------
+    US        | East, West, Central, South
+    APAC      | Oceania, Southeast Asia, North Asia,
+              | Central Asia
+    EU        | North, South (EU)
+    EMEA      | EMEA (combined)
+    LATAM     | Caribbean, Central/South America
+    Africa    | Africa
+    Canada    | Canada
+
+4.4 Product Hierarchy
+
+    Category          | Sub-Categories                    | Count
+    ------------------+-----------------------------------+------
+    Technology        | Phones, Accessories, Copiers,     | 4
+                      | Machines                          |
+    Furniture         | Chairs, Tables, Bookcases,        | 4
+                      | Furnishings                       |
+    Office Supplies   | Binders, Storage, Paper, Art,     | 9
+                      | Supplies, Envelopes, Labels,      |
+                      | Fasteners, Appliances             |
+
+================================================================================
+5. STAR SCHEMA DESIGN
+================================================================================
+
+5.1 Architecture: Star Schema
+
+    The data warehouse follows a star schema pattern with one central
+    fact table surrounded by four dimension tables.
+
+5.2 Fact Table: fact_sales
+
+    Contains transactional measures:
+    - Sales (Revenue)
+    - Profit
+    - Quantity
+    - Discount
+    - Shipping Cost
+    - Profit Margin (derived)
+    - Revenue Per Unit (derived)
+    - Shipping Days (derived)
+
+5.3 Dimension Tables
+
+    dim_customer  → Customer demographics & segmentation
+    dim_product   → Product catalog & category hierarchy
+    dim_region    → Geographic hierarchy (Market → Region → Country → City)
+    dim_date      → Calendar & fiscal date attributes
+
+5.4 Schema Diagram
+
+                          dim_customer
+                               |
+        dim_product ---  fact_sales  --- dim_region
+                               |
+                           dim_date
+
+5.5 Relationship Summary
+
+    Relationship                                    | Cardinality
+    ------------------------------------------------+----------------
+    fact_sales.customer_key → dim_customer           | Many : One
+    fact_sales.product_key  → dim_product            | Many : One
+    fact_sales.region_key   → dim_region             | Many : One
+    fact_sales.date_key     → dim_date               | Many : One
+
+================================================================================
+6. PROJECT WORKFLOW
+================================================================================
+
+    Business Understanding
+            ↓
+    SQL Database Design (Star Schema)
+            ↓
+    SQL Analytics (50+ Queries)
+            ↓
+    Power BI Dashboard (5 Pages)
+            ↓
+    Customer Segmentation (RFM + KMeans)
+            ↓
+    Sales Forecasting (Prophet / XGBoost)
+            ↓
+    Streamlit Deployment
+            ↓
+    GitHub Portfolio + Documentation
+
+    This sequence mirrors how professional analytics teams work,
+    making the project an enterprise-grade BI and forecasting solution.
+
+================================================================================
+7. TOOLS & TECHNOLOGIES
+================================================================================
+
+    Layer              | Technology
+    -------------------+----------------------------------
+    Database           | MySQL (Star Schema)
+    BI / Dashboards    | Power BI (DAX Measures)
+    Data Processing    | Python (Pandas, NumPy)
+    Visualization      | Matplotlib, Seaborn, Plotly
+    Machine Learning   | Scikit-learn, XGBoost, Prophet
+    Deployment         | Streamlit, Streamlit Cloud
+    Version Control    | Git, GitHub
+    IDE                | VS Code, Jupyter Notebooks
+
+================================================================================
+8. DELIVERABLES CHECKLIST
+================================================================================
+
+    [ ] Project Charter (this document)
+    [ ] Business Requirements Document
+    [ ] Data Dictionary
+    [ ] KPI Definitions
+    [ ] Star Schema Design Diagram
+    [ ] SQL Database (create_tables.sql)
+    [ ] 50+ SQL Analytical Queries
+    [ ] Power BI Dashboard (5 pages)
+    [ ] DAX Measures Documentation
+    [ ] Customer Segmentation Notebook
+    [ ] Sales Forecasting Notebook
+    [ ] Model Evaluation Report
+    [ ] Streamlit Web Application
+    [ ] Final Project Report
+    [ ] GitHub Repository with README
+
+================================================================================
+                              END OF DOCUMENT
+================================================================================
