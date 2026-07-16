@@ -10,14 +10,14 @@ This project demonstrates a complete data analytics pipeline — from SQL databa
 
 | Phase | Description | Status |
 |-------|------------|--------|
-| **Phase 1** | Business Understanding | ⬜ Not Started |
-| **Phase 2** | Data Preparation & Star Schema | ⬜ Not Started |
-| **Phase 3** | SQL Business Analytics (50+ Queries) | ⬜ Not Started |
-| **Phase 4** | Power BI Dashboard Development | ⬜ Not Started |
-| **Phase 5** | Executive Power BI Dashboard (5 Pages) | ⬜ Not Started |
-| **Phase 6** | Python Advanced Analytics (RFM & Clustering) | ⬜ Not Started |
-| **Phase 7** | ML Sales Forecasting (Prophet/XGBoost) | ⬜ Not Started |
-| **Phase 8** | Streamlit App Deployment | ⬜ Not Started |
+| **Phase 1** | Business Understanding
+| **Phase 2** | Data Preparation & Star Schema
+| **Phase 3** | SQL Business Analytics (50+ Queries)
+| **Phase 4** | Power BI Dashboard Development
+| **Phase 5** | Executive Power BI Dashboard (5 Pages)
+| **Phase 6** | Python Advanced Analytics (RFM & Clustering)
+| **Phase 7** | ML Sales Forecasting (Prophet/XGBoost)
+| **Phase 8** | Streamlit App Deployment
 
 ## 🗄️ Star Schema Design
 
