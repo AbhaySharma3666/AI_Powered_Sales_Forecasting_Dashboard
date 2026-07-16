@@ -8,8 +8,8 @@ This project demonstrates a complete data analytics pipeline — from SQL databa
 
 ## 🏗️ Project Phases
 
-| Phase | Description | Status |
-|-------|------------|--------|
+| Phase | Description |
+|-------|------------|
 | **Phase 1** | Business Understanding
 | **Phase 2** | Data Preparation & Star Schema
 | **Phase 3** | SQL Business Analytics (50+ Queries)
