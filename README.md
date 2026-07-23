@@ -20,7 +20,7 @@
 ---
 
 ## 📋 Project Status & Phases
-=======
+
 | Phase | Description |
 |-------|------------|
 | **Phase 1** | Business Understanding
@@ -32,15 +32,15 @@
 | **Phase 7** | ML Sales Forecasting (Prophet/XGBoost)
 | **Phase 8** | Streamlit App Deployment
 
-| # | Phase | Status | Key Deliverables |
-|:---:|:---|:---:|:---|
-| 1 | Business Understanding | ✅ Complete | Project charter, KPI framework, data dictionary |
-| 2 | Data Prep & Star Schema | ✅ Complete | 51,290 clean rows, 5 normalized tables |
-| 3 | SQL Business Analytics | ✅ Complete | 50+ queries (Window Functions, CTEs, Subqueries) |
-| 4 | Power BI Dashboard | ✅ Complete | 6 interactive pages, 105 visuals, 30+ DAX measures |
-| 5 | Python Advanced Analytics | ✅ Complete | EDA, RFM scoring, K-Means clustering, Market Basket |
-| 6 | ML Sales Forecasting | ✅ Complete | Prophet MAPE: **8.62%** (Target <15%) |
-| 7 | Streamlit Web App | ✅ Complete | 7-page interactive analytics portal |
+| # | Phase | Key Deliverables |
+|:---:|:---|:---|
+| 1 | Business Understanding | Project charter, KPI framework, data dictionary |
+| 2 | Data Prep & Star Schema | 51,290 clean rows, 5 normalized tables |
+| 3 | SQL Business Analytics | 50+ queries (Window Functions, CTEs, Subqueries) |
+| 4 | Power BI Dashboard | 6 interactive pages, 105 visuals, 30+ DAX measures |
+| 5 | Python Advanced Analytics | EDA, RFM scoring, K-Means clustering, Market Basket |
+| 6 | ML Sales Forecasting | Prophet MAPE: **8.62%** (Target <15%) |
+| 7 | Streamlit Web App | 7-page interactive analytics portal |
 
 ---
 
