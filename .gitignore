@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data files (large) — block by default, whitelist needed paths
+*.csv
+# Whitelist: Dataset files
+!02_Dataset/raw_data/*.csv
+!02_Dataset/cleaned_data/*.csv
+!02_Dataset/processed_data/*.csv
+# Whitelist: Advanced Analytics outputs
+!05_Advanced_Analytics/outputs/*.csv
+# Whitelist: ML predictions & evaluation
+!06_Machine_Learning/predictions/*.csv
+!06_Machine_Learning/evaluation/*.csv
+!06_Machine_Learning/data/*.csv
+# Whitelist: Streamlit App embedded data
+!07_Streamlit_App/data/*.csv
+
+# Model files (large)
+*.pkl
+# Whitelist: ML saved models
+!06_Machine_Learning/models/*.pkl
+
+# Power BI temp files
+*.pbix.tmp
+
+# Environment
+.env
+*.log
+
+# Temp files
+_temp_docx/
+
+# Dev tools (not for production)
+graphify-out/
+.agents/
+

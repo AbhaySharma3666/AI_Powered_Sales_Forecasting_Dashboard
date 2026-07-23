@@ -1,0 +1,137 @@
+// ============================================
+// AI-Powered Sales Forecasting Dashboard
+// Comprehensive DAX Measures Collection
+// ============================================
+
+// --- 1. CORE KPIs ---
+
+// Revenue
+Revenue = SUM(fact_sales[sales])
+
+// Profit
+Profit = SUM(fact_sales[profit])
+
+// Orders
+Orders = DISTINCTCOUNT(fact_sales[order_id])
+
+// Total Quantity Sold
+Total Quantity = SUM(fact_sales[quantity])
+
+// Customer Count
+Customer Count = DISTINCTCOUNT(dim_customer[customer_id])
+
+// Profit Margin %
+Margin % = DIVIDE([Profit], [Revenue], 0)
+
+// Average Order Value
+Avg Order Value = DIVIDE([Revenue], [Orders], 0)
+
+// Average Discount
+Avg Discount = AVERAGE(fact_sales[discount]) * 100
+
+// Revenue per Customer
+Revenue per Customer = DIVIDE([Revenue], [Customer Count], 0)
+
+// --- 2. TIME INTELLIGENCE ---
+
+// Previous Year Revenue
+PY Revenue = CALCULATE([Revenue], SAMEPERIODLASTYEAR(dim_date[full_date]))
+
+// Year-over-Year Growth %
+YoY Growth % = DIVIDE([Revenue] - [PY Revenue], [PY Revenue], 0)
+
+// Month-to-Date Revenue
+MTD Revenue = TOTALMTD([Revenue], dim_date[full_date])
+
+// Quarter-to-Date Revenue
+QTD Revenue = TOTALQTD([Revenue], dim_date[full_date])
+
+// Year-to-Date Revenue
+YTD Revenue = TOTALYTD([Revenue], dim_date[full_date])
+
+// Running Total Revenue
+Running Total = 
+    CALCULATE(
+        [Revenue],
+        FILTER(
+            ALL(dim_date),
+            dim_date[full_date] <= MAX(dim_date[full_date])
+        )
+    )
+
+// --- 3. PRODUCT ANALYSIS ---
+
+// Total Products
+Total Products = DISTINCTCOUNT(dim_product[product_id])
+
+// Top Category by Revenue
+Top Category by Revenue = 
+    VAR T = TOPN(1, SUMMARIZE(dim_product, dim_product[category], "Revenue", [Revenue]), [Revenue], DESC)
+    RETURN MAXX(T, dim_product[category])
+
+// Top Category Revenue
+Top Category Revenue = 
+    VAR T = TOPN(1, SUMMARIZE(dim_product, dim_product[category], "Revenue", [Revenue]), [Revenue], DESC)
+    RETURN MAXX(T, [Revenue])
+
+// Highest Profit Margin Category
+Highest Profit Margin Category = 
+    VAR T = TOPN(1, SUMMARIZE(dim_product, dim_product[category], "Margin", [Margin %]), [Margin %], DESC) 
+    RETURN MAXX(T, dim_product[category])
+
+// Lowest Performing Category
+Lowest Performing Category = 
+    VAR T = TOPN(1, SUMMARIZE(dim_product, dim_product[category], "Margin", [Margin %]), [Margin %], ASC) 
+    RETURN MAXX(T, dim_product[category])
+
+// --- 4. CUSTOMER ANALYSIS ---
+
+// Repeat Buyers
+Repeat Buyers = 
+    COUNTROWS(
+        FILTER(
+            VALUES(fact_sales[customer_key]),
+            CALCULATE(DISTINCTCOUNT(fact_sales[order_id])) > 1
+        )
+    )
+
+// Repeat Purchase Rate
+Repeat Purchase Rate = DIVIDE([Repeat Buyers], [Customer Count], 0)
+
+// Last Purchase Date
+Last Purchase Date = 
+    CALCULATE(
+        MAX(fact_sales[order_date]),
+        ALLEXCEPT(fact_sales, fact_sales[customer_key])
+    )
+
+// Days Since Last Purchase
+Days Since Last Purchase = DATEDIFF([Last Purchase Date], TODAY(), DAY)
+
+// Churn Status
+Churn Status = IF([Days Since Last Purchase] > 365, "At Risk", "Active")
+
+// Average Orders per Customer
+Average Orders per Customer = DIVIDE([Orders], [Customer Count], 0)
+
+// Average Profit per Customer
+Average Profit per Customer = DIVIDE([Profit], [Customer Count], 0)
+
+// --- 5. FORECASTING & INDICATORS ---
+
+// Latest Sales Revenue (Fix for future date table entries)
+Latest Sales Revenue = 
+    VAR LatestSalesYear = MAXX(ALL(fact_sales), YEAR(fact_sales[order_date]))
+    RETURN CALCULATE([Revenue], FILTER(ALL(dim_date), dim_date[year] = LatestSalesYear))
+
+// Average Monthly Revenue
+Average Monthly Revenue = AVERAGEX(VALUES(dim_date[month_name]), [Revenue])
+
+// Average Monthly Profit
+Average Monthly Profit = AVERAGEX(VALUES(dim_date[month_name]), [Profit])
+
+// Profit Indicator (for KPI visuals icons)
+Profit Indicator = 
+    IF([Margin %] >= 0.15, 1,
+        IF([Margin %] >= 0.05, 0, -1)
+    )

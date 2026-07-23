@@ -19,7 +19,20 @@
 
 ---
 
+<<<<<<< HEAD
 ## 📋 Project Status & Phases
+=======
+| Phase | Description |
+|-------|------------|
+| **Phase 1** | Business Understanding
+| **Phase 2** | Data Preparation & Star Schema
+| **Phase 3** | SQL Business Analytics (50+ Queries)
+| **Phase 4** | Power BI Dashboard Development
+| **Phase 5** | Executive Power BI Dashboard (5 Pages)
+| **Phase 6** | Python Advanced Analytics (RFM & Clustering)
+| **Phase 7** | ML Sales Forecasting (Prophet/XGBoost)
+| **Phase 8** | Streamlit App Deployment
+>>>>>>> 04a85d467b111c88c874250fe43366b3fa80335a
 
 | # | Phase | Status | Key Deliverables |
 |:---:|:---|:---:|:---|

@@ -1,0 +1,1590 @@
+customer_id,customer_name,segment,country,Recency,Frequency,Monetary,R_Score,F_Score,M_Score,RFM_Score,RFM_Total,Segment
+AA-10315,Alex Avila,Consumer,United States,9,18,13679.59,5,3,4,534,12,Loyal Customers
+AA-10375,Allen Armold,Consumer,Mexico,7,18,5793.41,5,3,3,533,11,Loyal Customers
+AA-10480,Andrew Allen,Consumer,Thailand,126,20,17605.64,2,3,5,235,10,At Risk
+AA-10645,Anna Andreadi,Consumer,Indonesia,29,35,15256.3,4,5,5,455,14,Champions
+AA-315,Alex Avila,Consumer,Belarus,210,4,2207.96,1,1,2,112,4,Lost Customers
+AA-375,Allen Armold,Consumer,Zambia,300,5,567.03,1,1,1,111,3,Lost Customers
+AA-480,Andrew Allen,Consumer,Canada,315,5,2055.58,1,1,2,112,4,Lost Customers
+AA-645,Anna Andreadi,Consumer,Algeria,52,10,1918.94,3,3,2,332,8,Potential Loyalists
+AB-10015,Aaron Bergman,Consumer,China,17,31,19645.91,4,5,5,455,14,Champions
+AB-10060,Adam Bellavance,Home Office,United States,43,28,18321.55,3,5,5,355,13,Loyal Customers
+AB-10105,Adrian Barton,Consumer,United States,28,32,22855.35,4,5,5,455,14,Champions
+AB-10150,Aimee Bixby,Consumer,United Kingdom,36,24,13009.86,3,4,4,344,11,Loyal Customers
+AB-10165,Alan Barnes,Consumer,France,14,29,11605.84,4,5,4,454,13,Champions
+AB-10255,Alejandro Ballentine,Home Office,Vietnam,6,28,10676.0,5,5,4,554,14,Champions
+AB-105,Adrian Barton,Consumer,Ukraine,44,6,2128.66,3,2,2,322,7,Potential Loyalists
+AB-10600,Ann Blume,Corporate,United States,51,21,13309.41,3,4,4,344,11,Loyal Customers
+AB-15,Aaron Bergman,Consumer,Zambia,413,5,4595.9400000000005,1,1,3,113,5,Others
+AB-150,Aimee Bixby,Consumer,Iran,399,4,3143.88,1,1,3,113,5,Others
+AB-165,Alan Barnes,Consumer,Canada,17,6,1399.77,4,2,2,422,8,New Customers
+AB-255,Alejandro Ballentine,Home Office,Morocco,44,8,4654.78,3,2,3,323,8,Potential Loyalists
+AB-60,Adam Bellavance,Home Office,South Africa,36,6,1690.52,3,2,2,322,7,Potential Loyalists
+AB-600,Ann Blume,Corporate,Poland,8,5,5402.43,5,1,3,513,9,New Customers
+AC-10420,Alyssa Crouse,Corporate,China,7,24,10528.34,5,4,4,544,13,Champions
+AC-10450,Amy Cox,Consumer,India,6,19,16106.44,5,3,5,535,13,Loyal Customers
+AC-10615,Ann Chong,Corporate,United States,7,25,12226.140000000001,5,4,4,544,13,Champions
+AC-10660,Anna Chung,Consumer,Vietnam,3,20,6114.68,5,3,3,533,11,Loyal Customers
+AC-420,Alyssa Crouse,Corporate,Iraq,14,7,1596.92,4,2,2,422,8,New Customers
+AC-450,Amy Cox,Consumer,South Africa,182,7,1020.78,1,2,1,121,4,Lost Customers
+AC-615,Ann Chong,Corporate,Kenya,93,7,2245.06,2,2,2,222,6,Lost Customers
+AC-660,Anna Chung,Consumer,Cameroon,120,3,2667.6,2,1,2,212,5,Lost Customers
+AD-10180,Alan Dominguez,Home Office,Indonesia,30,23,17728.28,3,4,5,345,12,Loyal Customers
+AD-180,Alan Dominguez,Home Office,Turkey,6,2,642.5,5,1,1,511,7,New Customers
+AF-10870,Art Ferguson,Consumer,Belgium,7,34,26369.78,5,5,5,555,15,Champions
+AF-10885,Art Foster,Consumer,France,54,34,19596.16,3,5,5,355,13,Loyal Customers
+AF-870,Art Ferguson,Consumer,Iran,13,7,1652.91,5,2,2,522,9,New Customers
+AF-885,Art Foster,Consumer,Democratic Republic of the Congo,168,2,311.55,1,1,1,111,3,Lost Customers
+AG-10270,Alejandro Grove,Consumer,New Zealand,41,25,10519.26,3,4,4,344,11,Loyal Customers
+AG-10300,Aleksandra Gannaway,Corporate,New Zealand,3,23,12936.94,5,4,4,544,13,Champions
+AG-10330,Alex Grayson,Consumer,Indonesia,9,28,14361.81,5,5,5,555,15,Champions
+AG-10390,Allen Goldenen,Consumer,Australia,115,18,8358.59,2,3,3,233,8,At Risk
+AG-10495,Andrew Gjertsen,Corporate,China,79,26,15274.869999999999,2,4,5,245,11,At Risk
+AG-10525,Andy Gerbode,Corporate,Mexico,13,20,8370.17,5,3,3,533,11,Loyal Customers
+AG-10675,Anna Gayman,Consumer,United States,48,20,12809.0,3,3,4,334,10,Loyal Customers
+AG-10765,Anthony Garverick,Home Office,India,29,24,9552.6,4,4,3,443,11,Loyal Customers
+AG-10900,Arthur Gainer,Consumer,Mexico,58,29,18123.260000000002,2,5,5,255,12,At Risk
+AG-270,Alejandro Grove,Consumer,Czech Republic,121,6,2753.22,2,2,2,222,6,Lost Customers
+AG-300,Aleksandra Gannaway,Corporate,Nigeria,99,6,1643.02,2,2,2,222,6,Lost Customers
+AG-330,Alex Grayson,Consumer,Sudan,3,5,491.29,5,1,1,511,7,New Customers
+AG-390,Allen Goldenen,Consumer,Uganda,723,2,406.4,1,1,1,111,3,Lost Customers
+AG-495,Andrew Gjertsen,Corporate,Namibia,49,9,947.0600000000001,3,3,1,331,7,Need Attention
+AG-525,Andy Gerbode,Corporate,Iran,29,5,2850.9900000000002,4,1,2,412,7,New Customers
+AG-675,Anna Gayman,Consumer,Austria,182,8,2185.12,1,2,2,122,5,Lost Customers
+AG-765,Anthony Garverick,Home Office,Austria,115,8,1828.04,2,2,2,222,6,Lost Customers
+AG-900,Arthur Gainer,Consumer,Tanzania,24,2,1665.39,4,1,2,412,7,New Customers
+AH-10030,Aaron Hawkins,Corporate,Austria,29,26,14376.14,4,4,5,445,13,Champions
+AH-10075,Adam Hart,Corporate,Mexico,3,27,17912.03,5,5,5,555,15,Champions
+AH-10120,Adrian Hane,Home Office,Mexico,136,19,9676.15,2,3,4,234,9,At Risk
+AH-10195,Alan Haines,Corporate,El Salvador,50,24,12599.76,3,4,4,344,11,Loyal Customers
+AH-10210,Alan Hwang,Consumer,Brazil,7,31,20264.03,5,5,5,555,15,Champions
+AH-10465,Amy Hunt,Consumer,Nicaragua,71,19,8510.72,2,3,3,233,8,At Risk
+AH-10585,Angele Hood,Consumer,Australia,22,21,9094.14,4,4,3,443,11,Loyal Customers
+AH-10690,Anna Häberlin,Corporate,Australia,31,30,16173.95,3,5,5,355,13,Loyal Customers
+AH-120,Adrian Hane,Home Office,South Africa,600,3,1450.08,1,1,2,112,4,Lost Customers
+AH-195,Alan Haines,Corporate,Iran,279,8,2613.51,1,2,2,122,5,Lost Customers
+AH-210,Alan Hwang,Consumer,Egypt,458,4,3272.23,1,1,3,113,5,Others
+AH-30,Aaron Hawkins,Corporate,Democratic Republic of the Congo,469,6,6253.35,1,2,3,123,6,Hibernating
+AH-465,Amy Hunt,Consumer,South Africa,242,4,650.83,1,1,1,111,3,Lost Customers
+AH-585,Angele Hood,Consumer,Iran,76,9,2207.29,2,3,2,232,7,At Risk
+AH-690,Anna Häberlin,Corporate,Egypt,787,3,1792.64,1,1,2,112,4,Lost Customers
+AH-75,Adam Hart,Corporate,South Africa,38,7,3586.5,3,2,3,323,8,Potential Loyalists
+AI-10855,Arianne Irving,Consumer,Australia,14,20,8319.62,4,3,3,433,10,Loyal Customers
+AI-855,Arianne Irving,Consumer,Turkey,204,4,863.49,1,1,1,111,3,Lost Customers
+AJ-10780,Anthony Jacobs,Corporate,Afghanistan,49,23,15041.56,3,4,5,345,12,Loyal Customers
+AJ-10795,Anthony Johnson,Corporate,United States,63,19,8502.85,2,3,3,233,8,At Risk
+AJ-10945,Ashley Jarboe,Consumer,Mexico,29,25,10945.24,4,4,4,444,12,Champions
+AJ-10960,Astrea Jones,Consumer,France,49,16,8554.36,3,3,3,333,9,Loyal Customers
+AJ-780,Anthony Jacobs,Corporate,Iran,2,11,2458.4,5,3,2,532,10,Potential Loyalists
+AJ-795,Anthony Johnson,Corporate,Sudan,37,10,3372.16,3,3,3,333,9,Loyal Customers
+AJ-945,Ashley Jarboe,Consumer,Senegal,105,6,4836.15,2,2,3,223,7,Hibernating
+AJ-960,Astrea Jones,Consumer,Morocco,295,9,4592.41,1,3,3,133,7,At Risk
+AM-10360,Alice McCarthy,Corporate,United Kingdom,16,33,16455.59,4,5,5,455,14,Champions
+AM-10705,Anne McFarland,Consumer,Indonesia,26,28,24049.58,4,5,5,455,14,Champions
+AM-360,Alice McCarthy,Corporate,Mongolia,176,5,2010.63,1,1,2,112,4,Lost Customers
+AM-705,Anne McFarland,Consumer,Belarus,137,6,1303.77,2,2,1,221,5,Lost Customers
+AO-10810,Anthony O'Donnell,Corporate,United Kingdom,70,24,14295.91,2,4,5,245,11,At Risk
+AO-810,Anthony O'Donnell,Corporate,Canada,342,2,411.71999999999997,1,1,1,111,3,Lost Customers
+AP-10720,Anne Pryor,Home Office,India,42,18,15235.81,3,3,5,335,11,Loyal Customers
+AP-10915,Arthur Prichep,Consumer,China,77,31,15770.38,2,5,5,255,12,At Risk
+AP-720,Anne Pryor,Home Office,Hungary,128,4,858.48,2,1,1,211,4,Lost Customers
+AP-915,Arthur Prichep,Consumer,Moldova,93,5,2654.73,2,1,2,212,5,Lost Customers
+AR-10345,Alex Russell,Corporate,Mexico,30,26,13968.13,3,4,4,344,11,Loyal Customers
+AR-10405,Allen Rosenblatt,Corporate,United States,55,22,8867.14,3,4,3,343,10,Loyal Customers
+AR-10510,Andrew Roberts,Consumer,Italy,63,27,14192.67,2,5,5,255,12,At Risk
+AR-10540,Andy Reiter,Consumer,United States,122,12,7925.97,2,3,3,233,8,At Risk
+AR-10570,Anemone Ratner,Consumer,Australia,3,17,9416.13,5,3,3,533,11,Loyal Customers
+AR-10825,Anthony Rawles,Corporate,United States,23,37,15233.76,4,5,5,455,14,Champions
+AR-345,Alex Russell,Corporate,Zambia,142,8,2290.5,2,2,2,222,6,Lost Customers
+AR-405,Allen Rosenblatt,Corporate,Ukraine,223,6,555.02,1,2,1,121,4,Lost Customers
+AR-510,Andrew Roberts,Consumer,Turkey,241,9,2592.81,1,3,2,132,6,At Risk
+AR-540,Andy Reiter,Consumer,Iran,222,7,522.22,1,2,1,121,4,Lost Customers
+AR-570,Anemone Ratner,Consumer,Iran,71,8,2005.96,2,2,2,222,6,Lost Customers
+AR-825,Anthony Rawles,Corporate,Morocco,75,6,1904.03,2,2,2,222,6,Lost Customers
+AS-10045,Aaron Smayling,Corporate,United States,24,27,12578.25,4,5,4,454,13,Champions
+AS-10090,Adam Shillingsburg,Consumer,United Kingdom,29,28,14847.65,4,5,5,455,14,Champions
+AS-10135,Adrian Shami,Home Office,India,42,17,7139.95,3,3,3,333,9,Loyal Customers
+AS-10225,Alan Schoenberger,Corporate,China,13,25,21219.99,5,4,5,545,14,Champions
+AS-10240,Alan Shonely,Consumer,Australia,13,27,8703.22,5,5,3,553,13,Loyal Customers
+AS-10285,Alejandro Savely,Corporate,India,19,27,16026.02,4,5,5,455,14,Champions
+AS-10630,Ann Steele,Home Office,New Zealand,36,15,9734.75,3,3,4,334,10,Loyal Customers
+AS-135,Adrian Shami,Home Office,Israel,93,4,3954.09,2,1,3,213,6,Others
+AS-225,Alan Schoenberger,Corporate,Iran,20,6,395.85,4,2,1,421,7,New Customers
+AS-240,Alan Shonely,Consumer,Estonia,499,4,1681.7099999999998,1,1,2,112,4,Lost Customers
+AS-285,Alejandro Savely,Corporate,Russia,223,11,4862.5199999999995,1,3,3,133,7,At Risk
+AS-45,Aaron Smayling,Corporate,South Africa,234,3,1579.83,1,1,2,112,4,Lost Customers
+AS-630,Ann Steele,Home Office,Nigeria,34,5,1860.03,3,1,2,312,6,Potential Loyalists
+AS-90,Adam Shillingsburg,Consumer,Morocco,22,4,425.36,4,1,1,411,6,New Customers
+AT-10435,Alyssa Tate,Home Office,Mexico,13,20,13599.95,5,3,4,534,12,Loyal Customers
+AT-10735,Annie Thurman,Consumer,United States,3,27,12908.08,5,5,4,554,14,Champions
+AT-435,Alyssa Tate,Home Office,Ethiopia,29,12,1172.98,4,3,1,431,8,Others
+AT-735,Annie Thurman,Consumer,Romania,457,3,295.59000000000003,1,1,1,111,3,Lost Customers
+AW-10840,Anthony Witt,Consumer,Netherlands,17,24,13071.77,4,4,4,444,12,Champions
+AW-10930,Arthur Wiediger,Home Office,United Kingdom,36,18,10158.42,3,3,4,334,10,Loyal Customers
+AW-840,Anthony Witt,Consumer,Romania,57,7,1911.69,2,2,2,222,6,Lost Customers
+AW-930,Arthur Wiediger,Home Office,Iraq,171,4,761.58,1,1,1,111,3,Lost Customers
+AY-10555,Andy Yotov,Corporate,United Kingdom,15,15,5438.6,4,3,3,433,10,Loyal Customers
+AY-555,Andy Yotov,Corporate,Egypt,36,11,3018.26,3,3,2,332,8,Potential Loyalists
+AZ-10750,Annie Zypern,Consumer,Nicaragua,71,18,9526.95,2,3,3,233,8,At Risk
+AZ-750,Annie Zypern,Consumer,Mozambique,27,10,2132.39,4,3,2,432,9,Potential Loyalists
+BB-10990,Barry Blumstein,Corporate,Dominican Republic,15,27,8934.44,4,5,3,453,12,Loyal Customers
+BB-11545,Brenda Bowman,Corporate,Germany,29,24,15747.41,4,4,5,445,13,Champions
+BB-1545,Brenda Bowman,Corporate,Morocco,50,4,199.68,3,1,1,311,5,Others
+BB-990,Barry Blumstein,Corporate,Sudan,51,7,822.29,3,2,1,321,6,Others
+BC-11125,Becky Castell,Home Office,New Zealand,34,28,14614.7,3,5,5,355,13,Loyal Customers
+BC-1125,Becky Castell,Home Office,Turkey,132,4,349.08,2,1,1,211,4,Lost Customers
+BD-11320,Bill Donatelli,Consumer,United States,6,30,12960.05,5,5,4,554,14,Champions
+BD-11500,Bradley Drucker,Consumer,United States,20,26,13070.25,4,4,4,444,12,Champions
+BD-11560,Brendan Dodson,Home Office,United Kingdom,8,19,9306.97,5,3,3,533,11,Loyal Customers
+BD-11605,Brian Dahlen,Consumer,Australia,98,18,9128.63,2,3,3,233,8,At Risk
+BD-11620,Brian DeCherney,Consumer,Spain,50,23,7489.36,3,4,3,343,10,Loyal Customers
+BD-11635,Brian Derr,Consumer,Australia,10,23,11167.050000000001,5,4,4,544,13,Champions
+BD-11725,Bruce Degenhardt,Consumer,Guatemala,5,29,10848.77,5,5,4,554,14,Champions
+BD-11770,Bryan Davis,Consumer,France,76,24,10123.72,2,4,4,244,10,At Risk
+BD-1320,Bill Donatelli,Consumer,Iran,50,5,1851.39,3,1,2,312,6,Potential Loyalists
+BD-1500,Bradley Drucker,Consumer,Nigeria,399,2,39.28,1,1,1,111,3,Lost Customers
+BD-1560,Brendan Dodson,Home Office,Czech Republic,91,5,1545.12,2,1,2,212,5,Lost Customers
+BD-1605,Brian Dahlen,Consumer,Israel,276,5,689.64,1,1,1,111,3,Lost Customers
+BD-1620,Brian DeCherney,Consumer,Iraq,118,11,2900.52,2,3,2,232,7,At Risk
+BD-1635,Brian Derr,Consumer,Iraq,325,8,5639.92,1,2,3,123,6,Hibernating
+BD-1725,Bruce Degenhardt,Consumer,Israel,117,12,4975.28,2,3,3,233,8,At Risk
+BD-1770,Bryan Davis,Consumer,Turkey,239,5,3399.65,1,1,3,113,5,Others
+BE-11335,Bill Eplett,Home Office,Mexico,36,35,27021.49,3,5,5,355,13,Loyal Customers
+BE-11410,Bobby Elias,Consumer,Germany,85,28,16416.14,2,5,5,255,12,At Risk
+BE-11455,Brad Eason,Home Office,Australia,4,26,17523.76,5,4,5,545,14,Champions
+BE-1335,Bill Eplett,Home Office,Cote d'Ivoire,573,4,1307.82,1,1,1,111,3,Lost Customers
+BE-1410,Bobby Elias,Consumer,Guinea,22,6,1850.74,4,2,2,422,8,New Customers
+BE-1455,Brad Eason,Home Office,Angola,147,2,1173.42,1,1,1,111,3,Lost Customers
+BF-1005,Barry Franz,Home Office,Niger,735,2,727.83,1,1,1,111,3,Lost Customers
+BF-1020,Barry Französisch,Corporate,Cote d'Ivoire,97,7,2976.42,2,2,2,222,6,Lost Customers
+BF-1080,Bart Folk,Consumer,Canada,210,6,3778.54,1,2,3,123,6,Hibernating
+BF-10975,Barbara Fisher,Corporate,France,36,19,8043.48,3,3,3,333,9,Loyal Customers
+BF-11005,Barry Franz,Home Office,India,9,23,23196.19,5,4,5,545,14,Champions
+BF-11020,Barry Französisch,Corporate,United States,16,23,10076.09,4,4,4,444,12,Champions
+BF-11080,Bart Folk,Consumer,Australia,26,20,10119.89,4,3,4,434,11,Loyal Customers
+BF-11170,Ben Ferrer,Home Office,United States,17,29,22239.8,4,5,5,455,14,Champions
+BF-11215,Benjamin Farhat,Home Office,Nicaragua,27,25,12887.89,4,4,4,444,12,Champions
+BF-11275,Beth Fritzler,Corporate,Dominican Republic,7,23,9571.8,5,4,3,543,12,Loyal Customers
+BF-1170,Ben Ferrer,Home Office,Zambia,194,6,904.9200000000001,1,2,1,121,4,Lost Customers
+BF-1215,Benjamin Farhat,Home Office,Zimbabwe,118,5,393.27000000000004,2,1,1,211,4,Lost Customers
+BF-1275,Beth Fritzler,Corporate,Turkey,129,6,975.93,2,2,1,221,5,Lost Customers
+BF-975,Barbara Fisher,Corporate,Rwanda,23,7,1698.48,4,2,2,422,8,New Customers
+BG-1035,Barry Gonzalez,Consumer,Lithuania,601,1,124.42,1,1,1,111,3,Lost Customers
+BG-11035,Barry Gonzalez,Consumer,Finland,29,32,19852.06,4,5,5,455,14,Champions
+BG-11695,Brooke Gillingham,Corporate,Mexico,37,18,10655.99,3,3,4,334,10,Loyal Customers
+BG-11740,Bruce Geld,Consumer,Malaysia,7,21,14227.38,5,4,5,545,14,Champions
+BG-1695,Brooke Gillingham,Corporate,Togo,45,3,428.49,3,1,1,311,5,Others
+BG-1740,Bruce Geld,Consumer,Turkey,17,4,646.8199999999999,4,1,1,411,6,New Customers
+BH-11710,Brosina Hoffman,Consumer,Germany,24,28,23397.69,4,5,5,455,14,Champions
+BH-1710,Brosina Hoffman,Consumer,Russia,94,10,4545.64,2,3,3,233,8,At Risk
+BK-11260,Berenike Kampe,Consumer,Bangladesh,27,26,13272.36,4,4,4,444,12,Champions
+BK-1260,Berenike Kampe,Consumer,Libya,41,3,257.68,3,1,1,311,5,Others
+BM-11140,Becky Martin,Consumer,United States,9,29,25271.2,5,5,5,555,15,Champions
+BM-1140,Becky Martin,Consumer,Ukraine,251,5,1845.52,1,1,2,112,4,Lost Customers
+BM-11575,Brendan Murry,Corporate,Australia,35,24,10261.18,3,4,4,344,11,Loyal Customers
+BM-11650,Brian Moss,Corporate,United States,34,22,14798.34,3,4,5,345,12,Loyal Customers
+BM-11785,Bryan Mills,Consumer,Mexico,3,33,18385.09,5,5,5,555,15,Champions
+BM-1575,Brendan Murry,Corporate,Mauritania,198,8,1648.3,1,2,2,122,5,Lost Customers
+BM-1650,Brian Moss,Corporate,Iran,482,7,2495.91,1,2,2,122,5,Lost Customers
+BM-1785,Bryan Mills,Consumer,Algeria,49,9,2228.43,3,3,2,332,8,Potential Loyalists
+BN-11470,Brad Norvell,Corporate,Thailand,12,28,23333.57,5,5,5,555,15,Champions
+BN-11515,Bradley Nguyen,Consumer,France,21,22,10186.789999999999,4,4,4,444,12,Champions
+BN-1470,Brad Norvell,Corporate,Poland,23,7,2823.85,4,2,2,422,8,New Customers
+BN-1515,Bradley Nguyen,Consumer,Iran,100,7,2595.45,2,2,2,222,6,Lost Customers
+BO-11350,Bill Overfelt,Corporate,India,112,20,7425.43,2,3,3,233,8,At Risk
+BO-11425,Bobby Odegard,Consumer,Mexico,6,20,12343.79,5,3,4,534,12,Loyal Customers
+BO-1350,Bill Overfelt,Corporate,Niger,22,6,605.94,4,2,1,421,7,New Customers
+BO-1425,Bobby Odegard,Consumer,Mali,2,8,2671.26,5,2,2,522,9,New Customers
+BP-1050,Barry Pond,Corporate,Cote d'Ivoire,12,8,4945.27,5,2,3,523,10,New Customers
+BP-1095,Bart Pistole,Corporate,Iraq,12,6,1752.95,5,2,2,522,9,New Customers
+BP-11050,Barry Pond,Corporate,United Kingdom,6,18,5292.42,5,3,3,533,11,Loyal Customers
+BP-11095,Bart Pistole,Corporate,Sweden,3,30,8219.710000000001,5,5,3,553,13,Loyal Customers
+BP-11155,Becky Pak,Consumer,United Kingdom,33,22,13321.54,3,4,4,344,11,Loyal Customers
+BP-11185,Ben Peterman,Corporate,France,2,26,15260.01,5,4,5,545,14,Champions
+BP-11230,Benjamin Patterson,Consumer,India,40,21,12498.12,3,4,4,344,11,Loyal Customers
+BP-11290,Beth Paige,Consumer,Singapore,13,28,12396.51,5,5,4,554,14,Champions
+BP-1155,Becky Pak,Consumer,Canada,262,6,1110.78,1,2,1,121,4,Lost Customers
+BP-1185,Ben Peterman,Corporate,Turkey,6,9,1354.8799999999999,5,3,2,532,10,Potential Loyalists
+BP-1230,Benjamin Patterson,Consumer,Cameroon,84,7,6078.7300000000005,2,2,3,223,7,Hibernating
+BP-1290,Beth Paige,Consumer,Croatia,370,4,383.34000000000003,1,1,1,111,3,Lost Customers
+BS-11365,Bill Shonely,Corporate,France,1,26,22422.36,5,5,5,555,15,Champions
+BS-11380,Bill Stewart,Corporate,Indonesia,29,23,17827.579999999998,4,4,5,445,13,Champions
+BS-11590,Brendan Sweed,Corporate,France,36,23,11310.86,3,4,4,344,11,Loyal Customers
+BS-11665,Brian Stugart,Consumer,France,30,23,17428.63,3,4,5,345,12,Loyal Customers
+BS-11755,Bruce Stewart,Consumer,Australia,2,29,17429.96,5,5,5,555,15,Champions
+BS-11800,Bryan Spruell,Home Office,Indonesia,54,20,10812.380000000001,3,3,4,334,10,Loyal Customers
+BS-1365,Bill Shonely,Corporate,Ghana,38,5,957.63,3,1,1,311,5,Others
+BS-1380,Bill Stewart,Corporate,Iraq,132,4,454.73,2,1,1,211,4,Lost Customers
+BS-1590,Brendan Sweed,Corporate,Croatia,238,4,807.9,1,1,1,111,3,Lost Customers
+BS-1665,Brian Stugart,Consumer,Iran,153,7,5020.8,1,2,3,123,6,Hibernating
+BS-1755,Bruce Stewart,Consumer,Nigeria,296,4,1630.76,1,1,2,112,4,Lost Customers
+BS-1800,Bryan Spruell,Home Office,South Africa,12,9,6353.75,5,3,3,533,11,Loyal Customers
+BT-11305,Beth Thompson,Home Office,United States,29,22,10239.34,4,4,4,444,12,Champions
+BT-11395,Bill Tyler,Corporate,United Kingdom,29,22,11261.12,4,4,4,444,12,Champions
+BT-11440,Bobby Trafton,Consumer,Philippines,52,20,8150.01,3,3,3,333,9,Loyal Customers
+BT-11485,Brad Thomas,Home Office,Spain,31,29,8846.52,3,5,3,353,11,Loyal Customers
+BT-11530,Bradley Talbott,Home Office,India,34,24,13654.44,3,4,4,344,11,Loyal Customers
+BT-11680,Brian Thompson,Consumer,Japan,19,20,13975.64,4,3,4,434,11,Loyal Customers
+BT-1305,Beth Thompson,Home Office,Russia,32,10,1291.92,3,3,1,331,7,Need Attention
+BT-1395,Bill Tyler,Corporate,Zimbabwe,34,3,441.68,3,1,1,311,5,Others
+BT-1440,Bobby Trafton,Consumer,Turkey,122,7,2040.98,2,2,2,222,6,Lost Customers
+BT-1485,Brad Thomas,Home Office,Saudi Arabia,135,7,2770.35,2,2,2,222,6,Lost Customers
+BT-1530,Bradley Talbott,Home Office,Canada,353,5,1494.3700000000001,1,1,2,112,4,Lost Customers
+BT-1680,Brian Thompson,Consumer,Egypt,58,4,795.93,2,1,1,211,4,Lost Customers
+BV-11245,Benjamin Venier,Corporate,Spain,45,22,20624.22,3,4,5,345,12,Loyal Customers
+BV-1245,Benjamin Venier,Corporate,Iran,129,3,615.67,2,1,1,211,4,Lost Customers
+BW-1065,Barry Weirich,Consumer,Democratic Republic of the Congo,23,5,9027.48,4,1,3,413,8,New Customers
+BW-11065,Barry Weirich,Consumer,Germany,51,17,8394.46,3,3,3,333,9,Loyal Customers
+BW-1110,Bart Watters,Corporate,Ukraine,185,9,1665.81,1,3,2,132,6,At Risk
+BW-11110,Bart Watters,Corporate,United States,55,35,30446.16,3,5,5,355,13,Loyal Customers
+BW-11200,Ben Wallace,Consumer,France,41,26,11660.66,3,5,4,354,12,Loyal Customers
+BW-1200,Ben Wallace,Consumer,Sudan,134,4,3105.82,2,1,2,212,5,Lost Customers
+CA-11965,Carol Adams,Corporate,Japan,19,24,20973.91,4,4,5,445,13,Champions
+CA-12055,Cathy Armstrong,Home Office,Germany,14,22,10615.95,4,4,4,444,12,Champions
+CA-12265,Christina Anderson,Consumer,United Kingdom,35,29,18361.1,3,5,5,355,13,Loyal Customers
+CA-12310,Christine Abelman,Corporate,France,14,20,7040.12,4,3,3,433,10,Loyal Customers
+CA-12775,Cynthia Arntzen,Consumer,India,94,24,18234.64,2,4,5,245,11,At Risk
+CA-1965,Carol Adams,Corporate,Romania,128,7,2872.41,2,2,2,222,6,Lost Customers
+CA-2055,Cathy Armstrong,Home Office,Canada,259,3,1581.3899999999999,1,1,2,112,4,Lost Customers
+CA-2265,Christina Anderson,Consumer,Bulgaria,106,7,3364.64,2,2,3,223,7,Hibernating
+CA-2310,Christine Abelman,Corporate,Iraq,337,4,631.26,1,1,1,111,3,Lost Customers
+CA-2775,Cynthia Arntzen,Consumer,South Africa,310,4,1462.8899999999999,1,1,2,112,4,Lost Customers
+CB-12025,Cassandra Brandow,Consumer,Indonesia,10,22,11493.51,5,4,4,544,13,Champions
+CB-12415,Christy Brittain,Consumer,United States,27,22,12672.01,4,4,4,444,12,Champions
+CB-12535,Claudia Bergmann,Corporate,Italy,43,23,17866.11,3,4,5,345,12,Loyal Customers
+CB-2025,Cassandra Brandow,Consumer,Poland,23,4,1828.11,4,1,2,412,7,New Customers
+CB-2415,Christy Brittain,Consumer,Iraq,517,4,1232.57,1,1,1,111,3,Lost Customers
+CB-2535,Claudia Bergmann,Corporate,Nigeria,8,2,125.64,5,1,1,511,7,New Customers
+CC-12100,Chad Cunningham,Home Office,Mexico,52,22,11423.05,3,4,4,344,11,Loyal Customers
+CC-12145,Charles Crestani,Consumer,Germany,83,20,12129.59,2,3,4,234,9,At Risk
+CC-12220,Chris Cortes,Consumer,United States,21,30,7090.49,4,5,3,453,12,Loyal Customers
+CC-12370,Christopher Conant,Consumer,United States,44,28,28183.489999999998,3,5,5,355,13,Loyal Customers
+CC-12430,Chuck Clark,Home Office,Mexico,1,26,13676.43,5,5,4,554,14,Champions
+CC-12475,Cindy Chapman,Consumer,India,17,30,17111.17,4,5,5,455,14,Champions
+CC-12550,Clay Cheatham,Consumer,Australia,30,23,7868.110000000001,3,4,3,343,10,Loyal Customers
+CC-12610,Corey Catlett,Corporate,Germany,17,26,16728.18,4,5,5,455,14,Champions
+CC-12670,Craig Carreira,Consumer,Italy,17,27,9519.77,4,5,3,453,12,Loyal Customers
+CC-12685,Craig Carroll,Consumer,India,55,20,12745.99,3,3,4,334,10,Loyal Customers
+CC-2100,Chad Cunningham,Home Office,Algeria,61,5,956.39,2,1,1,211,4,Lost Customers
+CC-2145,Charles Crestani,Consumer,Kenya,505,6,1126.89,1,2,1,121,4,Lost Customers
+CC-2220,Chris Cortes,Consumer,Canada,22,11,4126.31,4,3,3,433,10,Loyal Customers
+CC-2370,Christopher Conant,Consumer,Russia,7,9,6957.2300000000005,5,3,3,533,11,Loyal Customers
+CC-2430,Chuck Clark,Home Office,Iran,472,2,998.4,1,1,1,111,3,Lost Customers
+CC-2475,Cindy Chapman,Consumer,Mozambique,56,7,3674.96,2,2,3,223,7,Hibernating
+CC-2550,Clay Cheatham,Consumer,Ukraine,783,4,1423.4,1,1,2,112,4,Lost Customers
+CC-2610,Corey Catlett,Corporate,Poland,345,3,760.98,1,1,1,111,3,Lost Customers
+CC-2670,Craig Carreira,Consumer,Lebanon,147,4,1479.79,1,1,2,112,4,Lost Customers
+CC-2685,Craig Carroll,Consumer,South Africa,132,5,3997.0,2,1,3,213,6,Others
+CD-11920,Carlos Daly,Consumer,United States,3,25,18233.48,5,4,5,545,14,Champions
+CD-11980,Carol Darley,Consumer,France,2,23,11805.1,5,4,4,544,13,Champions
+CD-12280,Christina DeMoss,Consumer,Australia,42,22,16518.06,3,4,5,345,12,Loyal Customers
+CD-12790,Cynthia Delaney,Home Office,Germany,77,22,12917.75,2,4,4,244,10,At Risk
+CD-1920,Carlos Daly,Consumer,South Africa,315,4,1821.22,1,1,2,112,4,Lost Customers
+CD-1980,Carol Darley,Consumer,Madagascar,7,6,1364.4,5,2,2,522,9,New Customers
+CD-2280,Christina DeMoss,Consumer,Ukraine,13,6,1185.61,5,2,1,521,8,New Customers
+CD-2790,Cynthia Delaney,Home Office,South Africa,134,5,992.93,2,1,1,211,4,Lost Customers
+CG-12040,Catherine Glotzbach,Home Office,New Zealand,22,17,3514.21,4,3,3,433,10,Loyal Customers
+CG-12520,Claire Gute,Consumer,Australia,29,18,13530.86,4,3,4,434,11,Loyal Customers
+CG-2040,Catherine Glotzbach,Home Office,Turkey,499,2,449.5,1,1,1,111,3,Lost Customers
+CG-2520,Claire Gute,Consumer,Romania,216,5,1096.8,1,1,1,111,3,Lost Customers
+CH-12070,Cathy Hwang,Home Office,France,90,21,11092.65,2,4,4,244,10,At Risk
+CH-2070,Cathy Hwang,Home Office,Iran,307,6,4478.74,1,2,3,123,6,Hibernating
+CJ-11875,Carl Jackson,Corporate,Australia,14,21,12462.31,4,4,4,444,12,Champions
+CJ-12010,Caroline Jumper,Consumer,China,34,24,19271.04,3,4,5,345,12,Loyal Customers
+CJ-1875,Carl Jackson,Corporate,Turkey,33,6,1391.96,3,2,2,322,7,Potential Loyalists
+CJ-2010,Caroline Jumper,Consumer,Morocco,47,2,170.34,3,1,1,311,5,Others
+CK-12205,Chloris Kastensmidt,Consumer,Italy,5,35,13466.47,5,5,4,554,14,Champions
+CK-12325,Christine Kargatis,Home Office,United States,62,26,9890.16,2,5,4,254,11,At Risk
+CK-12595,Clytie Kelty,Consumer,New Zealand,44,30,16406.47,3,5,5,355,13,Loyal Customers
+CK-12760,Cyma Kinney,Corporate,France,58,23,6536.86,2,4,3,243,9,At Risk
+CK-2205,Chloris Kastensmidt,Consumer,Turkey,94,4,925.07,2,1,1,211,4,Lost Customers
+CK-2325,Christine Kargatis,Home Office,Iraq,1,7,3108.24,5,2,2,522,9,New Customers
+CK-2595,Clytie Kelty,Consumer,Iran,216,3,662.28,1,1,1,111,3,Lost Customers
+CK-2760,Cyma Kinney,Corporate,Senegal,38,11,3978.18,3,3,3,333,9,Loyal Customers
+CL-11890,Carl Ludwig,Consumer,Brazil,14,29,17569.9,4,5,5,455,14,Champions
+CL-12565,Clay Ludtke,Consumer,United States,6,29,16891.6,5,5,5,555,15,Champions
+CL-12700,Craig Leslie,Home Office,India,9,31,17844.22,5,5,5,555,15,Champions
+CL-1890,Carl Ludwig,Consumer,Cameroon,93,9,502.61,2,3,1,231,6,At Risk
+CL-2565,Clay Ludtke,Consumer,Algeria,43,6,2730.02,3,2,2,322,7,Potential Loyalists
+CL-2700,Craig Leslie,Home Office,Cote d'Ivoire,142,3,1422.29,2,1,2,212,5,Lost Customers
+CM-11815,Candace McMahon,Corporate,Pakistan,41,22,14285.82,3,4,5,345,12,Loyal Customers
+CM-11830,Cari MacIntyre,Corporate,France,7,24,16795.63,5,4,5,545,14,Champions
+CM-11935,Carlos Meador,Consumer,China,37,18,9658.84,3,3,3,333,9,Loyal Customers
+CM-12115,Chad McGuire,Consumer,Australia,9,19,14640.32,5,3,5,535,13,Loyal Customers
+CM-12160,Charles McCrossin,Consumer,Nicaragua,71,24,17857.25,2,4,5,245,11,At Risk
+CM-12190,Charlotte Melton,Consumer,France,1,25,11327.94,5,4,4,544,13,Champions
+CM-12235,Chris McAfee,Consumer,United States,43,22,11328.35,3,4,4,344,11,Loyal Customers
+CM-12385,Christopher Martinez,Consumer,United States,38,25,21844.81,3,4,5,345,12,Loyal Customers
+CM-12445,Chuck Magee,Consumer,Australia,16,25,11945.199999999999,4,4,4,444,12,Champions
+CM-12655,Corinna Mitchell,Home Office,France,28,18,14159.51,4,3,5,435,12,Loyal Customers
+CM-12715,Craig Molinari,Corporate,Mexico,42,18,8328.09,3,3,3,333,9,Loyal Customers
+CM-1815,Candace McMahon,Corporate,Tanzania,62,5,431.87,2,1,1,211,4,Lost Customers
+CM-1830,Cari MacIntyre,Corporate,South Africa,114,12,4708.9,2,3,3,233,8,At Risk
+CM-1935,Carlos Meador,Consumer,Zambia,49,4,426.57,3,1,1,311,5,Others
+CM-2115,Chad McGuire,Consumer,Egypt,226,2,1901.58,1,1,2,112,4,Lost Customers
+CM-2160,Charles McCrossin,Consumer,Egypt,125,3,2175.93,2,1,2,212,5,Lost Customers
+CM-2190,Charlotte Melton,Consumer,Mauritania,153,4,1448.34,1,1,2,112,4,Lost Customers
+CM-2235,Chris McAfee,Consumer,Turkey,564,2,200.91000000000003,1,1,1,111,3,Lost Customers
+CM-2385,Christopher Martinez,Consumer,Mozambique,575,2,491.94,1,1,1,111,3,Lost Customers
+CM-2445,Chuck Magee,Consumer,Czech Republic,349,4,1741.58,1,1,2,112,4,Lost Customers
+CM-2655,Corinna Mitchell,Home Office,Bulgaria,51,10,1311.8,3,3,1,331,7,Need Attention
+CM-2715,Craig Molinari,Corporate,Romania,118,6,2820.39,2,2,2,222,6,Lost Customers
+CP-12085,Cathy Prescott,Corporate,United States,70,22,14148.73,2,4,5,245,11,At Risk
+CP-12340,Christine Phan,Corporate,India,9,29,19965.17,5,5,5,555,15,Champions
+CP-2085,Cathy Prescott,Corporate,South Africa,143,8,5524.95,2,3,3,233,8,At Risk
+CP-2340,Christine Phan,Corporate,Morocco,464,4,5036.4,1,1,3,113,5,Others
+CR-12580,Clay Rozendal,Home Office,United States,23,19,8608.67,4,3,3,433,10,Loyal Customers
+CR-12625,Corey Roper,Home Office,Australia,44,27,17202.96,3,5,5,355,13,Loyal Customers
+CR-12730,Craig Reiter,Consumer,Australia,23,24,19477.010000000002,4,4,5,445,13,Champions
+CR-12820,Cyra Reiten,Home Office,India,61,22,14329.07,2,4,5,245,11,At Risk
+CR-2580,Clay Rozendal,Home Office,Egypt,35,4,3037.31,3,1,2,312,6,Potential Loyalists
+CR-2625,Corey Roper,Home Office,Russia,140,9,4994.36,2,3,3,233,8,At Risk
+CR-2730,Craig Reiter,Consumer,Egypt,85,8,1160.8799999999999,2,3,1,231,6,At Risk
+CR-2820,Cyra Reiten,Home Office,Algeria,56,7,1168.1100000000001,2,2,1,221,5,Lost Customers
+CS-11845,Cari Sayre,Corporate,India,16,23,20402.25,4,4,5,445,13,Champions
+CS-11860,Cari Schnelling,Consumer,Austria,78,16,10208.79,2,3,4,234,9,At Risk
+CS-11950,Carlos Soltero,Consumer,Sweden,26,29,14111.06,4,5,5,455,14,Champions
+CS-12130,Chad Sievert,Consumer,Australia,12,21,10870.51,5,4,4,544,13,Champions
+CS-12175,Charles Sheldon,Corporate,Thailand,61,27,16618.26,2,5,5,255,12,At Risk
+CS-12250,Chris Selesnick,Corporate,United States,27,28,12250.14,4,5,4,454,13,Champions
+CS-12355,Christine Sundaresam,Consumer,Australia,7,30,9153.6,5,5,3,553,13,Loyal Customers
+CS-12400,Christopher Schild,Home Office,Colombia,2,22,10210.77,5,4,4,544,13,Champions
+CS-12460,Chuck Sachs,Consumer,Bangladesh,7,23,19883.48,5,4,5,545,14,Champions
+CS-12490,Cindy Schnelling,Corporate,Mexico,3,28,11039.75,5,5,4,554,14,Champions
+CS-12505,Cindy Stewart,Consumer,United States,28,16,11496.199999999999,4,3,4,434,11,Loyal Customers
+CS-1845,Cari Sayre,Corporate,Turkey,25,7,1537.15,4,2,2,422,8,New Customers
+CS-1860,Cari Schnelling,Consumer,Bulgaria,51,8,1567.75,3,3,2,332,8,Potential Loyalists
+CS-1950,Carlos Soltero,Consumer,Tanzania,136,4,698.65,2,1,1,211,4,Lost Customers
+CS-2130,Chad Sievert,Consumer,Turkey,306,3,1342.04,1,1,2,112,4,Lost Customers
+CS-2175,Charles Sheldon,Corporate,Tanzania,58,4,3300.7400000000002,2,1,3,213,6,Others
+CS-2250,Chris Selesnick,Corporate,Libya,3,3,1894.2,5,1,2,512,8,New Customers
+CS-2355,Christine Sundaresam,Consumer,South Africa,56,9,1283.14,2,3,1,231,6,At Risk
+CS-2400,Christopher Schild,Home Office,Djibouti,12,5,2293.17,5,1,2,512,8,New Customers
+CS-2460,Chuck Sachs,Consumer,Sudan,339,7,2621.98,1,2,2,122,5,Lost Customers
+CS-2490,Cindy Schnelling,Corporate,Iraq,170,3,1638.51,1,1,2,112,4,Lost Customers
+CS-2505,Cindy Stewart,Consumer,Mozambique,51,6,1869.54,3,2,2,322,7,Potential Loyalists
+CT-11995,Carol Triggs,Consumer,Japan,29,26,13438.78,4,5,4,454,13,Champions
+CT-1995,Carol Triggs,Consumer,Ukraine,784,2,422.78000000000003,1,1,1,111,3,Lost Customers
+CV-12295,Christina VanderZanden,Consumer,Dominican Republic,40,20,9017.33,3,3,3,333,9,Loyal Customers
+CV-12805,Cynthia Voltz,Corporate,Japan,5,20,9732.43,5,3,4,534,12,Loyal Customers
+CV-2295,Christina VanderZanden,Consumer,Kazakhstan,86,8,1231.91,2,3,1,231,6,At Risk
+CV-2805,Cynthia Voltz,Corporate,Lesotho,258,7,5047.09,1,2,3,123,6,Hibernating
+CW-11905,Carl Weiss,Home Office,United Kingdom,9,24,12831.81,5,4,4,544,13,Champions
+CW-1905,Carl Weiss,Home Office,Lebanon,385,4,1436.31,1,1,2,112,4,Lost Customers
+CY-12745,Craig Yedwab,Corporate,Mexico,61,30,13884.53,2,5,4,254,11,At Risk
+CY-2745,Craig Yedwab,Corporate,Morocco,493,4,285.89,1,1,1,111,3,Lost Customers
+Co-12640,Corey-Lock,Consumer,Venezuela,5,24,12062.73,5,4,4,544,13,Champions
+Co-2640,Corey-Lock,Consumer,Morocco,1092,3,733.34,1,1,1,111,3,Lost Customers
+DA-13450,Dianna Arnett,Home Office,Honduras,14,21,12888.69,4,4,4,444,12,Champions
+DA-3450,Dianna Arnett,Home Office,Democratic Republic of the Congo,15,4,2181.72,4,1,2,412,7,New Customers
+DB-12910,Daniel Byrd,Home Office,United Kingdom,3,24,12280.34,5,4,4,544,13,Champions
+DB-12970,Darren Budd,Corporate,France,218,10,9149.59,1,3,3,133,7,At Risk
+DB-13060,Dave Brooks,Consumer,Australia,17,25,23356.09,4,4,5,445,13,Champions
+DB-13120,David Bremer,Corporate,United States,29,13,5524.51,4,3,3,433,10,Loyal Customers
+DB-13210,Dean Braden,Consumer,United Kingdom,8,25,13654.98,5,4,4,544,13,Champions
+DB-13270,Deborah Brumfield,Home Office,United States,10,23,11525.52,5,4,4,544,13,Champions
+DB-13360,Dennis Bolton,Home Office,Brazil,48,28,6905.05,3,5,3,353,11,Loyal Customers
+DB-13405,Denny Blanton,Consumer,China,188,23,15940.56,1,4,5,145,10,At Risk
+DB-13555,Dorothy Badders,Corporate,United States,37,18,9287.279999999999,3,3,3,333,9,Loyal Customers
+DB-13615,Doug Bickford,Consumer,United States,28,28,9983.9,4,5,4,454,13,Champions
+DB-13660,Duane Benoit,Consumer,France,31,16,11343.15,3,3,4,334,10,Loyal Customers
+DB-2910,Daniel Byrd,Home Office,Zambia,55,7,2959.44,3,2,2,322,7,Potential Loyalists
+DB-2970,Darren Budd,Corporate,Cameroon,58,4,471.0,2,1,1,211,4,Lost Customers
+DB-3060,Dave Brooks,Consumer,Iraq,9,7,1922.27,5,2,2,522,9,New Customers
+DB-3120,David Bremer,Corporate,Canada,359,4,658.0400000000001,1,1,1,111,3,Lost Customers
+DB-3210,Dean Braden,Consumer,Egypt,583,6,342.24,1,2,1,121,4,Lost Customers
+DB-3270,Deborah Brumfield,Home Office,Algeria,49,2,877.4399999999999,3,1,1,311,5,Others
+DB-3360,Dennis Bolton,Home Office,Zambia,435,2,3691.53,1,1,3,113,5,Others
+DB-3405,Denny Blanton,Consumer,Romania,558,2,548.68,1,1,1,111,3,Lost Customers
+DB-3555,Dorothy Badders,Corporate,Saudi Arabia,6,3,952.9300000000001,5,1,1,511,7,New Customers
+DB-3615,Doug Bickford,Consumer,Zambia,108,4,2756.6000000000004,2,1,2,212,5,Lost Customers
+DB-3660,Duane Benoit,Consumer,Romania,238,3,2207.71,1,1,2,112,4,Lost Customers
+DC-12850,Dan Campbell,Consumer,Australia,42,24,9182.53,3,4,3,343,10,Loyal Customers
+DC-13285,Debra Catini,Consumer,Guatemala,19,23,15981.59,4,4,5,445,13,Champions
+DC-2850,Dan Campbell,Consumer,Canada,35,8,4010.88,3,3,3,333,9,Loyal Customers
+DC-3285,Debra Catini,Consumer,Ghana,393,3,792.38,1,1,1,111,3,Lost Customers
+DD-13570,Dorothy Dickinson,Consumer,Italy,78,19,8643.77,2,3,3,233,8,At Risk
+DD-3570,Dorothy Dickinson,Consumer,South Africa,64,8,2303.33,2,3,2,232,7,At Risk
+DE-13255,Deanra Eno,Home Office,Guatemala,20,19,10036.27,4,3,4,434,11,Loyal Customers
+DE-3255,Deanra Eno,Home Office,Bulgaria,49,7,2672.58,3,2,2,322,7,Potential Loyalists
+DF-13135,David Flashing,Consumer,United Kingdom,10,18,10221.3,5,3,4,534,12,Loyal Customers
+DF-3135,David Flashing,Consumer,Democratic Republic of the Congo,44,4,1284.19,3,1,1,311,5,Others
+DG-13300,Deirdre Greer,Corporate,Mexico,31,26,13669.97,3,5,4,354,12,Loyal Customers
+DG-3300,Deirdre Greer,Corporate,Mozambique,15,5,2964.0899999999997,4,1,2,412,7,New Customers
+DH-13075,Dave Hallsten,Corporate,United States,76,24,14001.86,2,4,4,244,10,At Risk
+DH-13675,Duane Huffman,Home Office,United Kingdom,22,16,7770.99,4,3,3,433,10,Loyal Customers
+DH-3075,Dave Hallsten,Corporate,Kenya,160,9,1980.69,1,3,2,132,6,At Risk
+DH-3675,Duane Huffman,Home Office,Madagascar,21,12,4618.57,4,3,3,433,10,Loyal Customers
+DJ-13420,Denny Joy,Corporate,Mexico,23,28,22026.93,4,5,5,455,14,Champions
+DJ-13510,Don Jones,Corporate,United States,7,31,14768.83,5,5,5,555,15,Champions
+DJ-13630,Doug Jacobs,Consumer,Colombia,13,27,12457.5,5,5,4,554,14,Champions
+DJ-3420,Denny Joy,Corporate,Democratic Republic of the Congo,2,3,407.13,5,1,1,511,7,New Customers
+DJ-3510,Don Jones,Corporate,Ukraine,7,6,5963.88,5,2,3,523,10,New Customers
+DJ-3630,Doug Jacobs,Consumer,Egypt,35,5,1287.7199999999998,3,1,1,311,5,Others
+DK-12835,Damala Kotsonis,Corporate,Spain,22,32,17470.84,4,5,5,455,14,Champions
+DK-12895,Dana Kaydos,Consumer,Indonesia,46,21,18335.45,3,4,5,345,12,Loyal Customers
+DK-12985,Darren Koutras,Consumer,El Salvador,2,33,14695.93,5,5,5,555,15,Champions
+DK-13090,Dave Kipp,Consumer,Spain,9,35,19121.4,5,5,5,555,15,Champions
+DK-13150,David Kendrick,Corporate,Germany,11,22,15945.02,5,4,5,545,14,Champions
+DK-13225,Dean Katz,Corporate,United States,2,26,9092.77,5,5,3,553,13,Loyal Customers
+DK-13375,Dennis Kane,Consumer,Mexico,5,24,15946.23,5,4,5,545,14,Champions
+DK-2835,Damala Kotsonis,Corporate,Algeria,22,10,3323.04,4,3,3,433,10,Loyal Customers
+DK-2895,Dana Kaydos,Consumer,Morocco,147,6,1244.25,1,2,1,121,4,Lost Customers
+DK-2985,Darren Koutras,Consumer,Nigeria,1207,1,81.43,1,1,1,111,3,Lost Customers
+DK-3090,Dave Kipp,Consumer,Russia,132,2,257.64,2,1,1,211,4,Lost Customers
+DK-3150,David Kendrick,Corporate,Ukraine,58,11,1477.9,2,3,2,232,7,At Risk
+DK-3225,Dean Katz,Corporate,Saudi Arabia,66,8,1407.98,2,3,2,232,7,At Risk
+DK-3375,Dennis Kane,Consumer,Democratic Republic of the Congo,142,9,3822.66,2,3,3,233,8,At Risk
+DL-12865,Dan Lawera,Consumer,Australia,58,31,11084.23,2,5,4,254,11,At Risk
+DL-12925,Daniel Lacy,Consumer,Australia,58,21,11228.35,2,4,4,244,10,At Risk
+DL-13315,Delfina Latchford,Consumer,United Kingdom,19,26,18473.89,4,5,5,455,14,Champions
+DL-13330,Denise Leinenbach,Consumer,India,13,34,16738.079999999998,5,5,5,555,15,Champions
+DL-13495,Dionis Lloyd,Corporate,United States,23,27,15851.55,4,5,5,455,14,Champions
+DL-2865,Dan Lawera,Consumer,Sudan,203,7,1492.64,1,2,2,122,5,Lost Customers
+DL-2925,Daniel Lacy,Consumer,Saudi Arabia,38,5,750.28,3,1,1,311,5,Others
+DL-3315,Delfina Latchford,Consumer,Russia,48,5,1712.6399999999999,3,1,2,312,6,Potential Loyalists
+DL-3330,Denise Leinenbach,Consumer,Iraq,706,3,1159.3500000000001,1,1,1,111,3,Lost Customers
+DL-3495,Dionis Lloyd,Corporate,Nigeria,283,5,754.87,1,1,1,111,3,Lost Customers
+DM-12955,Dario Medina,Corporate,Guatemala,41,29,19777.4,3,5,5,355,13,Loyal Customers
+DM-13015,Darrin Martin,Consumer,United States,6,28,15583.38,5,5,5,555,15,Champions
+DM-13345,Denise Monton,Corporate,India,3,25,17034.19,5,4,5,545,14,Champions
+DM-13525,Don Miller,Corporate,Germany,36,19,9620.22,3,3,3,333,9,Loyal Customers
+DM-2955,Dario Medina,Corporate,Ukraine,13,8,2415.59,5,3,2,532,10,Potential Loyalists
+DM-3015,Darrin Martin,Consumer,Iran,3,4,2060.88,5,1,2,512,8,New Customers
+DM-3345,Denise Monton,Corporate,Turkey,146,6,4966.67,1,2,3,123,6,Hibernating
+DM-3525,Don Miller,Corporate,Canada,322,6,2178.34,1,2,2,122,5,Lost Customers
+DN-13690,Duane Noonan,Consumer,Brazil,20,22,13021.79,4,4,4,444,12,Champions
+DN-3690,Duane Noonan,Consumer,Canada,13,5,1802.56,5,1,2,512,8,New Customers
+DO-13435,Denny Ordway,Consumer,India,97,26,15071.55,2,5,5,255,12,At Risk
+DO-13645,Doug O'Connell,Consumer,Barbados,27,22,11750.7,4,4,4,444,12,Champions
+DO-3435,Denny Ordway,Consumer,Benin,43,9,3511.7000000000003,3,3,3,333,9,Loyal Customers
+DO-3645,Doug O'Connell,Consumer,Canada,42,5,1684.46,3,1,2,312,6,Potential Loyalists
+DP-13000,Darren Powers,Consumer,Malaysia,62,29,13683.47,2,5,4,254,11,At Risk
+DP-13105,Dave Poirier,Corporate,Australia,14,21,18840.16,4,4,5,445,13,Champions
+DP-13165,David Philippe,Consumer,India,8,24,22203.28,5,4,5,545,14,Champions
+DP-13390,Dennis Pardue,Home Office,United States,1,24,10211.33,5,4,4,544,13,Champions
+DP-3000,Darren Powers,Consumer,Russia,15,7,1984.47,4,2,2,422,8,New Customers
+DP-3105,Dave Poirier,Corporate,Morocco,65,6,6924.97,2,2,3,223,7,Hibernating
+DP-3165,David Philippe,Consumer,Cote d'Ivoire,8,6,1484.83,5,2,2,522,9,New Customers
+DP-3390,Dennis Pardue,Home Office,South Africa,13,6,1313.91,5,2,1,521,8,New Customers
+DR-12880,Dan Reichenbach,Corporate,United States,4,30,14266.45,5,5,5,555,15,Champions
+DR-12940,Daniel Raglin,Home Office,Australia,28,32,25458.76,4,5,5,455,14,Champions
+DR-2880,Dan Reichenbach,Corporate,Azerbaijan,5,7,2271.21,5,2,2,522,9,New Customers
+DR-2940,Daniel Raglin,Home Office,Mozambique,40,7,2248.3,3,2,2,322,7,Potential Loyalists
+DS-13030,Darrin Sayre,Home Office,Nicaragua,94,25,11568.06,2,4,4,244,10,At Risk
+DS-13180,David Smith,Corporate,Nicaragua,15,29,13355.03,4,5,4,454,13,Champions
+DS-3030,Darrin Sayre,Home Office,Belarus,49,5,1624.16,3,1,2,312,6,Potential Loyalists
+DS-3180,David Smith,Corporate,Algeria,72,2,180.1,2,1,1,211,4,Lost Customers
+DV-13045,Darrin Van Huff,Corporate,Indonesia,20,24,17932.91,4,4,5,445,13,Champions
+DV-13465,Dianna Vittorini,Consumer,El Salvador,30,20,12789.57,3,3,4,334,10,Loyal Customers
+DV-3045,Darrin Van Huff,Corporate,Ukraine,34,11,4514.5,3,3,3,333,9,Loyal Customers
+DV-3465,Dianna Vittorini,Consumer,Iraq,14,5,4037.82,4,1,3,413,8,New Customers
+DW-13195,David Wiener,Corporate,India,7,24,9624.359999999999,5,4,3,543,12,Loyal Customers
+DW-13480,Dianna Wilson,Home Office,Australia,66,22,15863.2,2,4,5,245,11,At Risk
+DW-13540,Don Weiss,Consumer,Malaysia,13,17,13050.11,5,3,4,534,12,Loyal Customers
+DW-13585,Dorothy Wardle,Corporate,Japan,6,36,12096.57,5,5,4,554,14,Champions
+DW-3195,David Wiener,Corporate,Iraq,1148,3,1210.1499999999999,1,1,1,111,3,Lost Customers
+DW-3480,Dianna Wilson,Home Office,Ukraine,56,12,7107.040000000001,2,3,3,233,8,At Risk
+DW-3540,Don Weiss,Consumer,Yemen,920,3,1131.67,1,1,1,111,3,Lost Customers
+DW-3585,Dorothy Wardle,Corporate,Morocco,29,3,427.53999999999996,4,1,1,411,6,New Customers
+Dl-13600,Dorris liebe,Corporate,France,6,18,11763.58,5,3,4,534,12,Loyal Customers
+Dl-3600,Dorris liebe,Corporate,Iraq,112,10,2799.73,2,3,2,232,7,At Risk
+Dp-13240,Dean percer,Home Office,China,19,27,22209.93,4,5,5,455,14,Champions
+Dp-3240,Dean percer,Home Office,Democratic Republic of the Congo,26,6,597.15,4,2,1,421,7,New Customers
+EA-14035,Erin Ashbrook,Corporate,Mexico,94,29,11226.07,2,5,4,254,11,At Risk
+EA-4035,Erin Ashbrook,Corporate,Turkey,166,3,131.81,1,1,1,111,3,Lost Customers
+EB-13705,Ed Braxton,Corporate,Brazil,49,28,12132.67,3,5,4,354,12,Loyal Customers
+EB-13750,Edward Becker,Corporate,Singapore,33,20,8448.92,3,3,3,333,9,Loyal Customers
+EB-13840,Ellis Ballard,Corporate,France,3,24,20053.75,5,4,5,545,14,Champions
+EB-13870,Emily Burns,Consumer,Indonesia,16,17,6745.5199999999995,4,3,3,433,10,Loyal Customers
+EB-13930,Eric Barreto,Consumer,Indonesia,20,18,9511.13,4,3,3,433,10,Loyal Customers
+EB-13975,Erica Bern,Corporate,Brazil,1,30,13313.64,5,5,4,554,14,Champions
+EB-14110,Eugene Barchas,Consumer,Germany,36,22,13559.5,3,4,4,344,11,Loyal Customers
+EB-14170,Evan Bailliet,Consumer,Italy,20,20,6693.58,4,3,3,433,10,Loyal Customers
+EB-3705,Ed Braxton,Corporate,Libya,399,3,3141.63,1,1,2,112,4,Lost Customers
+EB-3750,Edward Becker,Corporate,Bosnia and Herzegovina,185,5,800.76,1,1,1,111,3,Lost Customers
+EB-3840,Ellis Ballard,Corporate,Canada,44,4,1775.8999999999999,3,1,2,312,6,Potential Loyalists
+EB-3870,Emily Burns,Consumer,Turkey,498,3,149.73000000000002,1,1,1,111,3,Lost Customers
+EB-3930,Eric Barreto,Consumer,Ukraine,8,9,2386.81,5,3,2,532,10,Potential Loyalists
+EB-3975,Erica Bern,Corporate,Senegal,36,7,2549.7000000000003,3,2,2,322,7,Potential Loyalists
+EB-4110,Eugene Barchas,Consumer,Mali,21,7,2365.06,4,2,2,422,8,New Customers
+EB-4170,Evan Bailliet,Consumer,Morocco,55,5,1255.05,3,1,1,311,5,Others
+EC-14050,Erin Creighton,Consumer,India,54,17,4389.23,3,3,3,333,9,Loyal Customers
+EC-4050,Erin Creighton,Consumer,Niger,163,6,2222.5,1,2,2,122,5,Lost Customers
+ED-13885,Emily Ducich,Home Office,Vietnam,16,30,17906.54,4,5,5,455,14,Champions
+ED-3885,Emily Ducich,Home Office,Nigeria,57,7,455.43,2,2,1,221,5,Lost Customers
+EG-13900,Emily Grady,Consumer,France,23,20,16532.05,4,3,5,435,12,Loyal Customers
+EG-3900,Emily Grady,Consumer,Algeria,52,10,6509.77,3,3,3,333,9,Loyal Customers
+EH-13765,Edward Hooks,Corporate,United States,3,28,20160.18,5,5,5,555,15,Champions
+EH-13945,Eric Hoffmann,Consumer,Italy,58,26,7781.5,2,5,3,253,10,At Risk
+EH-13990,Erica Hackney,Consumer,India,45,22,8682.49,3,4,3,343,10,Loyal Customers
+EH-14005,Erica Hernandez,Home Office,Spain,3,27,10269.87,5,5,4,554,14,Champions
+EH-14125,Eugene Hildebrand,Home Office,France,125,29,17323.56,2,5,5,255,12,At Risk
+EH-14185,Evan Henry,Consumer,Germany,68,28,12761.07,2,5,4,254,11,At Risk
+EH-3765,Edward Hooks,Corporate,Turkey,129,8,978.5,2,3,1,231,6,At Risk
+EH-3945,Eric Hoffmann,Consumer,South Africa,112,8,2429.88,2,3,2,232,7,At Risk
+EH-3990,Erica Hackney,Consumer,Democratic Republic of the Congo,34,6,646.68,3,2,1,321,6,Others
+EH-4005,Erica Hernandez,Home Office,Senegal,197,5,2603.75,1,1,2,112,4,Lost Customers
+EH-4125,Eugene Hildebrand,Home Office,Hungary,63,10,4911.67,2,3,3,233,8,At Risk
+EH-4185,Evan Henry,Consumer,Iraq,122,8,3490.5299999999997,2,3,3,233,8,At Risk
+EJ-13720,Ed Jacobs,Consumer,Singapore,51,21,8879.59,3,4,3,343,10,Loyal Customers
+EJ-14155,Eva Jacobs,Consumer,Cuba,28,22,12233.5,4,4,4,444,12,Champions
+EJ-3720,Ed Jacobs,Consumer,Iran,157,7,1724.08,1,2,2,122,5,Lost Customers
+EJ-4155,Eva Jacobs,Consumer,Saudi Arabia,23,4,2605.59,4,1,2,412,7,New Customers
+EK-13795,Eileen Kiefer,Home Office,United States,93,13,5491.97,2,3,3,233,8,At Risk
+EK-3795,Eileen Kiefer,Home Office,Syria,213,6,1524.67,1,2,2,122,5,Lost Customers
+EL-13735,Ed Ludwig,Home Office,Australia,54,23,10496.48,3,4,4,344,11,Loyal Customers
+EL-3735,Ed Ludwig,Home Office,Uzbekistan,27,10,3642.48,4,3,3,433,10,Loyal Customers
+EM-13810,Eleni McCrary,Corporate,United States,79,21,13450.19,2,4,4,244,10,At Risk
+EM-13825,Elizabeth Moffitt,Corporate,Japan,56,24,14069.95,2,4,4,244,10,At Risk
+EM-13960,Eric Murdock,Consumer,India,3,35,25165.89,5,5,5,555,15,Champions
+EM-14065,Erin Mull,Consumer,Germany,17,14,11850.87,4,3,4,434,11,Loyal Customers
+EM-14095,Eudokia Martin,Corporate,France,9,17,10835.199999999999,5,3,4,534,12,Loyal Customers
+EM-14140,Eugene Moren,Home Office,United States,25,29,21429.37,4,5,5,455,14,Champions
+EM-14200,Evan Minnotte,Home Office,Mexico,42,20,17046.2,3,3,5,335,11,Loyal Customers
+EM-3810,Eleni McCrary,Corporate,Ukraine,59,5,1013.55,2,1,1,211,4,Lost Customers
+EM-3825,Elizabeth Moffitt,Corporate,Iraq,483,5,323.27,1,1,1,111,3,Lost Customers
+EM-3960,Eric Murdock,Consumer,Morocco,239,7,2819.34,1,2,2,122,5,Lost Customers
+EM-4065,Erin Mull,Consumer,Cameroon,53,9,3138.33,3,3,2,332,8,Potential Loyalists
+EM-4095,Eudokia Martin,Corporate,Romania,267,8,2778.88,1,3,2,132,6,At Risk
+EM-4140,Eugene Moren,Home Office,Iran,94,4,1754.68,2,1,2,212,5,Lost Customers
+EM-4200,Evan Minnotte,Home Office,Morocco,152,4,2585.9,1,1,2,112,4,Lost Customers
+EN-13780,Edward Nazzal,Consumer,United States,15,20,6308.04,4,3,3,433,10,Loyal Customers
+EN-3780,Edward Nazzal,Consumer,Russia,206,7,714.73,1,2,1,121,4,Lost Customers
+EP-13915,Emily Phan,Consumer,Indonesia,18,31,16114.67,4,5,5,455,14,Champions
+EP-3915,Emily Phan,Consumer,Angola,76,3,481.46999999999997,2,1,1,211,4,Lost Customers
+ER-13855,Elpida Rittenbach,Corporate,United States,70,18,13377.55,2,3,4,234,9,At Risk
+ER-3855,Elpida Rittenbach,Corporate,Hungary,54,7,3727.2999999999997,3,2,3,323,8,Potential Loyalists
+ES-14020,Erica Smith,Consumer,Spain,1,30,12762.65,5,5,4,554,14,Champions
+ES-14080,Erin Smith,Corporate,China,29,24,16203.789999999999,4,4,5,445,13,Champions
+ES-4020,Erica Smith,Consumer,Canada,29,7,1830.9,4,2,2,422,8,New Customers
+ES-4080,Erin Smith,Corporate,Morocco,146,9,1888.19,1,3,2,132,6,At Risk
+FA-14230,Frank Atkinson,Corporate,Germany,23,26,13319.39,4,5,4,454,13,Champions
+FA-4230,Frank Atkinson,Corporate,Ukraine,342,3,780.69,1,1,1,111,3,Lost Customers
+FC-14245,Frank Carlisle,Home Office,Colombia,43,23,10845.99,3,4,4,344,11,Loyal Customers
+FC-14335,Fred Chung,Corporate,Australia,108,20,8689.16,2,3,3,233,8,At Risk
+FC-4245,Frank Carlisle,Home Office,South Sudan,492,6,1540.64,1,2,2,122,5,Lost Customers
+FC-4335,Fred Chung,Corporate,Iran,111,4,521.16,2,1,1,211,4,Lost Customers
+FG-14260,Frank Gastineau,Home Office,France,35,17,9364.78,3,3,3,333,9,Loyal Customers
+FG-4260,Frank Gastineau,Home Office,Turkey,111,6,265.08,2,2,1,221,5,Lost Customers
+FH-14275,Frank Hawley,Corporate,Indonesia,5,20,13535.15,5,3,4,534,12,Loyal Customers
+FH-14350,Fred Harton,Consumer,United Kingdom,2,18,10576.7,5,3,4,534,12,Loyal Customers
+FH-14365,Fred Hopkins,Corporate,United States,2,29,27591.12,5,5,5,555,15,Champions
+FH-4275,Frank Hawley,Corporate,Zambia,262,2,79.28999999999999,1,1,1,111,3,Lost Customers
+FH-4350,Fred Harton,Consumer,Turkey,15,3,110.47999999999999,4,1,1,411,6,New Customers
+FH-4365,Fred Hopkins,Corporate,Saudi Arabia,167,8,2731.66,1,3,2,132,6,At Risk
+FM-14215,Filia McAdams,Corporate,Guatemala,8,28,14207.29,5,5,5,555,15,Champions
+FM-14290,Frank Merwin,Home Office,Jamaica,37,27,14092.130000000001,3,5,5,355,13,Loyal Customers
+FM-14380,Fred McMath,Consumer,China,146,21,6562.59,1,4,3,143,8,At Risk
+FM-4215,Filia McAdams,Corporate,Morocco,97,5,2881.35,2,2,2,222,6,Lost Customers
+FM-4290,Frank Merwin,Home Office,Poland,3,8,1969.48,5,3,2,532,10,Potential Loyalists
+FM-4380,Fred McMath,Consumer,Kazakhstan,106,5,791.28,2,2,1,221,5,Lost Customers
+FO-14305,Frank Olsen,Consumer,France,23,35,15514.04,4,5,5,455,14,Champions
+FO-4305,Frank Olsen,Consumer,Russia,52,9,2129.23,3,3,2,332,8,Potential Loyalists
+FP-14320,Frank Preis,Consumer,Australia,24,25,9833.81,4,4,4,444,12,Champions
+FP-4320,Frank Preis,Consumer,Uzbekistan,28,5,816.5799999999999,4,2,1,421,7,New Customers
+FW-14395,Fred Wasserman,Corporate,France,64,26,16774.14,2,5,5,255,12,At Risk
+FW-4395,Fred Wasserman,Corporate,Cameroon,1,8,1212.33,5,3,1,531,9,Others
+GA-14515,George Ashbrook,Consumer,Australia,23,21,12447.460000000001,4,4,4,444,12,Champions
+GA-14725,Guy Armstrong,Consumer,China,3,23,8659.55,5,4,3,543,12,Loyal Customers
+GA-4515,George Ashbrook,Consumer,Albania,118,6,1314.04,2,2,1,221,5,Lost Customers
+GA-4725,Guy Armstrong,Consumer,Jordan,71,4,1422.16,2,1,2,212,5,Lost Customers
+GB-14530,George Bell,Corporate,Australia,34,23,11494.73,3,4,4,344,11,Loyal Customers
+GB-14575,Giulietta Baptist,Consumer,United States,14,22,10647.52,4,4,4,444,12,Champions
+GB-4530,George Bell,Corporate,Austria,114,5,525.9,2,2,1,221,5,Lost Customers
+GB-4575,Giulietta Baptist,Consumer,South Africa,210,6,1811.53,1,2,2,122,5,Lost Customers
+GD-14590,Giulietta Dortch,Corporate,Australia,13,25,17885.4,5,4,5,545,14,Champions
+GD-4590,Giulietta Dortch,Corporate,Bulgaria,353,4,694.03,1,1,1,111,3,Lost Customers
+GG-14650,Greg Guthrie,Corporate,France,34,27,12805.97,3,5,4,354,12,Loyal Customers
+GG-4650,Greg Guthrie,Corporate,Russia,124,4,989.13,2,1,1,211,4,Lost Customers
+GH-14410,Gary Hansen,Home Office,Spain,21,35,13526.86,4,5,4,454,13,Champions
+GH-14425,Gary Hwang,Consumer,China,19,29,19870.1,4,5,5,455,14,Champions
+GH-14485,Gene Hale,Corporate,United States,52,21,14683.380000000001,3,4,5,345,12,Loyal Customers
+GH-14665,Greg Hansen,Consumer,China,3,29,12921.44,5,5,4,554,14,Champions
+GH-4410,Gary Hansen,Home Office,Morocco,298,8,1582.1399999999999,1,3,2,132,6,At Risk
+GH-4425,Gary Hwang,Consumer,Morocco,22,10,4525.64,4,3,3,433,10,Loyal Customers
+GH-4485,Gene Hale,Corporate,Canada,86,4,766.48,2,1,1,211,4,Lost Customers
+GH-4665,Greg Hansen,Consumer,Romania,2,8,1061.35,5,3,1,531,9,Others
+GK-14620,Grace Kelly,Corporate,United States,13,22,19085.59,5,4,5,545,14,Champions
+GK-4620,Grace Kelly,Corporate,Morocco,101,4,751.97,2,1,1,211,4,Lost Customers
+GM-14440,Gary McGarr,Consumer,Ecuador,20,25,15756.33,4,4,5,445,13,Champions
+GM-14455,Gary Mitchum,Home Office,Afghanistan,17,17,10411.31,4,3,4,434,11,Loyal Customers
+GM-14500,Gene McClure,Consumer,Nicaragua,133,19,6635.360000000001,2,3,3,233,8,At Risk
+GM-14680,Greg Matthias,Consumer,Netherlands,2,30,11925.93,5,5,4,554,14,Champions
+GM-14695,Greg Maxwell,Corporate,United States,48,18,14352.13,3,3,5,335,11,Loyal Customers
+GM-4440,Gary McGarr,Consumer,Egypt,2,7,724.37,5,2,1,521,8,New Customers
+GM-4455,Gary Mitchum,Home Office,Turkey,209,3,471.83,1,1,1,111,3,Lost Customers
+GM-4500,Gene McClure,Consumer,Angola,105,5,4284.6900000000005,2,2,3,223,7,Hibernating
+GM-4680,Greg Matthias,Consumer,Kyrgyzstan,73,6,1586.14,2,2,2,222,6,Lost Customers
+GM-4695,Greg Maxwell,Corporate,Morocco,223,7,756.1899999999999,1,2,1,121,4,Lost Customers
+GP-14740,Guy Phonely,Corporate,India,2,24,10775.17,5,4,4,544,13,Champions
+GP-4740,Guy Phonely,Corporate,Morocco,152,8,4579.83,1,3,3,133,7,At Risk
+GR-14560,Georgia Rosenberg,Corporate,Mexico,50,23,8810.07,3,4,3,343,10,Loyal Customers
+GR-4560,Georgia Rosenberg,Corporate,Lesotho,154,6,4949.61,1,2,3,123,6,Hibernating
+GT-14635,Grant Thornton,Corporate,United States,57,20,19060.26,2,3,5,235,10,At Risk
+GT-14710,Greg Tran,Consumer,United Kingdom,9,28,33465.590000000004,5,5,5,555,15,Champions
+GT-14755,Guy Thornton,Consumer,Mexico,35,23,5552.23,3,4,3,343,10,Loyal Customers
+GT-4635,Grant Thornton,Corporate,Libya,10,6,1131.03,5,2,1,521,8,New Customers
+GT-4710,Greg Tran,Consumer,Russia,56,4,1039.53,2,1,1,211,4,Lost Customers
+GT-4755,Guy Thornton,Consumer,Democratic Republic of the Congo,1,7,3426.39,5,2,3,523,10,New Customers
+GW-14605,Giulietta Weimer,Consumer,China,19,25,15615.609999999999,4,4,5,445,13,Champions
+GW-4605,Giulietta Weimer,Consumer,Russia,15,7,1796.81,4,2,2,422,8,New Customers
+GZ-14470,Gary Zandusky,Consumer,Italy,8,33,20814.38,5,5,5,555,15,Champions
+GZ-14545,George Zrebassa,Corporate,France,77,23,11579.03,2,4,4,244,10,At Risk
+GZ-4470,Gary Zandusky,Consumer,Democratic Republic of the Congo,148,8,3831.06,1,3,3,133,7,At Risk
+GZ-4545,George Zrebassa,Corporate,Russia,31,6,3694.6499999999996,3,2,3,323,8,Potential Loyalists
+HA-14905,Helen Abelman,Consumer,Philippines,70,22,15765.34,2,4,5,245,11,At Risk
+HA-14920,Helen Andreada,Consumer,China,31,24,9643.869999999999,3,4,3,343,10,Loyal Customers
+HA-4905,Helen Abelman,Consumer,Iran,14,3,1082.1200000000001,4,1,1,411,6,New Customers
+HA-4920,Helen Andreada,Consumer,Israel,91,6,670.67,2,2,1,221,5,Lost Customers
+HD-14785,Harold Dahlen,Home Office,Germany,43,28,16590.2,3,5,5,355,13,Loyal Customers
+HD-4785,Harold Dahlen,Home Office,South Africa,107,7,3302.6,2,2,3,223,7,Hibernating
+HE-14800,Harold Engle,Corporate,Brazil,7,26,9764.58,5,5,4,554,14,Champions
+HE-4800,Harold Engle,Corporate,Romania,62,6,986.53,2,2,1,221,5,Lost Customers
+HF-14995,Herbert Flentye,Consumer,France,15,26,9586.03,4,5,3,453,12,Loyal Customers
+HF-4995,Herbert Flentye,Consumer,Turkey,391,8,2081.04,1,3,2,132,6,At Risk
+HG-14845,Harry Greene,Consumer,France,13,28,21036.88,5,5,5,555,15,Champions
+HG-14965,Henry Goldwyn,Corporate,Pakistan,24,31,16749.6,4,5,5,455,14,Champions
+HG-15025,Hunter Glantz,Consumer,Indonesia,7,28,14571.79,5,5,5,555,15,Champions
+HG-4845,Harry Greene,Consumer,Ukraine,142,9,2987.9,2,3,2,232,7,At Risk
+HG-4965,Henry Goldwyn,Corporate,Canada,100,3,315.39,2,1,1,211,4,Lost Customers
+HG-5025,Hunter Glantz,Consumer,Egypt,474,5,1437.47,1,2,2,122,5,Lost Customers
+HH-15010,Hilary Holden,Corporate,India,55,23,13684.3,3,4,4,344,11,Loyal Customers
+HH-5010,Hilary Holden,Corporate,Tanzania,197,3,1497.57,1,1,2,112,4,Lost Customers
+HJ-14875,Heather Jas,Home Office,China,6,30,14295.539999999999,5,5,5,555,15,Champions
+HJ-4875,Heather Jas,Home Office,Saudi Arabia,311,5,1092.03,1,2,1,121,4,Lost Customers
+HK-14890,Heather Kirkland,Corporate,France,44,25,13843.74,3,4,4,344,11,Loyal Customers
+HK-4890,Heather Kirkland,Corporate,Ukraine,57,6,1656.97,2,2,2,222,6,Lost Customers
+HL-15040,Hunter Lopez,Consumer,Australia,31,20,29368.47,3,3,5,335,11,Loyal Customers
+HL-5040,Hunter Lopez,Consumer,Saudi Arabia,189,3,575.88,1,1,1,111,3,Lost Customers
+HM-14860,Harry Marie,Corporate,United States,2,34,27339.44,5,5,5,555,15,Champions
+HM-14980,Henry MacAllister,Consumer,United States,26,28,12666.49,4,5,4,454,13,Champions
+HM-4860,Harry Marie,Corporate,Romania,35,4,1030.2,3,1,1,311,5,Others
+HM-4980,Henry MacAllister,Consumer,Democratic Republic of the Congo,465,4,4401.18,1,1,3,113,5,Others
+HP-14815,Harold Pawlan,Home Office,United States,31,22,7285.51,3,4,3,343,10,Loyal Customers
+HP-4815,Harold Pawlan,Home Office,Democratic Republic of the Congo,64,5,1196.69,2,2,1,221,5,Lost Customers
+HR-14770,Hallie Redmond,Home Office,Philippines,42,14,10982.38,3,3,4,334,10,Loyal Customers
+HR-14830,Harold Ryan,Corporate,United States,52,20,9561.27,3,3,3,333,9,Loyal Customers
+HR-4770,Hallie Redmond,Home Office,Saudi Arabia,188,8,4505.62,1,3,3,133,7,At Risk
+HR-4830,Harold Ryan,Corporate,Algeria,149,2,375.71000000000004,1,1,1,111,3,Lost Customers
+HW-14935,Helen Wasserman,Corporate,France,35,28,17162.42,3,5,5,355,13,Loyal Customers
+HW-4935,Helen Wasserman,Corporate,Belarus,57,6,1115.9,2,2,1,221,5,Lost Customers
+HZ-14950,Henia Zydlo,Consumer,France,36,21,9614.72,3,4,3,343,10,Loyal Customers
+HZ-4950,Henia Zydlo,Consumer,Angola,209,5,2784.61,1,2,2,122,5,Lost Customers
+IG-15085,Ivan Gibson,Consumer,France,14,25,10172.83,4,4,4,444,12,Champions
+IG-5085,Ivan Gibson,Consumer,Egypt,2,11,5752.57,5,3,3,533,11,Loyal Customers
+IL-15100,Ivan Liston,Consumer,United States,117,24,11645.47,2,4,4,244,10,At Risk
+IL-5100,Ivan Liston,Consumer,Iraq,164,7,1048.9,1,2,1,121,4,Lost Customers
+IM-15055,Ionia McGrath,Consumer,United States,16,12,5041.67,4,3,3,433,10,Loyal Customers
+IM-15070,Irene Maddox,Consumer,Indonesia,41,26,17813.2,3,5,5,355,13,Loyal Customers
+IM-5055,Ionia McGrath,Consumer,Republic of the Congo,20,5,4308.78,4,2,3,423,9,New Customers
+IM-5070,Irene Maddox,Consumer,Iran,51,6,2016.77,3,2,2,322,7,Potential Loyalists
+JA-15970,Joseph Airdo,Consumer,United States,1,24,16967.49,5,4,5,545,14,Champions
+JA-5970,Joseph Airdo,Consumer,Gabon,1,5,1011.2,5,2,1,521,8,New Customers
+JB-15400,Jennifer Braxton,Corporate,Guatemala,44,33,12877.25,3,5,4,354,12,Loyal Customers
+JB-15925,Joni Blumstein,Consumer,Germany,10,19,12248.88,5,3,4,534,12,Loyal Customers
+JB-16000,Joy Bell-,Consumer,Indonesia,2,31,22018.38,5,5,5,555,15,Champions
+JB-16045,Julia Barnett,Home Office,Chile,1,24,13829.88,5,4,4,544,13,Champions
+JB-5400,Jennifer Braxton,Corporate,South Africa,83,7,2149.83,2,2,2,222,6,Lost Customers
+JB-5925,Joni Blumstein,Consumer,Albania,23,6,998.17,4,2,1,421,7,New Customers
+JB-6000,Joy Bell-,Consumer,Saudi Arabia,175,6,1853.47,1,2,2,122,5,Lost Customers
+JB-6045,Julia Barnett,Home Office,Ukraine,29,10,3235.65,4,3,3,433,10,Loyal Customers
+JC-15340,Jasper Cacioppo,Consumer,France,35,26,17660.48,3,5,5,355,13,Loyal Customers
+JC-15385,Jenna Caffey,Consumer,United Kingdom,9,25,12773.98,5,4,4,544,13,Champions
+JC-15775,John Castell,Consumer,Australia,2,23,10280.71,5,4,4,544,13,Champions
+JC-16105,Julie Creighton,Corporate,Australia,69,27,11025.630000000001,2,5,4,254,11,At Risk
+JC-5340,Jasper Cacioppo,Consumer,Niger,143,4,573.25,2,1,1,211,4,Lost Customers
+JC-5385,Jenna Caffey,Consumer,Iran,16,9,3150.82,4,3,3,433,10,Loyal Customers
+JC-5775,John Castell,Consumer,Ukraine,14,4,1679.13,4,1,2,412,7,New Customers
+JC-6105,Julie Creighton,Corporate,Lithuania,103,6,3905.91,2,2,3,223,7,Hibernating
+JD-15790,John Dryer,Consumer,Indonesia,16,23,10190.61,4,4,4,444,12,Champions
+JD-15895,Jonathan Doherty,Corporate,United States,7,30,16464.62,5,5,5,555,15,Champions
+JD-16015,Joy Daniels,Consumer,Guatemala,49,23,8544.4,3,4,3,343,10,Loyal Customers
+JD-16060,Julia Dunbar,Consumer,Spain,66,18,7619.86,2,3,3,233,8,At Risk
+JD-16150,Justin Deggeller,Corporate,United Kingdom,1,28,18261.45,5,5,5,555,15,Champions
+JD-5790,John Dryer,Consumer,Tanzania,698,4,1316.65,1,1,1,111,3,Lost Customers
+JD-5895,Jonathan Doherty,Corporate,Canada,3,6,2654.61,5,2,2,522,9,New Customers
+JD-6015,Joy Daniels,Consumer,Nigeria,43,7,2649.2999999999997,3,2,2,322,7,Potential Loyalists
+JD-6060,Julia Dunbar,Consumer,Ghana,141,6,3471.0499999999997,2,2,3,223,7,Hibernating
+JD-6150,Justin Deggeller,Corporate,South Africa,22,6,5316.0599999999995,4,2,3,423,9,New Customers
+JE-15475,Jeremy Ellison,Consumer,Japan,36,22,5119.81,3,4,3,343,10,Loyal Customers
+JE-15610,Jim Epp,Corporate,United States,43,23,13111.0,3,4,4,344,11,Loyal Customers
+JE-15715,Joe Elijah,Consumer,United States,50,32,22034.92,3,5,5,355,13,Loyal Customers
+JE-15745,Joel Eaton,Consumer,United States,33,34,19382.2,3,5,5,355,13,Loyal Customers
+JE-16165,Justin Ellison,Corporate,United States,21,20,8326.67,4,3,3,433,10,Loyal Customers
+JE-5475,Jeremy Ellison,Consumer,Ukraine,28,6,898.17,4,2,1,421,7,New Customers
+JE-5610,Jim Epp,Corporate,Nigeria,176,6,749.5,1,2,1,121,4,Lost Customers
+JE-5715,Joe Elijah,Consumer,Senegal,87,4,141.78,2,1,1,211,4,Lost Customers
+JE-5745,Joel Eaton,Consumer,Czech Republic,519,5,2236.0,1,2,2,122,5,Lost Customers
+JE-6165,Justin Ellison,Corporate,Libya,37,8,4548.4800000000005,3,3,3,333,9,Loyal Customers
+JF-15190,Jamie Frazer,Consumer,Cambodia,7,26,16928.15,5,5,5,555,15,Champions
+JF-15295,Jason Fortune-,Consumer,Spain,57,23,20349.01,2,4,5,245,11,At Risk
+JF-15355,Jay Fein,Consumer,France,14,21,7313.24,4,4,3,443,11,Loyal Customers
+JF-15415,Jennifer Ferguson,Consumer,United Kingdom,3,22,14691.94,5,4,5,545,14,Champions
+JF-15490,Jeremy Farry,Consumer,Australia,5,25,9105.14,5,4,3,543,12,Loyal Customers
+JF-15565,Jill Fjeld,Consumer,Germany,2,28,19775.71,5,5,5,555,15,Champions
+JF-5190,Jamie Frazer,Consumer,Turkey,150,8,3485.63,1,3,3,133,7,At Risk
+JF-5295,Jason Fortune-,Consumer,Iran,64,8,2222.07,2,3,2,232,7,At Risk
+JF-5355,Jay Fein,Consumer,Iran,97,8,3428.65,2,3,3,233,8,At Risk
+JF-5415,Jennifer Ferguson,Consumer,Morocco,38,9,8202.539999999999,3,3,3,333,9,Loyal Customers
+JF-5490,Jeremy Farry,Consumer,Morocco,100,6,1457.6699999999998,2,2,2,222,6,Lost Customers
+JF-5565,Jill Fjeld,Consumer,Democratic Republic of the Congo,421,4,3597.98,1,1,3,113,5,Others
+JG-15115,Jack Garza,Consumer,United States,69,19,12745.48,2,3,4,234,9,At Risk
+JG-15160,James Galang,Consumer,United Kingdom,2,30,19877.23,5,5,5,555,15,Champions
+JG-15310,Jason Gross,Corporate,Indonesia,3,21,12579.06,5,4,4,544,13,Champions
+JG-15805,John Grady,Corporate,China,1,37,21887.85,5,5,5,555,15,Champions
+JG-5115,Jack Garza,Consumer,Senegal,6,9,2874.9300000000003,5,3,2,532,10,Potential Loyalists
+JG-5160,James Galang,Consumer,Iran,17,8,1572.95,4,3,2,432,9,Potential Loyalists
+JG-5310,Jason Gross,Corporate,Mongolia,44,5,836.99,3,2,1,321,6,Others
+JG-5805,John Grady,Corporate,South Africa,930,2,198.63,1,1,1,111,3,Lost Customers
+JH-15430,Jennifer Halladay,Consumer,Mexico,6,29,11660.32,5,5,4,554,14,Champions
+JH-15820,John Huston,Consumer,Uruguay,14,29,23344.21,4,5,5,455,14,Champions
+JH-15910,Jonathan Howell,Consumer,Japan,42,31,12368.15,3,5,4,354,12,Loyal Customers
+JH-15985,Joseph Holt,Consumer,United States,12,38,18804.920000000002,5,5,5,555,15,Champions
+JH-16180,Justin Hirsh,Consumer,Argentina,70,30,18182.97,2,5,5,255,12,At Risk
+JH-5430,Jennifer Halladay,Consumer,Egypt,8,9,853.03,5,3,1,531,9,Others
+JH-5820,John Huston,Consumer,Iran,69,5,2292.0,2,2,2,222,6,Lost Customers
+JH-5910,Jonathan Howell,Consumer,South Africa,41,7,3967.73,3,2,3,323,8,Potential Loyalists
+JH-5985,Joseph Holt,Consumer,Angola,53,6,2034.09,3,2,2,322,7,Potential Loyalists
+JH-6180,Justin Hirsh,Consumer,Senegal,58,8,5604.849999999999,2,3,3,233,8,At Risk
+JJ-15445,Jennifer Jackson,Consumer,Belgium,34,17,9588.86,3,3,3,333,9,Loyal Customers
+JJ-15760,Joel Jenkins,Home Office,France,3,27,17683.97,5,5,5,555,15,Champions
+JJ-5445,Jennifer Jackson,Consumer,Ghana,200,5,2475.13,1,2,2,122,5,Lost Customers
+JJ-5760,Joel Jenkins,Home Office,Saudi Arabia,269,6,1870.14,1,2,2,122,5,Lost Customers
+JK-15205,Jamie Kunitz,Consumer,United States,62,22,10819.78,2,4,4,244,10,At Risk
+JK-15325,Jason Klamczynski,Corporate,China,78,24,16914.56,2,4,5,245,11,At Risk
+JK-15370,Jay Kimmel,Consumer,Paraguay,2,27,10134.54,5,5,4,554,14,Champions
+JK-15625,Jim Karlsson,Consumer,El Salvador,2,24,12700.17,5,4,4,544,13,Champions
+JK-15640,Jim Kriz,Home Office,United States,1,21,12593.789999999999,5,4,4,544,13,Champions
+JK-15730,Joe Kamberova,Consumer,Italy,49,30,20755.02,3,5,5,355,13,Loyal Customers
+JK-16090,Juliana Krohn,Consumer,United States,9,32,21753.66,5,5,5,555,15,Champions
+JK-16120,Julie Kriz,Home Office,Indonesia,98,25,12988.25,2,4,4,244,10,At Risk
+JK-5205,Jamie Kunitz,Consumer,Benin,592,5,1617.6,1,2,2,122,5,Lost Customers
+JK-5325,Jason Klamczynski,Corporate,Kenya,461,3,187.3,1,1,1,111,3,Lost Customers
+JK-5370,Jay Kimmel,Consumer,Egypt,145,6,3211.45,1,2,3,123,6,Hibernating
+JK-5625,Jim Karlsson,Consumer,Democratic Republic of the Congo,317,6,4328.62,1,2,3,123,6,Hibernating
+JK-5640,Jim Kriz,Home Office,Ukraine,174,3,422.73,1,1,1,111,3,Lost Customers
+JK-5730,Joe Kamberova,Consumer,Russia,484,6,5855.01,1,2,3,123,6,Hibernating
+JK-6090,Juliana Krohn,Consumer,Nigeria,13,4,1189.52,5,1,1,511,7,New Customers
+JK-6120,Julie Kriz,Home Office,Poland,141,6,2509.08,2,2,2,222,6,Lost Customers
+JL-15130,Jack Lebron,Consumer,France,9,25,12761.949999999999,5,4,4,544,13,Champions
+JL-15175,James Lanier,Home Office,Brazil,7,23,13445.36,5,4,4,544,13,Champions
+JL-15235,Janet Lee,Consumer,Dominican Republic,14,23,18400.27,4,4,5,445,13,Champions
+JL-15505,Jeremy Lonsdale,Consumer,Mexico,31,21,8573.72,3,4,3,343,10,Loyal Customers
+JL-15835,John Lee,Consumer,United States,22,27,22524.47,4,5,5,455,14,Champions
+JL-15850,John Lucas,Consumer,Germany,45,19,8429.91,3,3,3,333,9,Loyal Customers
+JL-5130,Jack Lebron,Consumer,Russia,198,11,5709.2300000000005,1,3,3,133,7,At Risk
+JL-5175,James Lanier,Home Office,South Africa,125,5,1353.09,2,2,2,222,6,Lost Customers
+JL-5235,Janet Lee,Consumer,Canada,2,4,1715.02,5,1,2,512,8,New Customers
+JL-5505,Jeremy Lonsdale,Consumer,Iraq,342,3,2729.3399999999997,1,1,2,112,4,Lost Customers
+JL-5835,John Lee,Consumer,Azerbaijan,55,7,3388.27,3,2,3,323,8,Potential Loyalists
+JL-5850,John Lucas,Consumer,Turkey,698,4,2003.6,1,1,2,112,4,Lost Customers
+JM-15250,Janet Martin,Consumer,China,36,22,15414.67,3,4,5,345,12,Loyal Customers
+JM-15265,Janet Molinari,Corporate,Philippines,38,27,14952.470000000001,3,5,5,355,13,Loyal Customers
+JM-15535,Jessica Myrick,Consumer,Japan,15,18,6869.63,4,3,3,433,10,Loyal Customers
+JM-15580,Jill Matthias,Consumer,Mexico,120,23,13256.99,2,4,4,244,10,At Risk
+JM-15655,Jim Mitchum,Corporate,Australia,9,33,16133.16,5,5,5,555,15,Champions
+JM-15865,John Murray,Consumer,United States,69,29,20759.64,2,5,5,255,12,At Risk
+JM-16195,Justin MacKendrick,Consumer,United States,115,24,7677.2,2,4,3,243,9,At Risk
+JM-5250,Janet Martin,Consumer,Nigeria,7,4,2189.9900000000002,5,1,2,512,8,New Customers
+JM-5265,Janet Molinari,Corporate,Canada,121,4,1127.26,2,1,1,211,4,Lost Customers
+JM-5535,Jessica Myrick,Consumer,Israel,296,2,764.87,1,1,1,111,3,Lost Customers
+JM-5580,Jill Matthias,Consumer,Kenya,50,4,860.6400000000001,3,1,1,311,5,Others
+JM-5655,Jim Mitchum,Corporate,Guinea,123,8,3602.67,2,3,3,233,8,At Risk
+JM-5865,John Murray,Consumer,Ukraine,71,6,1536.49,2,2,2,222,6,Lost Customers
+JM-6195,Justin MacKendrick,Consumer,Iraq,13,6,1194.46,5,2,1,521,8,New Customers
+JO-15145,Jack O'Briant,Corporate,Japan,65,22,10387.5,2,4,4,244,10,At Risk
+JO-15280,Jas O'Carroll,Consumer,India,15,18,7086.84,4,3,3,433,10,Loyal Customers
+JO-15550,Jesus Ocampo,Home Office,Mexico,72,16,3936.78,2,3,3,233,8,At Risk
+JO-5145,Jack O'Briant,Corporate,Madagascar,244,5,2897.55,1,2,2,122,5,Lost Customers
+JO-5280,Jas O'Carroll,Consumer,Bulgaria,20,3,1668.54,4,1,2,412,7,New Customers
+JO-5550,Jesus Ocampo,Home Office,Iraq,13,9,4151.849999999999,5,3,3,533,11,Loyal Customers
+JP-15460,Jennifer Patt,Corporate,Indonesia,37,25,10884.39,3,4,4,344,11,Loyal Customers
+JP-15520,Jeremy Pistek,Consumer,United States,23,23,16333.02,4,4,5,445,13,Champions
+JP-16135,Julie Prescott,Home Office,Mexico,44,30,10069.16,3,5,4,354,12,Loyal Customers
+JP-5460,Jennifer Patt,Corporate,Iran,189,10,3221.72,1,3,3,133,7,At Risk
+JP-5520,Jeremy Pistek,Consumer,Tanzania,113,4,2191.74,2,1,2,212,5,Lost Customers
+JP-6135,Julie Prescott,Home Office,Saudi Arabia,27,7,3757.77,4,2,3,423,9,New Customers
+JR-15670,Jim Radford,Consumer,Germany,13,20,13324.06,5,3,4,534,12,Loyal Customers
+JR-15700,Jocasta Rupert,Consumer,India,8,15,9509.93,5,3,3,533,11,Loyal Customers
+JR-16210,Justin Ritter,Corporate,Australia,19,20,12585.6,4,3,4,434,11,Loyal Customers
+JR-5670,Jim Radford,Consumer,Egypt,129,5,2525.69,2,2,2,222,6,Lost Customers
+JR-5700,Jocasta Rupert,Consumer,Democratic Republic of the Congo,98,5,1670.38,2,2,2,222,6,Lost Customers
+JR-6210,Justin Ritter,Corporate,Democratic Republic of the Congo,38,6,1006.49,3,2,1,321,6,Others
+JS-15595,Jill Stevenson,Corporate,Indonesia,6,17,9299.06,5,3,3,533,11,Loyal Customers
+JS-15685,Jim Sink,Corporate,Australia,41,26,14240.35,3,5,5,355,13,Loyal Customers
+JS-15880,John Stevenson,Consumer,United States,12,20,10415.89,5,3,4,534,12,Loyal Customers
+JS-15940,Joni Sundaresam,Home Office,Netherlands,6,12,3784.95,5,3,3,533,11,Loyal Customers
+JS-16030,Joy Smith,Consumer,Indonesia,22,29,19128.41,4,5,5,455,14,Champions
+JS-5595,Jill Stevenson,Corporate,Turkey,745,4,785.74,1,1,1,111,3,Lost Customers
+JS-5685,Jim Sink,Corporate,Israel,143,5,1944.06,2,2,2,222,6,Lost Customers
+JS-5880,John Stevenson,Consumer,Nigeria,209,6,1733.69,1,2,2,122,5,Lost Customers
+JS-5940,Joni Sundaresam,Home Office,Saudi Arabia,24,12,2869.92,4,3,2,432,9,Potential Loyalists
+JS-6030,Joy Smith,Consumer,Cameroon,219,4,1573.04,1,1,2,112,4,Lost Customers
+JW-15220,Jane Waco,Corporate,United States,13,32,22837.42,5,5,5,555,15,Champions
+JW-15955,Joni Wasserman,Consumer,France,6,28,10585.9,5,5,4,554,14,Champions
+JW-16075,Julia West,Consumer,New Zealand,2,24,19780.17,5,4,5,545,14,Champions
+JW-5220,Jane Waco,Corporate,Senegal,101,6,7184.7300000000005,2,2,3,223,7,Hibernating
+JW-5955,Joni Wasserman,Consumer,Egypt,107,2,299.59000000000003,2,1,1,211,4,Lost Customers
+JW-6075,Julia West,Consumer,Morocco,267,4,741.87,1,1,1,111,3,Lost Customers
+KA-16525,Kelly Andreada,Consumer,El Salvador,17,35,17417.34,4,5,5,455,14,Champions
+KA-6525,Kelly Andreada,Consumer,Russia,94,7,1429.89,2,2,2,222,6,Lost Customers
+KB-16240,Karen Bern,Corporate,India,5,24,9866.15,5,4,4,544,13,Champions
+KB-16315,Karl Braun,Consumer,Malaysia,3,26,14269.68,5,5,5,555,15,Champions
+KB-16405,Katrina Bavinger,Home Office,Ireland,20,26,13697.37,4,5,4,454,13,Champions
+KB-16585,Ken Black,Corporate,China,94,25,16212.449999999999,2,4,5,245,11,At Risk
+KB-16600,Ken Brennan,Corporate,India,2,22,10240.3,5,4,4,544,13,Champions
+KB-6240,Karen Bern,Corporate,Tanzania,202,6,1852.95,1,2,2,122,5,Lost Customers
+KB-6315,Karl Braun,Consumer,Russia,23,9,2867.46,4,3,2,432,9,Potential Loyalists
+KB-6405,Katrina Bavinger,Home Office,Israel,388,3,238.54999999999998,1,1,1,111,3,Lost Customers
+KB-6585,Ken Black,Corporate,Iraq,372,2,216.78000000000003,1,1,1,111,3,Lost Customers
+KB-6600,Ken Brennan,Corporate,Ukraine,10,10,1110.44,5,3,1,531,9,Others
+KC-16255,Karen Carlisle,Corporate,United States,45,24,9192.32,3,4,3,343,10,Loyal Customers
+KC-16540,Kelly Collister,Consumer,Nicaragua,42,23,18746.22,3,4,5,345,12,Loyal Customers
+KC-16675,Kimberly Carter,Corporate,Germany,3,22,13496.1,5,4,4,544,13,Champions
+KC-6255,Karen Carlisle,Corporate,Egypt,58,8,1078.49,2,3,1,231,6,At Risk
+KC-6540,Kelly Collister,Consumer,Moldova,34,5,484.95,3,2,1,321,6,Others
+KC-6675,Kimberly Carter,Corporate,Turkey,20,3,391.84,4,1,1,411,6,New Customers
+KD-16270,Karen Daniels,Consumer,United States,37,28,23028.1,3,5,5,355,13,Loyal Customers
+KD-16345,Katherine Ducich,Consumer,India,42,14,11128.19,3,3,4,334,10,Loyal Customers
+KD-16495,Keith Dawkins,Corporate,United States,47,34,24908.19,3,5,5,355,13,Loyal Customers
+KD-16615,Ken Dana,Corporate,France,76,24,12334.29,2,4,4,244,10,At Risk
+KD-6270,Karen Daniels,Consumer,Turkey,812,1,800.21,1,1,1,111,3,Lost Customers
+KD-6345,Katherine Ducich,Consumer,Angola,58,6,536.46,2,2,1,221,5,Lost Customers
+KD-6495,Keith Dawkins,Corporate,Benin,399,4,1407.69,1,1,2,112,4,Lost Customers
+KD-6615,Ken Dana,Corporate,Morocco,467,2,184.5,1,1,1,111,3,Lost Customers
+KE-16420,Katrina Edelman,Corporate,Brazil,48,27,12754.05,3,5,4,354,12,Loyal Customers
+KE-6420,Katrina Edelman,Corporate,Mozambique,252,4,602.47,1,1,1,111,3,Lost Customers
+KF-16285,Karen Ferguson,Home Office,United States,38,21,14634.47,3,4,5,345,12,Loyal Customers
+KF-6285,Karen Ferguson,Home Office,Turkey,35,7,3027.12,3,2,2,322,7,Potential Loyalists
+KH-16330,Katharine Harms,Corporate,Indonesia,17,24,14971.539999999999,4,4,5,445,13,Champions
+KH-16360,Katherine Hughes,Consumer,United States,2,27,9857.27,5,5,4,554,14,Champions
+KH-16510,Keith Herrera,Consumer,Philippines,23,25,15202.61,4,4,5,445,13,Champions
+KH-16630,Ken Heidel,Corporate,Germany,9,21,7074.700000000001,5,4,3,543,12,Loyal Customers
+KH-16690,Kristen Hastings,Corporate,United States,3,37,18036.5,5,5,5,555,15,Champions
+KH-6330,Katharine Harms,Corporate,Ukraine,20,12,3336.96,4,3,3,433,10,Loyal Customers
+KH-6360,Katherine Hughes,Consumer,Kenya,101,6,2206.85,2,2,2,222,6,Lost Customers
+KH-6510,Keith Herrera,Consumer,South Africa,16,7,1534.83,4,2,2,422,8,New Customers
+KH-6630,Ken Heidel,Corporate,Saudi Arabia,327,5,1766.57,1,2,2,122,5,Lost Customers
+KH-6690,Kristen Hastings,Corporate,Ukraine,239,7,1643.21,1,2,2,122,5,Lost Customers
+KL-16555,Kelly Lampkin,Corporate,United States,16,26,12003.550000000001,4,5,4,454,13,Champions
+KL-16645,Ken Lonsdale,Consumer,United States,48,27,22388.67,3,5,5,355,13,Loyal Customers
+KL-6555,Kelly Lampkin,Corporate,Egypt,176,6,2170.63,1,2,2,122,5,Lost Customers
+KL-6645,Ken Lonsdale,Consumer,Nigeria,1,5,1515.8799999999999,5,2,2,522,9,New Customers
+KM-16225,Kalyca Meade,Corporate,Australia,1,16,7723.15,5,3,3,533,11,Loyal Customers
+KM-16375,Katherine Murray,Home Office,Germany,3,26,16265.25,5,5,5,555,15,Champions
+KM-16660,Khloe Miller,Consumer,Germany,16,26,10284.22,4,5,4,454,13,Champions
+KM-16720,Kunst Miller,Consumer,Philippines,29,23,13943.31,4,4,4,444,12,Champions
+KM-6225,Kalyca Meade,Corporate,Croatia,491,2,884.03,1,1,1,111,3,Lost Customers
+KM-6375,Katherine Murray,Home Office,Zambia,322,4,2116.23,1,1,2,112,4,Lost Customers
+KM-6660,Khloe Miller,Consumer,Turkey,84,2,169.43,2,1,1,211,4,Lost Customers
+KM-6720,Kunst Miller,Consumer,Iran,350,3,2906.65,1,1,2,112,4,Lost Customers
+KN-16390,Katherine Nockton,Corporate,Australia,20,26,19177.57,4,5,5,455,14,Champions
+KN-16450,Kean Nguyen,Corporate,Australia,38,22,16162.41,3,4,5,345,12,Loyal Customers
+KN-16705,Kristina Nunn,Home Office,Australia,99,17,5791.889999999999,2,3,3,233,8,At Risk
+KN-6390,Katherine Nockton,Corporate,Syria,274,3,318.72,1,1,1,111,3,Lost Customers
+KN-6450,Kean Nguyen,Corporate,Ghana,94,8,1761.76,2,3,2,232,7,At Risk
+KN-6705,Kristina Nunn,Home Office,Iran,124,4,4819.87,2,1,3,213,6,Others
+KS-16300,Karen Seio,Corporate,Australia,36,20,5011.46,3,3,3,333,9,Loyal Customers
+KS-6300,Karen Seio,Corporate,Iran,107,4,221.61,2,1,1,211,4,Lost Customers
+KT-16465,Kean Takahito,Consumer,United States,44,30,15608.5,3,5,5,355,13,Loyal Customers
+KT-16480,Kean Thornton,Consumer,United States,28,17,6134.64,4,3,3,433,10,Loyal Customers
+KT-6465,Kean Takahito,Consumer,Ukraine,106,5,1505.07,2,2,2,222,6,Lost Customers
+KT-6480,Kean Thornton,Consumer,Madagascar,85,6,1875.25,2,2,2,222,6,Lost Customers
+KW-16435,Katrina Willman,Consumer,United States,27,21,15259.09,4,4,5,445,13,Champions
+KW-16570,Kelly Williams,Consumer,United Kingdom,23,32,9177.4,4,5,3,453,12,Loyal Customers
+KW-6435,Katrina Willman,Consumer,Zambia,148,4,388.1,1,1,1,111,3,Lost Customers
+KW-6570,Kelly Williams,Consumer,Romania,49,4,2106.3,3,1,2,312,6,Potential Loyalists
+LA-16780,Laura Armstrong,Corporate,Indonesia,14,31,24013.39,4,5,5,455,14,Champions
+LA-6780,Laura Armstrong,Corporate,Romania,2,11,3453.28,5,3,3,533,11,Loyal Customers
+LB-16735,Larry Blacks,Consumer,Dominican Republic,44,26,12424.82,3,5,4,354,12,Loyal Customers
+LB-16795,Laurel Beltran,Home Office,United Kingdom,40,30,24460.14,3,5,5,355,13,Loyal Customers
+LB-6735,Larry Blacks,Consumer,Poland,138,7,1897.95,2,2,2,222,6,Lost Customers
+LB-6795,Laurel Beltran,Home Office,Austria,57,8,1766.91,2,3,2,232,7,At Risk
+LC-16870,Lena Cacioppo,Consumer,France,28,20,9804.960000000001,4,3,4,434,11,Loyal Customers
+LC-16885,Lena Creighton,Consumer,United States,17,26,17003.25,4,5,5,455,14,Champions
+LC-16930,Linda Cazamias,Corporate,United States,42,23,11247.49,3,4,4,344,11,Loyal Customers
+LC-16960,Lindsay Castell,Home Office,United States,3,20,11728.26,5,3,4,534,12,Loyal Customers
+LC-17050,Liz Carlisle,Consumer,New Zealand,5,23,12842.89,5,4,4,544,13,Champions
+LC-17140,Logan Currie,Consumer,United States,14,28,13064.28,4,5,4,454,13,Champions
+LC-6870,Lena Cacioppo,Consumer,Russia,24,6,1152.84,4,2,1,421,7,New Customers
+LC-6885,Lena Creighton,Consumer,Democratic Republic of the Congo,210,9,1828.09,1,3,2,132,6,At Risk
+LC-6930,Linda Cazamias,Corporate,Turkey,72,9,5080.69,2,3,3,233,8,At Risk
+LC-6960,Lindsay Castell,Home Office,Togo,413,7,2439.12,1,2,2,122,5,Lost Customers
+LC-7050,Liz Carlisle,Consumer,Saudi Arabia,7,6,7180.05,5,2,3,523,10,New Customers
+LC-7140,Logan Currie,Consumer,Canada,17,5,2921.67,4,2,2,422,8,New Customers
+LD-16855,Lela Donovan,Corporate,France,43,29,13243.61,3,5,4,354,12,Loyal Customers
+LD-17005,Lisa DeCherney,Consumer,United States,50,27,11454.92,3,5,4,354,12,Loyal Customers
+LD-6855,Lela Donovan,Corporate,South Africa,81,7,2786.2999999999997,2,2,2,222,6,Lost Customers
+LD-7005,Lisa DeCherney,Consumer,Iran,486,4,315.51,1,1,1,111,3,Lost Customers
+LE-16810,Laurel Elliston,Consumer,Australia,15,23,10402.710000000001,4,4,4,444,12,Champions
+LE-6810,Laurel Elliston,Consumer,Saudi Arabia,64,6,1029.87,2,2,1,221,5,Lost Customers
+LF-17185,Luke Foster,Consumer,United States,23,21,12789.78,4,4,4,444,12,Champions
+LF-7185,Luke Foster,Consumer,Democratic Republic of the Congo,178,5,556.52,1,2,1,121,4,Lost Customers
+LH-16750,Larry Hughes,Consumer,Dominican Republic,13,20,7791.8,5,3,3,533,11,Loyal Customers
+LH-16900,Lena Hernandez,Consumer,Brazil,22,27,11996.58,4,5,4,454,13,Champions
+LH-17020,Lisa Hazard,Consumer,China,42,18,8159.81,3,3,3,333,9,Loyal Customers
+LH-17155,Logan Haushalter,Consumer,France,76,27,13950.38,2,5,4,254,11,At Risk
+LH-6750,Larry Hughes,Consumer,Democratic Republic of the Congo,126,4,728.41,2,1,1,211,4,Lost Customers
+LH-6900,Lena Hernandez,Consumer,Angola,307,3,840.79,1,1,1,111,3,Lost Customers
+LH-7020,Lisa Hazard,Consumer,Democratic Republic of the Congo,59,2,968.82,2,1,1,211,4,Lost Customers
+LH-7155,Logan Haushalter,Consumer,Ukraine,128,7,3220.47,2,2,3,223,7,Hibernating
+LL-16840,Lauren Leatherbury,Consumer,United States,27,26,11282.460000000001,4,5,4,454,13,Champions
+LL-6840,Lauren Leatherbury,Consumer,Democratic Republic of the Congo,36,8,3566.98,3,3,3,333,9,Loyal Customers
+LM-17065,Liz MacKendrick,Consumer,China,85,18,9219.17,2,3,3,233,8,At Risk
+LM-7065,Liz MacKendrick,Consumer,Qatar,8,4,6261.54,5,1,3,513,9,New Customers
+LO-17170,Lori Olson,Corporate,Germany,3,27,11232.51,5,5,4,554,14,Champions
+LO-7170,Lori Olson,Corporate,Kenya,5,5,2237.0,5,2,2,522,9,New Customers
+LP-17080,Liz Pelletier,Consumer,Australia,41,22,7476.2699999999995,3,4,3,343,10,Loyal Customers
+LP-17095,Liz Preis,Consumer,United States,10,25,15482.1,5,4,5,545,14,Champions
+LP-7080,Liz Pelletier,Consumer,Cameroon,185,6,1773.57,1,2,2,122,5,Lost Customers
+LP-7095,Liz Preis,Consumer,Iran,117,2,998.07,2,1,1,211,4,Lost Customers
+LR-16915,Lena Radford,Consumer,India,27,25,22331.79,4,4,5,445,13,Champions
+LR-17035,Lisa Ryan,Corporate,Germany,46,26,16003.91,3,5,5,355,13,Loyal Customers
+LR-6915,Lena Radford,Consumer,Turkey,685,3,453.92,1,1,1,111,3,Lost Customers
+LR-7035,Lisa Ryan,Corporate,Madagascar,107,9,2607.18,2,3,2,232,7,At Risk
+LS-16945,Linda Southworth,Corporate,Indonesia,28,18,10342.29,4,3,4,434,11,Loyal Customers
+LS-16975,Lindsay Shagiari,Home Office,United States,21,19,8575.47,4,3,3,433,10,Loyal Customers
+LS-17200,Luke Schmidt,Corporate,France,16,24,15173.210000000001,4,4,5,445,13,Champions
+LS-17230,Lycoris Saunders,Consumer,Mexico,5,24,10494.16,5,4,4,544,13,Champions
+LS-17245,Lynn Smith,Consumer,Mexico,35,23,10713.85,3,4,4,344,11,Loyal Customers
+LS-6945,Linda Southworth,Corporate,Egypt,7,9,2656.78,5,3,2,532,10,Potential Loyalists
+LS-6975,Lindsay Shagiari,Home Office,Canada,179,5,713.25,1,2,1,121,4,Lost Customers
+LS-7200,Luke Schmidt,Corporate,Czech Republic,384,2,268.36,1,1,1,111,3,Lost Customers
+LS-7230,Lycoris Saunders,Consumer,Niger,331,8,1103.54,1,3,1,131,5,At Risk
+LS-7245,Lynn Smith,Consumer,Togo,218,6,949.19,1,2,1,121,4,Lost Customers
+LT-16765,Larry Tron,Consumer,Italy,7,30,17253.78,5,5,5,555,15,Champions
+LT-17110,Liz Thompson,Consumer,Germany,35,23,12921.93,3,4,4,344,11,Loyal Customers
+LT-6765,Larry Tron,Consumer,South Africa,615,3,1336.53,1,1,1,111,3,Lost Customers
+LT-7110,Liz Thompson,Consumer,South Africa,56,5,8206.89,2,2,3,223,7,Hibernating
+LW-16825,Laurel Workman,Corporate,India,23,20,9828.289999999999,4,3,4,434,11,Loyal Customers
+LW-16990,Lindsay Williams,Corporate,United States,24,21,9035.38,4,4,3,443,11,Loyal Customers
+LW-17125,Liz Willingham,Consumer,United States,42,14,5289.83,3,3,3,333,9,Loyal Customers
+LW-17215,Luke Weiss,Consumer,United States,22,23,10507.01,4,4,4,444,12,Champions
+LW-6825,Laurel Workman,Corporate,Iran,33,10,832.49,3,3,1,331,7,Need Attention
+LW-6990,Lindsay Williams,Corporate,Iraq,15,10,1808.77,4,3,2,432,9,Potential Loyalists
+LW-7125,Liz Willingham,Consumer,Kenya,34,9,2666.93,3,3,2,332,8,Potential Loyalists
+LW-7215,Luke Weiss,Consumer,Morocco,133,5,1522.01,2,2,2,222,6,Lost Customers
+MA-17560,Matt Abelman,Home Office,United States,65,24,10621.02,2,4,4,244,10,At Risk
+MA-17995,Michelle Arnett,Home Office,Germany,43,21,9998.18,3,4,4,344,11,Loyal Customers
+MA-7560,Matt Abelman,Home Office,Turkey,233,4,1610.04,1,1,2,112,4,Lost Customers
+MA-7995,Michelle Arnett,Home Office,Angola,17,8,1908.3,4,3,2,432,9,Potential Loyalists
+MB-17305,Maria Bertelson,Consumer,Australia,2,26,16630.77,5,5,5,555,15,Champions
+MB-18085,Mick Brown,Consumer,New Zealand,45,27,14597.76,3,5,5,355,13,Loyal Customers
+MB-7305,Maria Bertelson,Consumer,Democratic Republic of the Congo,23,6,4851.21,4,2,3,423,9,New Customers
+MB-8085,Mick Brown,Consumer,Hungary,12,7,1637.1299999999999,5,2,2,522,9,New Customers
+MC-17275,Marc Crier,Consumer,France,45,32,11627.99,3,5,4,354,12,Loyal Customers
+MC-17425,Mark Cousins,Corporate,United States,24,28,15016.130000000001,4,5,5,455,14,Champions
+MC-17575,Matt Collins,Consumer,Brazil,28,29,13962.5,4,5,4,454,13,Champions
+MC-17590,Matt Collister,Corporate,Guatemala,52,24,10007.9,3,4,4,344,11,Loyal Customers
+MC-17605,Matt Connell,Corporate,Dominican Republic,50,25,12839.11,3,4,4,344,11,Loyal Customers
+MC-17635,Matthew Clasen,Corporate,Dominican Republic,6,33,21044.75,5,5,5,555,15,Champions
+MC-17845,Michael Chen,Consumer,India,9,29,14893.62,5,5,5,555,15,Champions
+MC-18100,Mick Crebagga,Consumer,France,42,31,11118.11,3,5,4,354,12,Loyal Customers
+MC-18130,Mike Caudle,Corporate,Argentina,52,21,8439.44,3,4,3,343,10,Loyal Customers
+MC-7275,Marc Crier,Consumer,Ukraine,236,5,4301.04,1,2,3,123,6,Hibernating
+MC-7425,Mark Cousins,Corporate,Nigeria,36,5,1477.66,3,2,2,322,7,Potential Loyalists
+MC-7575,Matt Collins,Consumer,Saudi Arabia,10,7,3603.18,5,2,3,523,10,New Customers
+MC-7590,Matt Collister,Corporate,Morocco,337,3,1554.06,1,1,2,112,4,Lost Customers
+MC-7605,Matt Connell,Corporate,Estonia,196,2,208.41,1,1,1,111,3,Lost Customers
+MC-7635,Matthew Clasen,Corporate,Egypt,905,3,678.87,1,1,1,111,3,Lost Customers
+MC-7845,Michael Chen,Consumer,Poland,35,4,975.62,3,1,1,311,5,Others
+MC-8100,Mick Crebagga,Consumer,Iran,105,3,659.34,2,1,1,211,4,Lost Customers
+MC-8130,Mike Caudle,Corporate,Iraq,288,4,815.07,1,1,1,111,3,Lost Customers
+MD-17350,Maribeth Dona,Consumer,Colombia,27,30,16357.72,4,5,5,455,14,Champions
+MD-17860,Michael Dominguez,Corporate,Australia,37,27,15528.27,3,5,5,355,13,Loyal Customers
+MD-7350,Maribeth Dona,Consumer,Rwanda,83,5,1328.98,2,2,1,221,5,Lost Customers
+MD-7860,Michael Dominguez,Corporate,Ukraine,104,5,6825.25,2,2,3,223,7,Hibernating
+ME-17320,Maria Etezadi,Home Office,United Kingdom,6,29,24433.87,5,5,5,555,15,Champions
+ME-17725,Max Engle,Consumer,United States,29,26,7766.26,4,5,3,453,12,Loyal Customers
+ME-18010,Michelle Ellison,Corporate,France,43,24,10502.67,3,4,4,344,11,Loyal Customers
+ME-7320,Maria Etezadi,Home Office,Morocco,21,9,1677.8999999999999,4,3,2,432,9,Potential Loyalists
+ME-7725,Max Engle,Consumer,Kyrgyzstan,12,11,2066.21,5,3,2,532,10,Potential Loyalists
+ME-8010,Michelle Ellison,Corporate,Democratic Republic of the Congo,393,1,160.5,1,1,1,111,3,Lost Customers
+MF-17665,Maureen Fritzler,Corporate,China,52,29,13257.58,3,5,4,354,12,Loyal Customers
+MF-18250,Monica Federle,Corporate,France,8,32,20204.11,5,5,5,555,15,Champions
+MF-7665,Maureen Fritzler,Corporate,Iran,49,3,161.91,3,1,1,311,5,Others
+MF-8250,Monica Federle,Corporate,Ukraine,63,5,1474.68,2,2,2,222,6,Lost Customers
+MG-17650,Matthew Grinstein,Home Office,France,20,19,12580.53,4,3,4,434,11,Loyal Customers
+MG-17680,Maureen Gastineau,Home Office,Vietnam,86,25,15892.09,2,4,5,245,11,At Risk
+MG-17695,Maureen Gnade,Consumer,Italy,1,24,16195.47,5,4,5,545,14,Champions
+MG-17875,Michael Grace,Home Office,Australia,6,31,14250.52,5,5,5,555,15,Champions
+MG-17890,Michael Granlund,Home Office,Pakistan,6,25,13046.3,5,4,4,544,13,Champions
+MG-18145,Mike Gockenbach,Consumer,India,3,22,18094.39,5,4,5,545,14,Champions
+MG-18205,Mitch Gastineau,Corporate,India,3,29,16274.17,5,5,5,555,15,Champions
+MG-7650,Matthew Grinstein,Home Office,South Africa,496,1,301.71,1,1,1,111,3,Lost Customers
+MG-7680,Maureen Gastineau,Home Office,Iran,75,9,4241.66,2,3,3,233,8,At Risk
+MG-7695,Maureen Gnade,Consumer,Saudi Arabia,336,7,2085.2,1,2,2,122,5,Lost Customers
+MG-7875,Michael Grace,Home Office,Tanzania,404,1,50.4,1,1,1,111,3,Lost Customers
+MG-7890,Michael Granlund,Home Office,Turkey,374,1,19.13,1,1,1,111,3,Lost Customers
+MG-8145,Mike Gockenbach,Consumer,Democratic Republic of the Congo,282,3,5226.45,1,1,3,113,5,Others
+MG-8205,Mitch Gastineau,Corporate,South Africa,2,7,1635.68,5,2,2,522,9,New Customers
+MH-17290,Marc Harrigan,Home Office,Singapore,38,24,13607.48,3,4,4,344,11,Loyal Customers
+MH-17440,Mark Haberlin,Corporate,China,9,23,7787.93,5,4,3,543,12,Loyal Customers
+MH-17455,Mark Hamilton,Consumer,United States,55,26,9879.130000000001,3,5,4,354,12,Loyal Customers
+MH-17620,Matt Hagelstein,Corporate,United States,24,20,10914.630000000001,4,3,4,434,11,Loyal Customers
+MH-17785,Maya Herman,Corporate,Indonesia,1,25,11617.2,5,4,4,544,13,Champions
+MH-18025,Michelle Huthwaite,Consumer,United States,21,17,11652.84,4,3,4,434,11,Loyal Customers
+MH-18115,Mick Hernandez,Home Office,India,6,24,11843.59,5,4,4,544,13,Champions
+MH-7290,Marc Harrigan,Home Office,Madagascar,738,3,1685.34,1,1,2,112,4,Lost Customers
+MH-7440,Mark Haberlin,Corporate,Democratic Republic of the Congo,97,8,3351.2999999999997,2,3,3,233,8,At Risk
+MH-7455,Mark Hamilton,Consumer,Poland,93,10,4730.35,2,3,3,233,8,At Risk
+MH-7620,Matt Hagelstein,Corporate,Romania,246,6,1160.4099999999999,1,2,1,121,4,Lost Customers
+MH-7785,Maya Herman,Corporate,South Africa,8,8,1896.07,5,3,2,532,10,Potential Loyalists
+MH-8025,Michelle Huthwaite,Consumer,Cote d'Ivoire,63,8,1022.58,2,3,1,231,6,At Risk
+MH-8115,Mick Hernandez,Home Office,Sierra Leone,59,6,1152.6,2,2,1,221,5,Lost Customers
+MJ-17740,Max Jones,Consumer,United States,22,26,15210.98,4,5,5,455,14,Champions
+MJ-7740,Max Jones,Consumer,Cote d'Ivoire,160,3,1111.12,1,1,1,111,3,Lost Customers
+MK-17905,Michael Kennedy,Corporate,United States,22,27,13059.97,4,5,4,454,13,Champions
+MK-18160,Mike Kennedy,Consumer,India,23,19,9888.49,4,3,4,434,11,Loyal Customers
+MK-7905,Michael Kennedy,Corporate,Poland,220,9,1161.58,1,3,1,131,5,At Risk
+MK-8160,Mike Kennedy,Consumer,Egypt,41,9,2516.09,3,3,2,332,8,Potential Loyalists
+ML-17395,Marina Lichtenstein,Corporate,Indonesia,1,23,14407.94,5,4,5,545,14,Champions
+ML-17410,Maris LaWare,Consumer,Cuba,34,30,14832.86,3,5,5,355,13,Loyal Customers
+ML-17755,Max Ludwig,Home Office,France,2,26,14191.1,5,5,5,555,15,Champions
+ML-18040,Michelle Lonsdale,Corporate,Australia,8,15,8622.17,5,3,3,533,11,Loyal Customers
+ML-18265,Muhammed Lee,Consumer,Germany,101,25,14604.74,2,4,5,245,11,At Risk
+ML-7395,Marina Lichtenstein,Corporate,Albania,133,7,990.6,2,2,1,221,5,Lost Customers
+ML-7410,Maris LaWare,Consumer,Turkey,372,2,171.93,1,1,1,111,3,Lost Customers
+ML-7755,Max Ludwig,Home Office,South Africa,27,7,1097.3700000000001,4,2,1,421,7,New Customers
+ML-8040,Michelle Lonsdale,Corporate,Cote d'Ivoire,45,6,1660.3700000000001,3,2,2,322,7,Potential Loyalists
+ML-8265,Muhammed Lee,Consumer,Gabon,9,8,1167.51,5,3,1,531,9,Others
+MM-17260,Magdelene Morse,Consumer,China,5,24,15552.9,5,4,5,545,14,Champions
+MM-17920,Michael Moore,Consumer,China,8,31,20281.47,5,5,5,555,15,Champions
+MM-18055,Michelle Moray,Consumer,Germany,16,25,10884.65,4,4,4,444,12,Champions
+MM-18280,Muhammed MacIntyre,Corporate,Germany,50,22,7050.64,3,4,3,343,10,Loyal Customers
+MM-7260,Magdelene Morse,Consumer,Saudi Arabia,132,5,5498.42,2,2,3,223,7,Hibernating
+MM-7920,Michael Moore,Consumer,Egypt,29,5,1336.35,4,2,1,421,7,New Customers
+MM-8055,Michelle Moray,Consumer,Russia,34,8,1866.41,3,3,2,332,8,Potential Loyalists
+MM-8280,Muhammed MacIntyre,Corporate,Russia,72,10,3566.03,2,3,3,233,8,At Risk
+MN-17935,Michael Nguyen,Consumer,China,9,19,12797.960000000001,5,3,4,534,12,Loyal Customers
+MN-7935,Michael Nguyen,Consumer,Russia,31,6,2153.82,3,2,2,322,7,Potential Loyalists
+MO-17500,Mary O'Rourke,Consumer,Germany,37,24,10227.89,3,4,4,344,11,Loyal Customers
+MO-17800,Meg O'Connel,Home Office,Japan,7,24,13634.17,5,4,4,544,13,Champions
+MO-17950,Michael Oakman,Consumer,Italy,7,13,4439.96,5,3,3,533,11,Loyal Customers
+MO-7500,Mary O'Rourke,Consumer,South Africa,282,4,807.43,1,1,1,111,3,Lost Customers
+MO-7800,Meg O'Connel,Home Office,Russia,15,9,4282.74,4,3,3,433,10,Loyal Customers
+MO-7950,Michael Oakman,Consumer,Morocco,99,2,921.96,2,1,1,211,4,Lost Customers
+MP-17470,Mark Packer,Home Office,United States,6,26,12889.98,5,5,4,554,14,Champions
+MP-17965,Michael Paige,Corporate,Vietnam,28,37,17123.21,4,5,5,455,14,Champions
+MP-18175,Mike Pelletier,Home Office,Australia,17,33,22004.35,4,5,5,455,14,Champions
+MP-7470,Mark Packer,Home Office,Nigeria,544,1,40.59,1,1,1,111,3,Lost Customers
+MP-7965,Michael Paige,Corporate,Saudi Arabia,197,6,558.63,1,2,1,121,4,Lost Customers
+MP-8175,Mike Pelletier,Home Office,South Africa,91,5,2151.0499999999997,2,2,2,222,6,Lost Customers
+MR-17545,Mathew Reese,Home Office,India,98,23,19246.72,2,4,5,245,11,At Risk
+MR-7545,Mathew Reese,Home Office,Democratic Republic of the Congo,101,6,2325.24,2,2,2,222,6,Lost Customers
+MS-17365,Maribeth Schnelling,Consumer,United States,6,31,20211.37,5,5,5,555,15,Champions
+MS-17530,MaryBeth Skach,Consumer,Australia,16,24,13217.81,4,4,4,444,12,Champions
+MS-17710,Maurice Satty,Consumer,United Kingdom,30,25,8419.9,3,4,3,343,10,Loyal Customers
+MS-17770,Maxwell Schwartz,Consumer,United Kingdom,35,34,17298.59,3,5,5,355,13,Loyal Customers
+MS-17830,Melanie Seite,Consumer,United Kingdom,24,23,11672.81,4,4,4,444,12,Champions
+MS-17980,Michael Stewart,Corporate,Germany,27,26,16081.08,4,5,5,455,14,Champions
+MS-7365,Maribeth Schnelling,Consumer,Democratic Republic of the Congo,112,5,1341.0,2,2,2,222,6,Lost Customers
+MS-7530,MaryBeth Skach,Consumer,Madagascar,479,7,1368.87,1,2,2,122,5,Lost Customers
+MS-7710,Maurice Satty,Consumer,Iraq,64,8,1505.46,2,3,2,232,7,At Risk
+MS-7770,Maxwell Schwartz,Consumer,Uzbekistan,99,5,534.03,2,2,1,221,5,Lost Customers
+MS-7830,Melanie Seite,Consumer,Saudi Arabia,5,8,4279.45,5,3,3,533,11,Loyal Customers
+MS-7980,Michael Stewart,Corporate,Russia,7,4,1360.23,5,1,2,512,8,New Customers
+MT-17815,Meg Tillman,Consumer,France,50,24,13742.64,3,4,4,344,11,Loyal Customers
+MT-18070,Michelle Tran,Home Office,France,128,20,10445.550000000001,2,3,4,234,9,At Risk
+MT-7815,Meg Tillman,Consumer,Iran,177,6,1500.59,1,2,2,122,5,Lost Customers
+MT-8070,Michelle Tran,Home Office,Egypt,500,5,6770.42,1,2,3,123,6,Hibernating
+MV-17485,Mark Van Huff,Consumer,France,17,25,10320.63,4,4,4,444,12,Champions
+MV-18190,Mike Vittorini,Consumer,United States,20,28,15535.11,4,5,5,455,14,Champions
+MV-7485,Mark Van Huff,Consumer,Zambia,471,5,952.54,1,2,1,121,4,Lost Customers
+MV-8190,Mike Vittorini,Consumer,South Africa,8,7,3956.25,5,2,3,523,10,New Customers
+MW-18220,Mitch Webber,Consumer,Australia,18,27,20569.34,4,5,5,455,14,Champions
+MW-18235,Mitch Willingham,Corporate,United States,17,24,17892.86,4,4,5,445,13,Champions
+MW-8220,Mitch Webber,Consumer,Saudi Arabia,45,8,2472.2,3,3,2,332,8,Potential Loyalists
+MW-8235,Mitch Willingham,Corporate,Ukraine,1,5,1058.91,5,2,1,521,8,New Customers
+MY-17380,Maribeth Yedwab,Corporate,Norway,37,25,14591.43,3,4,5,345,12,Loyal Customers
+MY-18295,Muhammed Yedwab,Corporate,Nicaragua,1,25,25303.88,5,4,5,545,14,Champions
+MY-7380,Maribeth Yedwab,Corporate,Saudi Arabia,323,4,1745.58,1,1,2,112,4,Lost Customers
+MY-8295,Muhammed Yedwab,Corporate,Egypt,44,9,3975.97,3,3,3,333,9,Loyal Customers
+MZ-17335,Maria Zettner,Home Office,France,22,26,14443.49,4,5,5,455,14,Champions
+MZ-17515,Mary Zewe,Corporate,Sweden,24,21,13243.789999999999,4,4,4,444,12,Champions
+MZ-7335,Maria Zettner,Home Office,Belarus,113,4,3456.8900000000003,2,1,3,213,6,Others
+MZ-7515,Mary Zewe,Corporate,Iran,79,9,3169.2999999999997,2,3,3,233,8,At Risk
+NB-18580,Nicole Brennan,Corporate,Cambodia,453,10,4858.58,1,3,3,133,7,At Risk
+NB-18655,Nona Balk,Corporate,Germany,39,18,9517.69,3,3,3,333,9,Loyal Customers
+NB-8580,Nicole Brennan,Corporate,Canada,429,7,1041.7,1,2,1,121,4,Lost Customers
+NB-8655,Nona Balk,Corporate,Turkey,111,4,347.8,2,1,1,211,4,Lost Customers
+NC-18340,Nat Carroll,Consumer,Australia,6,22,13880.75,5,4,4,544,13,Champions
+NC-18415,Nathan Cano,Consumer,United States,40,18,9199.26,3,3,3,333,9,Loyal Customers
+NC-18535,Nick Crebassa,Corporate,Mexico,7,21,10981.94,5,4,4,544,13,Champions
+NC-18625,Noah Childs,Corporate,Australia,21,29,16877.48,4,5,5,455,14,Champions
+NC-8340,Nat Carroll,Consumer,Liberia,36,8,2584.38,3,3,2,332,8,Potential Loyalists
+NC-8415,Nathan Cano,Consumer,Ukraine,107,5,1488.02,2,2,2,222,6,Lost Customers
+NC-8535,Nick Crebassa,Corporate,Democratic Republic of the Congo,139,6,1200.12,2,2,1,221,5,Lost Customers
+NC-8625,Noah Childs,Corporate,Guinea,462,2,442.32,1,1,1,111,3,Lost Customers
+ND-18370,Natalie DeCherney,Consumer,United States,13,21,10802.5,5,4,4,544,13,Champions
+ND-18460,Neil Ducich,Corporate,Nicaragua,6,22,12049.08,5,4,4,544,13,Champions
+ND-8370,Natalie DeCherney,Consumer,Romania,34,5,2762.15,3,2,2,322,7,Potential Loyalists
+ND-8460,Neil Ducich,Corporate,Mali,26,7,2708.67,4,2,2,422,8,New Customers
+NF-18385,Natalie Fritzler,Consumer,Austria,8,32,28033.37,5,5,5,555,15,Champions
+NF-18475,Neil Französisch,Home Office,Germany,7,20,10517.41,5,3,4,534,12,Loyal Customers
+NF-18595,Nicole Fjeld,Home Office,China,77,20,10461.77,2,3,4,234,9,At Risk
+NF-8385,Natalie Fritzler,Consumer,Zambia,2,11,3661.17,5,3,3,533,11,Loyal Customers
+NF-8475,Neil Französisch,Home Office,Guinea-Bissau,44,6,2001.36,3,2,2,322,7,Potential Loyalists
+NF-8595,Nicole Fjeld,Home Office,Algeria,513,4,1717.69,1,1,2,112,4,Lost Customers
+NG-18355,Nat Gilpin,Corporate,Cuba,49,21,9215.93,3,4,3,343,10,Loyal Customers
+NG-18430,Nathan Gelder,Consumer,United Kingdom,28,26,18945.43,4,5,5,455,14,Champions
+NG-8355,Nat Gilpin,Corporate,Liberia,104,6,2740.35,2,2,2,222,6,Lost Customers
+NG-8430,Nathan Gelder,Consumer,Russia,19,7,3728.8900000000003,4,2,3,423,9,New Customers
+NH-18610,Nicole Hansen,Corporate,New Zealand,21,22,19138.93,4,4,5,445,13,Champions
+NH-8610,Nicole Hansen,Corporate,Canada,6,4,2089.69,5,1,2,512,8,New Customers
+NK-18490,Neil Knudson,Home Office,Australia,27,22,11282.33,4,4,4,444,12,Champions
+NK-8490,Neil Knudson,Home Office,Morocco,207,4,2389.02,1,1,2,112,4,Lost Customers
+NL-18310,Nancy Lomonaco,Home Office,New Zealand,26,24,10576.0,4,4,4,444,12,Champions
+NL-8310,Nancy Lomonaco,Home Office,Egypt,576,1,222.20999999999998,1,1,1,111,3,Lost Customers
+NM-18445,Nathan Mautz,Home Office,China,31,31,20209.29,3,5,5,355,13,Loyal Customers
+NM-18520,Neoma Murray,Consumer,Spain,20,24,12248.81,4,4,4,444,12,Champions
+NM-8445,Nathan Mautz,Home Office,Romania,34,8,4021.7400000000002,3,3,3,333,9,Loyal Customers
+NM-8520,Neoma Murray,Consumer,Uzbekistan,159,1,1521.78,1,1,2,112,4,Lost Customers
+NP-18325,Naresj Patel,Consumer,Mexico,2,25,11743.51,5,4,4,544,13,Champions
+NP-18670,Nora Paige,Consumer,United States,59,18,12810.42,2,3,4,234,9,At Risk
+NP-18685,Nora Pelletier,Home Office,United States,63,28,11329.27,2,5,4,254,11,At Risk
+NP-18700,Nora Preis,Consumer,United States,29,26,13977.98,4,5,4,454,13,Champions
+NP-8325,Naresj Patel,Consumer,Iran,16,7,1326.34,4,2,1,421,7,New Customers
+NP-8670,Nora Paige,Consumer,South Africa,227,6,2830.5,1,2,2,122,5,Lost Customers
+NP-8685,Nora Pelletier,Home Office,South Africa,115,4,4978.23,2,1,3,213,6,Others
+NP-8700,Nora Preis,Consumer,Turkey,38,6,1880.62,3,2,2,322,7,Potential Loyalists
+NR-18550,Nick Radford,Consumer,China,3,23,10885.24,5,4,4,544,13,Champions
+NR-8550,Nick Radford,Consumer,Saudi Arabia,15,7,1886.25,4,2,2,422,8,New Customers
+NS-18505,Neola Schneider,Consumer,Colombia,7,25,14767.79,5,4,5,545,14,Champions
+NS-18640,Noel Staavos,Corporate,New Zealand,37,35,14800.35,3,5,5,355,13,Loyal Customers
+NS-8505,Neola Schneider,Consumer,Nigeria,198,4,949.19,1,1,1,111,3,Lost Customers
+NS-8640,Noel Staavos,Corporate,Iran,48,8,1750.6499999999999,3,3,2,332,8,Potential Loyalists
+NW-18400,Natalie Webber,Consumer,Mexico,182,24,15183.98,1,4,5,145,10,At Risk
+NW-8400,Natalie Webber,Consumer,Bosnia and Herzegovina,118,7,7024.46,2,2,3,223,7,Hibernating
+NZ-18565,Nick Zandusky,Home Office,France,86,25,19766.649999999998,2,4,5,245,11,At Risk
+NZ-8565,Nick Zandusky,Home Office,Iraq,100,3,297.02,2,1,1,211,4,Lost Customers
+ON-18715,Odella Nelson,Corporate,France,48,31,17711.32,3,5,5,355,13,Loyal Customers
+ON-8715,Odella Nelson,Corporate,Turkey,460,5,1320.41,1,2,1,121,4,Lost Customers
+OT-18730,Olvera Toch,Consumer,United States,34,32,19434.53,3,5,5,355,13,Loyal Customers
+OT-8730,Olvera Toch,Consumer,Algeria,243,4,263.09000000000003,1,1,1,111,3,Lost Customers
+PA-19060,Pete Armstrong,Home Office,Germany,24,20,6633.6,4,3,3,433,10,Loyal Customers
+PA-9060,Pete Armstrong,Home Office,South Africa,178,6,3650.18,1,2,3,123,6,Hibernating
+PB-18805,Patrick Bzostek,Home Office,Nicaragua,9,18,11983.44,5,3,4,534,12,Loyal Customers
+PB-19105,Peter Bühler,Consumer,Australia,58,15,7772.49,2,3,3,233,8,At Risk
+PB-19150,Philip Brown,Consumer,Argentina,6,26,7640.54,5,5,3,553,13,Loyal Customers
+PB-19210,Phillip Breyer,Corporate,Taiwan,9,27,18960.489999999998,5,5,5,555,15,Champions
+PB-8805,Patrick Bzostek,Home Office,Poland,343,7,2741.42,1,2,2,122,5,Lost Customers
+PB-9105,Peter Bühler,Consumer,Russia,1,3,1785.06,5,1,2,512,8,New Customers
+PB-9150,Philip Brown,Consumer,Belarus,42,10,3438.62,3,3,3,333,9,Loyal Customers
+PB-9210,Phillip Breyer,Corporate,Israel,308,7,5246.81,1,2,3,123,6,Hibernating
+PC-18745,Pamela Coakley,Corporate,Philippines,22,20,10649.16,4,4,4,444,12,Champions
+PC-19000,Pauline Chand,Home Office,Spain,22,18,9452.220000000001,4,3,3,433,10,Loyal Customers
+PC-8745,Pamela Coakley,Corporate,Bulgaria,416,3,1215.8999999999999,1,1,1,111,3,Lost Customers
+PC-9000,Pauline Chand,Home Office,Kenya,573,4,1150.42,1,1,1,111,3,Lost Customers
+PF-19120,Peter Fuller,Consumer,China,85,26,27877.23,2,5,5,255,12,At Risk
+PF-19165,Philip Fox,Consumer,United States,92,34,15942.51,2,5,5,255,12,At Risk
+PF-19225,Phillip Flathmann,Consumer,United States,3,28,11754.8,5,5,4,554,14,Champions
+PF-9120,Peter Fuller,Consumer,Austria,84,8,1825.26,2,3,2,232,7,At Risk
+PF-9165,Philip Fox,Consumer,Benin,35,6,1984.71,3,2,2,322,7,Potential Loyalists
+PF-9225,Phillip Flathmann,Consumer,Poland,15,5,1442.27,4,2,2,422,8,New Customers
+PG-18820,Patrick Gardner,Consumer,China,21,31,14467.59,4,5,5,455,14,Champions
+PG-18895,Paul Gonzalez,Consumer,Mexico,3,26,13826.65,5,5,4,554,14,Champions
+PG-8820,Patrick Gardner,Consumer,Zambia,31,6,1810.32,3,2,2,322,7,Potential Loyalists
+PG-8895,Paul Gonzalez,Consumer,Russia,300,6,1933.78,1,2,2,122,5,Lost Customers
+PH-18790,Patricia Hirasaki,Home Office,New Zealand,58,19,9417.77,2,3,3,233,8,At Risk
+PH-8790,Patricia Hirasaki,Home Office,Russia,115,6,1718.49,2,2,2,222,6,Lost Customers
+PJ-18835,Patrick Jones,Corporate,Italy,40,18,13618.51,3,3,4,334,10,Loyal Customers
+PJ-19015,Pauline Johnson,Consumer,United States,20,19,9147.37,4,3,3,433,10,Loyal Customers
+PJ-8835,Patrick Jones,Corporate,Nigeria,43,6,785.86,3,2,1,321,6,Others
+PJ-9015,Pauline Johnson,Consumer,Ukraine,197,7,6592.25,1,2,3,123,6,Hibernating
+PK-18910,Paul Knutson,Home Office,Mexico,99,15,7227.96,2,3,3,233,8,At Risk
+PK-19075,Pete Kriz,Consumer,United States,9,29,17529.63,5,5,5,555,15,Champions
+PK-8910,Paul Knutson,Home Office,Kazakhstan,122,4,933.02,2,1,1,211,4,Lost Customers
+PK-9075,Pete Kriz,Consumer,Turkey,495,3,961.62,1,1,1,111,3,Lost Customers
+PL-18925,Paul Lucas,Home Office,Myanmar (Burma),16,19,14172.77,4,3,5,435,12,Loyal Customers
+PL-8925,Paul Lucas,Home Office,Iran,50,3,730.11,3,1,1,311,5,Others
+PM-18940,Paul MacIntyre,Consumer,France,30,22,12853.13,3,4,4,344,11,Loyal Customers
+PM-19135,Peter McVee,Home Office,Australia,13,20,9831.95,5,4,4,544,13,Champions
+PM-8940,Paul MacIntyre,Consumer,Morocco,56,7,1347.26,2,2,2,222,6,Lost Customers
+PM-9135,Peter McVee,Home Office,Iran,302,6,1416.24,1,2,2,122,5,Lost Customers
+PN-18775,Parhena Norris,Home Office,China,16,31,11267.380000000001,4,5,4,454,13,Champions
+PN-8775,Parhena Norris,Home Office,Cote d'Ivoire,54,5,1494.33,3,2,2,322,7,Potential Loyalists
+PO-18850,Patrick O'Brill,Consumer,United States,5,40,25114.579999999998,5,5,5,555,15,Champions
+PO-18865,Patrick O'Donnell,Consumer,United Kingdom,1,32,21000.7,5,5,5,555,15,Champions
+PO-19180,Philisse Overcash,Home Office,United States,161,22,16621.61,1,4,5,145,10,At Risk
+PO-19195,Phillina Ober,Home Office,Spain,87,20,10744.2,2,4,4,244,10,At Risk
+PO-8850,Patrick O'Brill,Consumer,South Africa,128,4,1432.99,2,1,2,212,5,Lost Customers
+PO-8865,Patrick O'Donnell,Consumer,Algeria,353,6,2938.75,1,2,2,122,5,Lost Customers
+PO-9180,Philisse Overcash,Home Office,Nigeria,30,8,1191.67,3,3,1,331,7,Need Attention
+PO-9195,Phillina Ober,Home Office,Morocco,34,8,8217.08,3,3,3,333,9,Loyal Customers
+PP-18955,Paul Prost,Home Office,United States,55,27,21780.99,3,5,5,355,13,Loyal Customers
+PP-8955,Paul Prost,Home Office,Russia,15,3,275.64,4,1,1,411,6,New Customers
+PR-18880,Patrick Ryan,Consumer,Mexico,26,27,13084.2,4,5,4,454,13,Champions
+PR-8880,Patrick Ryan,Consumer,Nigeria,197,5,1082.69,1,2,1,121,4,Lost Customers
+PS-18760,Pamela Stobb,Consumer,Indonesia,30,28,15851.27,3,5,5,355,13,Loyal Customers
+PS-18970,Paul Stevenson,Home Office,Colombia,28,32,18139.170000000002,4,5,5,455,14,Champions
+PS-19045,Penelope Sewall,Home Office,United States,21,24,28986.87,4,4,5,445,13,Champions
+PS-8760,Pamela Stobb,Consumer,Democratic Republic of the Congo,348,5,1690.54,1,2,2,122,5,Lost Customers
+PS-8970,Paul Stevenson,Home Office,Romania,125,3,1376.95,2,1,2,212,5,Lost Customers
+PS-9045,Penelope Sewall,Home Office,Czech Republic,62,6,782.92,2,2,1,221,5,Lost Customers
+PT-19090,Pete Takahito,Consumer,Germany,7,22,8325.69,5,4,3,543,12,Loyal Customers
+PT-9090,Pete Takahito,Consumer,Turkey,3,5,4658.73,5,2,3,523,10,New Customers
+PV-18985,Paul Van Hugh,Home Office,Brazil,9,28,12467.67,5,5,4,554,14,Champions
+PV-8985,Paul Van Hugh,Home Office,Cameroon,145,6,6375.07,1,2,3,123,6,Hibernating
+PW-19030,Pauline Webber,Corporate,United Kingdom,8,30,12792.57,5,5,4,554,14,Champions
+PW-19240,Pierre Wener,Consumer,United States,2,19,7128.4,5,3,3,533,11,Loyal Customers
+PW-9030,Pauline Webber,Corporate,Kyrgyzstan,58,7,1071.5,2,2,1,221,5,Lost Customers
+PW-9240,Pierre Wener,Consumer,Egypt,62,5,1172.6399999999999,2,2,1,221,5,Lost Customers
+QJ-19255,Quincy Jones,Corporate,China,26,20,18045.36,4,4,5,445,13,Champions
+QJ-9255,Quincy Jones,Corporate,Turkey,294,3,350.47999999999996,1,1,1,111,3,Lost Customers
+RA-19285,Ralph Arnett,Consumer,Spain,6,21,16698.3,5,4,5,545,14,Champions
+RA-19885,Ruben Ausman,Corporate,China,44,21,15163.789999999999,3,4,5,345,12,Loyal Customers
+RA-19915,Russell Applegate,Consumer,United States,13,25,20514.25,5,4,5,545,14,Champions
+RA-19945,Ryan Akin,Consumer,France,2,23,11650.09,5,4,4,544,13,Champions
+RA-9285,Ralph Arnett,Consumer,Turkey,255,13,6114.65,1,3,3,133,7,At Risk
+RA-9885,Ruben Ausman,Corporate,Ukraine,126,7,492.58,2,2,1,221,5,Lost Customers
+RA-9915,Russell Applegate,Consumer,Iran,140,2,363.42,2,1,1,211,4,Lost Customers
+RA-9945,Ryan Akin,Consumer,Nigeria,21,9,2028.84,4,3,2,432,9,Potential Loyalists
+RB-19330,Randy Bradley,Consumer,France,16,30,18261.27,4,5,5,455,14,Champions
+RB-19360,Raymond Buch,Consumer,Australia,21,23,29044.829999999998,4,4,5,445,13,Champions
+RB-19435,Richard Bierner,Consumer,Indonesia,20,26,11459.880000000001,4,5,4,454,13,Champions
+RB-19465,Rick Bensley,Home Office,Australia,1,36,17150.37,5,5,5,555,15,Champions
+RB-19570,Rob Beeghly,Consumer,Spain,21,25,10890.16,4,4,4,444,12,Champions
+RB-19645,Robert Barroso,Corporate,Spain,151,21,5936.55,1,4,3,143,8,At Risk
+RB-19705,Roger Barcio,Home Office,United States,17,15,9268.05,4,3,3,433,10,Loyal Customers
+RB-19795,Ross Baird,Home Office,Brazil,33,34,18926.64,3,5,5,355,13,Loyal Customers
+RB-9330,Randy Bradley,Consumer,Morocco,113,8,4538.26,2,3,3,233,8,At Risk
+RB-9360,Raymond Buch,Consumer,Kenya,94,4,404.51,2,1,1,211,4,Lost Customers
+RB-9435,Richard Bierner,Consumer,Lithuania,217,6,3136.96,1,2,2,122,5,Lost Customers
+RB-9465,Rick Bensley,Home Office,Russia,288,3,3675.2400000000002,1,1,3,113,5,Others
+RB-9570,Rob Beeghly,Consumer,Algeria,447,3,534.27,1,1,1,111,3,Lost Customers
+RB-9645,Robert Barroso,Corporate,Algeria,240,3,282.59000000000003,1,1,1,111,3,Lost Customers
+RB-9705,Roger Barcio,Home Office,Egypt,150,11,5997.59,1,3,3,133,7,At Risk
+RB-9795,Ross Baird,Home Office,Moldova,31,3,240.17000000000002,3,1,1,311,5,Others
+RC-19825,Roy Collins,Consumer,United Kingdom,119,24,7883.01,2,4,3,243,9,At Risk
+RC-19960,Ryan Crowe,Consumer,United Kingdom,23,22,7884.89,4,4,3,443,11,Loyal Customers
+RC-9825,Roy Collins,Consumer,Hungary,742,1,37.44,1,1,1,111,3,Lost Customers
+RC-9960,Ryan Crowe,Consumer,Algeria,113,4,1601.33,2,1,2,212,5,Lost Customers
+RD-19480,Rick Duston,Consumer,Australia,1,25,16434.24,5,4,5,545,14,Champions
+RD-19585,Rob Dowd,Consumer,Spain,26,30,16203.33,4,5,5,455,14,Champions
+RD-19660,Robert Dilbeck,Home Office,Mexico,94,21,12947.960000000001,2,4,4,244,10,At Risk
+RD-19720,Roger Demir,Consumer,France,48,26,10800.22,3,5,4,354,12,Loyal Customers
+RD-19810,Ross DeVincentis,Home Office,Nicaragua,15,28,6894.21,4,5,3,453,12,Loyal Customers
+RD-19900,Ruben Dartt,Consumer,China,33,27,13431.28,3,5,4,354,12,Loyal Customers
+RD-19930,Russell D'Ascenzo,Consumer,New Zealand,43,21,9224.369999999999,3,4,3,343,10,Loyal Customers
+RD-9480,Rick Duston,Consumer,Morocco,48,6,1050.99,3,2,1,321,6,Others
+RD-9585,Rob Dowd,Consumer,Sudan,36,7,5116.44,3,2,3,323,8,Potential Loyalists
+RD-9660,Robert Dilbeck,Home Office,Egypt,28,9,3374.2400000000002,4,3,3,433,10,Loyal Customers
+RD-9720,Roger Demir,Consumer,Egypt,59,6,3816.75,2,2,3,223,7,Hibernating
+RD-9810,Ross DeVincentis,Home Office,Mauritania,54,7,3131.89,3,2,2,322,7,Potential Loyalists
+RD-9900,Ruben Dartt,Consumer,Ukraine,93,9,4738.07,2,3,3,233,8,At Risk
+RD-9930,Russell D'Ascenzo,Consumer,Iran,29,10,6454.99,4,3,3,433,10,Loyal Customers
+RE-19405,Ricardo Emerson,Consumer,El Salvador,29,20,12023.38,4,4,4,444,12,Champions
+RE-19450,Richard Eichhorn,Consumer,Dominican Republic,24,17,10558.22,4,3,4,434,11,Loyal Customers
+RE-9405,Ricardo Emerson,Consumer,Iran,72,5,1942.71,2,2,2,222,6,Lost Customers
+RE-9450,Richard Eichhorn,Consumer,Saudi Arabia,16,10,5612.47,4,3,3,433,10,Loyal Customers
+RF-19345,Randy Ferguson,Corporate,Spain,65,25,13345.46,2,4,4,244,10,At Risk
+RF-19735,Roland Fjeld,Consumer,Australia,2,23,11964.44,5,4,4,544,13,Champions
+RF-19840,Roy Französisch,Consumer,India,7,27,14944.39,5,5,5,555,15,Champions
+RF-9345,Randy Ferguson,Corporate,Saudi Arabia,491,3,3180.69,1,1,3,113,5,Others
+RF-9735,Roland Fjeld,Consumer,Iran,119,2,944.43,2,1,1,211,4,Lost Customers
+RF-9840,Roy Französisch,Consumer,Uzbekistan,392,4,539.09,1,1,1,111,3,Lost Customers
+RH-19495,Rick Hansen,Consumer,United States,25,27,13228.51,4,5,4,454,13,Champions
+RH-19510,Rick Huthwaite,Home Office,United States,21,23,11450.82,4,4,4,444,12,Champions
+RH-19555,Ritsa Hightower,Consumer,Philippines,8,20,8853.76,5,4,3,543,12,Loyal Customers
+RH-19600,Rob Haberlin,Consumer,United States,7,20,4559.81,5,4,3,543,12,Loyal Customers
+RH-9495,Rick Hansen,Consumer,Senegal,97,3,3039.69,2,1,2,212,5,Lost Customers
+RH-9510,Rick Huthwaite,Home Office,Jordan,701,6,1790.96,1,2,2,122,5,Lost Customers
+RH-9555,Ritsa Hightower,Consumer,Tanzania,27,8,8734.27,4,3,3,433,10,Loyal Customers
+RH-9600,Rob Haberlin,Consumer,Canada,465,6,3305.25,1,2,3,123,6,Hibernating
+RK-19300,Ralph Kennedy,Consumer,Brazil,86,26,13306.78,2,5,4,254,11,At Risk
+RK-9300,Ralph Kennedy,Consumer,Kenya,29,4,487.8,4,1,1,411,6,New Customers
+RL-19615,Rob Lucas,Consumer,Australia,121,23,14794.2,2,4,5,245,11,At Risk
+RL-9615,Rob Lucas,Consumer,Saudi Arabia,268,6,2378.25,1,2,2,122,5,Lost Customers
+RM-19375,Raymond Messe,Consumer,India,19,24,15939.87,4,4,5,445,13,Champions
+RM-19675,Robert Marley,Home Office,United States,5,19,11084.289999999999,5,3,4,534,12,Loyal Customers
+RM-19750,Roland Murray,Consumer,Brazil,17,18,6415.09,4,3,3,433,10,Loyal Customers
+RM-9375,Raymond Messe,Consumer,Bulgaria,10,7,2213.23,5,2,2,522,9,New Customers
+RM-9675,Robert Marley,Home Office,Turkey,37,8,1715.1000000000001,3,3,2,332,8,Potential Loyalists
+RM-9750,Roland Murray,Consumer,Poland,41,5,873.27,3,2,1,321,6,Others
+RO-19780,Rose O'Brian,Consumer,China,36,28,18747.32,3,5,5,355,13,Loyal Customers
+RO-9780,Rose O'Brian,Consumer,Algeria,189,7,3019.2799999999997,1,2,2,122,5,Lost Customers
+RP-19270,Rachel Payne,Corporate,Australia,48,24,13617.7,3,4,4,344,11,Loyal Customers
+RP-19390,Resi Pölking,Consumer,United States,16,27,15967.16,4,5,5,455,14,Champions
+RP-19855,Roy Phan,Corporate,Thailand,22,25,10986.199999999999,4,4,4,444,12,Champions
+RP-9270,Rachel Payne,Corporate,Kyrgyzstan,287,6,1256.47,1,2,1,121,4,Lost Customers
+RP-9390,Resi Pölking,Consumer,Senegal,271,7,5868.0,1,2,3,123,6,Hibernating
+RP-9855,Roy Phan,Corporate,Morocco,401,6,3538.34,1,2,3,123,6,Hibernating
+RR-19315,Ralph Ritter,Consumer,Australia,20,19,11611.72,4,3,4,434,11,Loyal Customers
+RR-19525,Rick Reed,Corporate,Dominican Republic,1,25,14735.57,5,4,5,545,14,Champions
+RR-9315,Ralph Ritter,Consumer,Poland,233,4,1796.37,1,1,2,112,4,Lost Customers
+RR-9525,Rick Reed,Corporate,Poland,90,6,1343.36,2,2,2,222,6,Lost Customers
+RS-19420,Ricardo Sperren,Corporate,United States,77,27,13899.73,2,5,4,254,11,At Risk
+RS-19765,Roland Schwarz,Corporate,United States,37,23,13558.449999999999,3,4,4,344,11,Loyal Customers
+RS-19870,Roy Skaria,Home Office,France,78,17,6899.26,2,3,3,233,8,At Risk
+RS-9420,Ricardo Sperren,Corporate,Benin,34,5,337.44,3,2,1,321,6,Others
+RS-9765,Roland Schwarz,Corporate,Ghana,124,6,1524.1499999999999,2,2,2,222,6,Lost Customers
+RS-9870,Roy Skaria,Home Office,South Africa,21,5,957.6899999999999,4,2,1,421,7,New Customers
+RW-19540,Rick Wilson,Corporate,Australia,43,25,19360.65,3,4,5,345,12,Loyal Customers
+RW-19630,Rob Williams,Corporate,United States,78,24,9027.6,2,4,3,243,9,At Risk
+RW-19690,Robert Waldorf,Consumer,China,16,24,11123.7,4,4,4,444,12,Champions
+RW-9540,Rick Wilson,Corporate,South Africa,27,7,5684.45,4,2,3,423,9,New Customers
+RW-9630,Rob Williams,Corporate,Benin,400,2,560.01,1,1,1,111,3,Lost Customers
+RW-9690,Robert Waldorf,Consumer,Iran,99,7,1368.41,2,2,2,222,6,Lost Customers
+SA-10830,Sue Ann Reed,Consumer,Turkey,209,8,829.02,1,3,1,131,5,At Risk
+SA-20830,Sue Ann Reed,Consumer,United States,64,29,15509.449999999999,2,5,5,255,12,At Risk
+SB-10170,Sarah Bern,Consumer,Algeria,27,5,1611.36,4,2,2,422,8,New Customers
+SB-10185,Sarah Brown,Consumer,Morocco,79,7,1254.18,2,2,1,221,5,Lost Customers
+SB-10290,Sean Braxton,Corporate,Saudi Arabia,192,5,1953.9199999999998,1,2,2,122,5,Lost Customers
+SB-20170,Sarah Bern,Consumer,China,3,15,12895.49,5,3,4,534,12,Loyal Customers
+SB-20185,Sarah Brown,Consumer,United States,75,30,20948.37,2,5,5,255,12,At Risk
+SB-20290,Sean Braxton,Corporate,Italy,42,22,18434.8,3,4,5,345,12,Loyal Customers
+SC-10020,Sam Craven,Consumer,Romania,265,4,465.75,1,1,1,111,3,Lost Customers
+SC-10050,Sample Company A,Home Office,Libya,43,6,2237.84,3,2,2,322,7,Potential Loyalists
+SC-10095,Sanjit Chand,Consumer,Egypt,226,7,869.98,1,2,1,121,4,Lost Customers
+SC-10230,Scot Coram,Corporate,Albania,922,2,1786.6799999999998,1,1,2,112,4,Lost Customers
+SC-10260,Scott Cohen,Corporate,Iran,142,7,3107.39,2,2,2,222,6,Lost Customers
+SC-10305,Sean Christensen,Consumer,Democratic Republic of the Congo,17,6,3147.63,4,2,3,423,9,New Customers
+SC-10380,Shahid Collister,Consumer,Madagascar,276,4,1544.91,1,1,2,112,4,Lost Customers
+SC-10440,Shaun Chance,Corporate,Egypt,93,3,1838.58,2,1,2,212,5,Lost Customers
+SC-10575,Sonia Cooley,Consumer,Iraq,870,1,311.04,1,1,1,111,3,Lost Customers
+SC-10680,Steve Carroll,Home Office,Turkey,190,4,6294.36,1,1,3,113,5,Others
+SC-10695,Steve Chapman,Corporate,South Africa,175,4,1464.7,1,1,2,112,4,Lost Customers
+SC-10725,Steven Cartwright,Consumer,Central African Republic,92,7,2944.49,2,2,2,222,6,Lost Customers
+SC-10770,Stewart Carmichael,Corporate,Iraq,185,7,2030.11,1,2,2,122,5,Lost Customers
+SC-10800,Stuart Calhoun,Consumer,Nigeria,360,1,56.81,1,1,1,111,3,Lost Customers
+SC-10845,Sung Chung,Consumer,Mauritania,54,4,1368.1200000000001,3,1,2,312,6,Potential Loyalists
+SC-20020,Sam Craven,Consumer,France,9,32,10419.1,5,5,4,554,14,Champions
+SC-20050,Sample Company A,Home Office,Australia,100,28,16676.29,2,5,5,255,12,At Risk
+SC-20095,Sanjit Chand,Consumer,United States,76,26,25481.71,2,5,5,255,12,At Risk
+SC-20230,Scot Coram,Corporate,United States,17,23,20208.44,4,4,5,445,13,Champions
+SC-20260,Scott Cohen,Corporate,United States,1,24,9304.56,5,4,3,543,12,Loyal Customers
+SC-20305,Sean Christensen,Consumer,Spain,30,25,17573.56,3,4,5,345,12,Loyal Customers
+SC-20380,Shahid Collister,Consumer,Philippines,31,34,15990.91,3,5,5,355,13,Loyal Customers
+SC-20440,Shaun Chance,Corporate,Mexico,10,23,7604.12,5,4,3,543,12,Loyal Customers
+SC-20575,Sonia Cooley,Consumer,Mexico,28,29,9604.73,4,5,3,453,12,Loyal Customers
+SC-20680,Steve Carroll,Home Office,China,22,30,13407.79,4,5,4,454,13,Champions
+SC-20695,Steve Chapman,Corporate,Philippines,10,35,21928.02,5,5,5,555,15,Champions
+SC-20725,Steven Cartwright,Consumer,Brazil,13,28,13882.04,5,5,4,554,14,Champions
+SC-20770,Stewart Carmichael,Corporate,United States,41,32,14365.31,3,5,5,355,13,Loyal Customers
+SC-20800,Stuart Calhoun,Consumer,India,31,21,11142.79,3,4,4,344,11,Loyal Customers
+SC-20845,Sung Chung,Consumer,Austria,9,23,9785.550000000001,5,4,4,544,13,Champions
+SD-10485,Shirley Daniels,Home Office,Morocco,41,7,1138.21,3,2,1,321,6,Others
+SD-20485,Shirley Daniels,Home Office,Cuba,16,31,16691.25,4,5,5,455,14,Champions
+SE-10110,Sanjit Engle,Consumer,Democratic Republic of the Congo,178,2,591.51,1,1,1,111,3,Lost Customers
+SE-20110,Sanjit Engle,Consumer,Germany,10,32,29396.58,5,5,5,555,15,Champions
+SF-10065,Sandra Flanagan,Consumer,Ukraine,230,6,3854.7599999999998,1,2,3,123,6,Hibernating
+SF-10200,Sarah Foster,Consumer,Turkey,142,8,2608.48,2,3,2,232,7,At Risk
+SF-10965,Sylvia Foulston,Corporate,Iran,181,5,2424.84,1,2,2,122,5,Lost Customers
+SF-20065,Sandra Flanagan,Consumer,China,59,20,7295.26,2,4,3,243,9,At Risk
+SF-20200,Sarah Foster,Consumer,United States,6,24,12863.68,5,4,4,544,13,Champions
+SF-20965,Sylvia Foulston,Corporate,Australia,49,12,6675.3,3,3,3,333,9,Loyal Customers
+SG-10080,Sandra Glassco,Consumer,Tanzania,370,6,1043.69,1,2,1,121,4,Lost Customers
+SG-10470,Sheri Gordon,Consumer,Georgia,129,3,3077.85,2,1,2,212,5,Lost Customers
+SG-10605,Speros Goranitis,Consumer,Romania,234,5,2783.91,1,2,2,122,5,Lost Customers
+SG-10890,Susan Gilcrest,Corporate,Azerbaijan,666,4,1369.32,1,1,2,112,4,Lost Customers
+SG-20080,Sandra Glassco,Consumer,United States,9,15,10625.18,5,3,4,534,12,Loyal Customers
+SG-20470,Sheri Gordon,Consumer,India,91,27,10653.01,2,5,4,254,11,At Risk
+SG-20605,Speros Goranitis,Consumer,United States,76,28,9992.880000000001,2,5,4,254,11,At Risk
+SG-20890,Susan Gilcrest,Corporate,Guatemala,17,21,11224.449999999999,4,4,4,444,12,Champions
+SH-10395,Shahid Hopkins,Consumer,Canada,192,2,108.93,1,1,1,111,3,Lost Customers
+SH-10635,Stefanie Holloman,Corporate,Moldova,159,4,644.9399999999999,1,1,1,111,3,Lost Customers
+SH-19975,Sally Hughsby,Corporate,Australia,26,26,10805.91,4,5,4,454,13,Champions
+SH-20395,Shahid Hopkins,Consumer,El Salvador,24,29,12767.93,4,5,4,454,13,Champions
+SH-20635,Stefanie Holloman,Corporate,Germany,31,25,13440.45,3,4,4,344,11,Loyal Customers
+SH-9975,Sally Hughsby,Corporate,Hungary,65,8,8003.58,2,3,3,233,8,At Risk
+SJ-10125,Sanjit Jacobs,Home Office,Egypt,393,8,2869.77,1,3,2,132,6,At Risk
+SJ-10215,Sarah Jordon,Consumer,Georgia,57,6,1254.12,2,2,1,221,5,Lost Customers
+SJ-10500,Shirley Jackson,Consumer,Georgia,275,3,454.07000000000005,1,1,1,111,3,Lost Customers
+SJ-20125,Sanjit Jacobs,Home Office,France,33,26,10294.85,3,5,4,354,12,Loyal Customers
+SJ-20215,Sarah Jordon,Consumer,Mexico,29,30,14180.4,4,5,5,455,14,Champions
+SJ-20500,Shirley Jackson,Consumer,France,176,24,12841.34,1,4,4,144,9,At Risk
+SK-19990,Sally Knutson,Consumer,France,9,18,10908.74,5,3,4,534,12,Loyal Customers
+SK-9990,Sally Knutson,Consumer,Austria,31,6,2320.05,3,2,2,322,7,Potential Loyalists
+SL-10155,Sara Luxemburg,Home Office,Cote d'Ivoire,167,12,2375.0699999999997,1,3,2,132,6,At Risk
+SL-20155,Sara Luxemburg,Home Office,Mexico,30,29,14334.86,3,5,5,355,13,Loyal Customers
+SM-10005,Sally Matthias,Consumer,Somalia,105,8,6169.38,2,3,3,233,8,At Risk
+SM-10320,Sean Miller,Home Office,Chad,157,5,3967.54,1,2,3,123,6,Hibernating
+SM-10905,Susan MacKendrick,Consumer,Sierra Leone,133,5,1699.0900000000001,2,2,2,222,6,Lost Customers
+SM-10950,Suzanne McNair,Corporate,Iran,105,5,1260.54,2,2,1,221,5,Lost Customers
+SM-20005,Sally Matthias,Consumer,Brazil,148,21,6755.58,1,4,3,143,8,At Risk
+SM-20320,Sean Miller,Home Office,Dominican Republic,22,18,31038.77,4,3,5,435,12,Loyal Customers
+SM-20905,Susan MacKendrick,Consumer,Australia,38,17,6906.9,3,3,3,333,9,Loyal Customers
+SM-20950,Suzanne McNair,Corporate,United States,26,29,11492.87,4,5,4,454,13,Champions
+SN-10560,Skye Norling,Home Office,Canada,331,5,1387.4,1,2,2,122,5,Lost Customers
+SN-10710,Steve Nguyen,Home Office,Austria,253,4,702.24,1,1,1,111,3,Lost Customers
+SN-20560,Skye Norling,Home Office,Pakistan,72,24,12669.05,2,4,4,244,10,At Risk
+SN-20710,Steve Nguyen,Home Office,Australia,45,24,12647.75,3,4,4,344,11,Loyal Customers
+SO-10335,Sean O'Donnell,Consumer,Iraq,401,4,831.5,1,1,1,111,3,Lost Customers
+SO-20335,Sean O'Donnell,Consumer,China,30,26,15494.5,3,5,5,355,13,Loyal Customers
+SP-10545,Sibella Parks,Corporate,Kenya,505,3,394.59,1,1,1,111,3,Lost Customers
+SP-10620,Stefania Perrino,Corporate,Kazakhstan,304,4,282.75,1,1,1,111,3,Lost Customers
+SP-10650,Stephanie Phelps,Corporate,Iran,170,5,710.02,1,2,1,121,4,Lost Customers
+SP-10860,Sung Pak,Corporate,Morocco,399,2,498.35,1,1,1,111,3,Lost Customers
+SP-10920,Susan Pistek,Consumer,Russia,108,3,825.4399999999999,2,1,1,211,4,Lost Customers
+SP-20545,Sibella Parks,Corporate,Australia,17,18,6743.02,4,3,3,433,10,Loyal Customers
+SP-20620,Stefania Perrino,Corporate,Bangladesh,6,30,19015.82,5,5,5,555,15,Champions
+SP-20650,Stephanie Phelps,Corporate,Indonesia,21,23,10365.62,4,4,4,444,12,Champions
+SP-20860,Sung Pak,Corporate,France,55,22,12717.23,3,4,4,344,11,Loyal Customers
+SP-20920,Susan Pistek,Consumer,Thailand,7,24,27865.7,5,4,5,545,14,Champions
+SR-10425,Sharelle Roach,Home Office,Egypt,45,5,281.2,3,2,1,321,6,Others
+SR-10740,Steven Roelle,Home Office,Iran,22,4,2126.97,4,1,2,412,7,New Customers
+SR-20425,Sharelle Roach,Home Office,Germany,9,19,12679.52,5,3,4,534,12,Loyal Customers
+SR-20740,Steven Roelle,Home Office,United States,24,31,17177.27,4,5,5,455,14,Champions
+SS-10140,Saphhira Shifley,Corporate,Iraq,30,7,3428.7599999999998,3,2,3,323,8,Potential Loyalists
+SS-10410,Shahid Shariari,Consumer,Canada,27,9,2325.39,4,3,2,432,9,Potential Loyalists
+SS-10515,Shirley Schmidt,Home Office,Sudan,778,2,419.73,1,1,1,111,3,Lost Customers
+SS-10590,Sonia Sunley,Consumer,Ghana,29,3,940.38,4,1,1,411,6,New Customers
+SS-10875,Sung Shariari,Consumer,Nigeria,251,4,551.51,1,1,1,111,3,Lost Customers
+SS-20140,Saphhira Shifley,Corporate,Portugal,72,29,20072.03,2,5,5,255,12,At Risk
+SS-20410,Shahid Shariari,Consumer,France,34,26,15692.210000000001,3,5,5,355,13,Loyal Customers
+SS-20515,Shirley Schmidt,Home Office,Indonesia,1,19,7465.67,5,3,3,533,11,Loyal Customers
+SS-20590,Sonia Sunley,Consumer,Cuba,6,23,12057.24,5,4,4,544,13,Champions
+SS-20875,Sung Shariari,Consumer,Indonesia,15,18,4700.47,4,3,3,433,10,Loyal Customers
+ST-10530,Shui Tom,Consumer,Egypt,127,5,933.21,2,2,1,221,5,Lost Customers
+ST-20530,Shui Tom,Consumer,Nicaragua,7,30,13945.05,5,5,4,554,14,Champions
+SU-10665,Stephanie Ulpright,Home Office,Kenya,49,6,3279.76,3,2,3,323,8,Potential Loyalists
+SU-20665,Stephanie Ulpright,Home Office,United States,5,21,7321.47,5,4,3,543,12,Loyal Customers
+SV-10365,Seth Vernon,Consumer,Saudi Arabia,184,5,1238.52,1,2,1,121,4,Lost Customers
+SV-10785,Stewart Visinsky,Consumer,Cote d'Ivoire,22,5,2954.44,4,2,2,422,8,New Customers
+SV-10815,Stuart Van,Corporate,Canada,9,9,7698.87,5,3,3,533,11,Loyal Customers
+SV-10935,Susan Vittorini,Consumer,Indonesia,12,3,463.09,5,1,1,511,7,New Customers
+SV-20365,Seth Vernon,Consumer,United States,88,30,22290.75,2,5,5,255,12,At Risk
+SV-20785,Stewart Visinsky,Consumer,Indonesia,23,27,14211.65,4,5,5,455,14,Champions
+SV-20815,Stuart Van,Corporate,India,35,23,14511.82,3,4,5,345,12,Loyal Customers
+SV-20935,Susan Vittorini,Consumer,China,1,27,15095.19,5,5,5,555,15,Champions
+SW-10245,Scot Wooten,Consumer,South Africa,23,3,1890.48,4,1,2,412,7,New Customers
+SW-10275,Scott Williamson,Consumer,Canada,50,5,1478.64,3,2,2,322,7,Potential Loyalists
+SW-10350,Sean Wendt,Home Office,Iraq,101,8,1171.9,2,3,1,231,6,At Risk
+SW-10455,Shaun Weien,Consumer,Tanzania,8,7,2175.0,5,2,2,522,9,New Customers
+SW-10755,Steven Ward,Corporate,Cote d'Ivoire,44,6,2308.94,3,2,2,322,7,Potential Loyalists
+SW-20245,Scot Wooten,Consumer,Indonesia,13,26,13576.68,5,5,4,554,14,Champions
+SW-20275,Scott Williamson,Consumer,India,22,33,15549.01,4,5,5,455,14,Champions
+SW-20350,Sean Wendt,Home Office,Indonesia,13,20,6877.34,5,4,3,543,12,Loyal Customers
+SW-20455,Shaun Weien,Consumer,New Zealand,8,20,5993.77,5,4,3,543,12,Loyal Customers
+SW-20755,Steven Ward,Corporate,France,16,30,23264.34,4,5,5,455,14,Champions
+SZ-10035,Sam Zeldin,Home Office,Iran,957,4,1136.82,1,1,1,111,3,Lost Customers
+SZ-20035,Sam Zeldin,Home Office,China,14,35,15069.67,4,5,5,455,14,Champions
+TA-11385,Tom Ashbrook,Home Office,Zambia,9,5,4787.86,5,2,3,523,10,New Customers
+TA-21385,Tom Ashbrook,Home Office,United States,19,25,35549.66,4,4,5,445,13,Champions
+TB-11055,Ted Butterfield,Consumer,Iraq,857,2,2339.48,1,1,2,112,4,Lost Customers
+TB-11175,Thomas Boland,Corporate,Tanzania,217,3,830.21,1,1,1,111,3,Lost Customers
+TB-11190,Thomas Brumley,Home Office,Iraq,115,4,1103.91,2,1,1,211,4,Lost Customers
+TB-11250,Tim Brockman,Consumer,Rwanda,2,12,7113.37,5,3,3,533,11,Loyal Customers
+TB-11280,Toby Braunhardt,Consumer,Mali,157,8,1538.1399999999999,1,3,2,132,6,At Risk
+TB-11355,Todd Boyes,Corporate,Nigeria,15,6,421.63,4,2,1,421,7,New Customers
+TB-11400,Tom Boeckenhauer,Consumer,Guinea,112,8,3061.8199999999997,2,3,2,232,7,At Risk
+TB-11520,Tracy Blumstein,Consumer,Namibia,81,8,3925.44,2,3,3,233,8,At Risk
+TB-11595,Troy Blackwell,Consumer,Russia,163,4,717.15,1,1,1,111,3,Lost Customers
+TB-11625,Trudy Brown,Consumer,Turkey,399,3,1766.84,1,1,2,112,4,Lost Customers
+TB-21055,Ted Butterfield,Consumer,France,36,28,13601.19,3,5,4,354,12,Loyal Customers
+TB-21175,Thomas Boland,Corporate,United States,40,26,16476.29,3,5,5,355,13,Loyal Customers
+TB-21190,Thomas Brumley,Home Office,India,50,15,10644.35,3,3,4,334,10,Loyal Customers
+TB-21250,Tim Brockman,Consumer,Cuba,3,28,11713.8,5,5,4,554,14,Champions
+TB-21280,Toby Braunhardt,Consumer,United States,58,25,10023.61,2,4,4,244,10,At Risk
+TB-21355,Todd Boyes,Corporate,Brazil,55,20,8789.49,3,4,3,343,10,Loyal Customers
+TB-21400,Tom Boeckenhauer,Consumer,United States,26,25,21282.97,4,4,5,445,13,Champions
+TB-21520,Tracy Blumstein,Consumer,United States,31,32,16632.65,3,5,5,355,13,Loyal Customers
+TB-21595,Troy Blackwell,Consumer,Spain,29,24,8393.04,4,4,3,443,11,Loyal Customers
+TB-21625,Trudy Brown,Consumer,United States,31,29,13237.9,3,5,4,354,12,Loyal Customers
+TC-10980,Tamara Chand,Corporate,Azerbaijan,337,7,3180.58,1,2,3,123,6,Hibernating
+TC-11145,Theresa Coyne,Corporate,Russia,13,8,3758.32,5,3,3,533,11,Loyal Customers
+TC-11295,Toby Carlisle,Consumer,Canada,13,3,709.77,5,1,1,511,7,New Customers
+TC-11475,Tony Chapman,Home Office,Canada,493,7,1845.46,1,2,2,122,5,Lost Customers
+TC-11535,Tracy Collins,Home Office,Democratic Republic of the Congo,371,4,2202.13,1,1,2,112,4,Lost Customers
+TC-20980,Tamara Chand,Corporate,United States,28,26,34196.95,4,5,5,455,14,Champions
+TC-21145,Theresa Coyne,Corporate,Mexico,12,25,18419.97,5,4,5,545,14,Champions
+TC-21295,Toby Carlisle,Consumer,United States,28,27,19260.47,4,5,5,455,14,Champions
+TC-21475,Tony Chapman,Home Office,United States,2,28,10671.77,5,5,4,554,14,Champions
+TC-21535,Tracy Collins,Home Office,Australia,1,28,8810.33,5,5,3,553,13,Loyal Customers
+TD-10995,Tamara Dahlen,Consumer,Turkey,181,3,772.72,1,1,1,111,3,Lost Customers
+TD-20995,Tamara Dahlen,Consumer,United States,1,23,6795.6,5,4,3,543,12,Loyal Customers
+TG-11310,Toby Gnade,Consumer,Kyrgyzstan,161,3,714.4200000000001,1,1,1,111,3,Lost Customers
+TG-11640,Trudy Glocke,Consumer,Iran,31,8,4863.41,3,3,3,333,9,Loyal Customers
+TG-21310,Toby Gnade,Consumer,United States,15,31,12300.63,4,5,4,454,13,Champions
+TG-21640,Trudy Glocke,Consumer,Belgium,6,33,13914.67,5,5,4,554,14,Champions
+TH-11100,Thea Hendricks,Consumer,Bulgaria,416,3,1679.28,1,1,2,112,4,Lost Customers
+TH-11115,Thea Hudgings,Corporate,South Africa,120,6,1870.17,2,2,2,222,6,Lost Customers
+TH-11235,Tiffany House,Corporate,Iraq,231,10,3886.18,1,3,3,133,7,At Risk
+TH-11550,Tracy Hopkins,Home Office,Democratic Republic of the Congo,390,4,235.83,1,1,1,111,3,Lost Customers
+TH-21100,Thea Hendricks,Consumer,France,7,26,13628.05,5,5,4,554,14,Champions
+TH-21115,Thea Hudgings,Corporate,Malaysia,44,23,13428.16,3,4,4,344,11,Loyal Customers
+TH-21235,Tiffany House,Corporate,Australia,9,25,12870.78,5,4,4,544,13,Champions
+TH-21550,Tracy Hopkins,Home Office,Thailand,6,24,12685.2,5,4,4,544,13,Champions
+TM-11010,Tamara Manning,Consumer,Tajikistan,243,3,296.24,1,1,1,111,3,Lost Customers
+TM-11490,Tony Molinari,Consumer,Saudi Arabia,56,7,1990.6399999999999,2,2,2,222,6,Lost Customers
+TM-21010,Tamara Manning,Consumer,Germany,65,25,14045.92,2,4,4,244,10,At Risk
+TM-21490,Tony Molinari,Consumer,Cuba,41,26,13811.29,3,5,4,354,12,Loyal Customers
+TN-11040,Tanja Norvell,Home Office,Tanzania,55,2,187.35,3,1,1,311,5,Others
+TN-21040,Tanja Norvell,Home Office,United States,23,29,9347.11,4,5,3,453,12,Loyal Customers
+TP-11130,Theone Pippenger,Consumer,Poland,140,6,1253.13,2,2,1,221,5,Lost Customers
+TP-11415,Tom Prescott,Consumer,Canada,642,4,1950.95,1,1,2,112,4,Lost Customers
+TP-11565,Tracy Poddar,Corporate,Romania,381,4,707.55,1,1,1,111,3,Lost Customers
+TP-21130,Theone Pippenger,Consumer,United States,3,33,22557.43,5,5,5,555,15,Champions
+TP-21415,Tom Prescott,Consumer,United States,49,21,10857.59,3,4,4,344,11,Loyal Customers
+TP-21565,Tracy Poddar,Corporate,United Kingdom,15,28,12353.89,4,5,4,454,13,Champions
+TR-11325,Toby Ritter,Consumer,Tanzania,169,4,2395.7200000000003,1,1,2,112,4,Lost Customers
+TR-21325,Toby Ritter,Consumer,Brazil,2,21,9817.84,5,4,4,544,13,Champions
+TS-11085,Thais Sissman,Consumer,Saudi Arabia,220,8,1307.9099999999999,1,3,1,131,5,At Risk
+TS-11160,Theresa Swint,Corporate,Ghana,106,5,1018.92,2,2,1,221,5,Lost Customers
+TS-11205,Thomas Seio,Corporate,Zambia,308,3,641.65,1,1,1,111,3,Lost Customers
+TS-11340,Toby Swindell,Consumer,Guinea-Bissau,41,5,1611.76,3,2,2,322,7,Potential Loyalists
+TS-11370,Todd Sumrall,Corporate,Ukraine,19,9,4571.3,4,3,3,433,10,Loyal Customers
+TS-11430,Tom Stivers,Corporate,Montenegro,150,5,5738.61,1,2,3,123,6,Hibernating
+TS-11505,Tony Sayre,Consumer,Algeria,288,3,2107.1800000000003,1,1,2,112,4,Lost Customers
+TS-11610,Troy Staebel,Consumer,Iran,176,5,1999.95,1,2,2,122,5,Lost Customers
+TS-11655,Trudy Schmidt,Consumer,Senegal,203,6,452.88,1,2,1,121,4,Lost Customers
+TS-21085,Thais Sissman,Consumer,Honduras,42,16,5314.84,3,3,3,333,9,Loyal Customers
+TS-21160,Theresa Swint,Corporate,Philippines,9,20,6660.51,5,4,3,543,12,Loyal Customers
+TS-21205,Thomas Seio,Corporate,Australia,27,30,13796.78,4,5,4,454,13,Champions
+TS-21340,Toby Swindell,Consumer,New Zealand,9,26,16810.54,5,5,5,555,15,Champions
+TS-21370,Todd Sumrall,Corporate,United States,37,27,23137.329999999998,3,5,5,355,13,Loyal Customers
+TS-21430,Tom Stivers,Corporate,France,20,22,9408.16,4,4,3,443,11,Loyal Customers
+TS-21505,Tony Sayre,Consumer,France,12,24,17263.74,5,4,5,545,14,Champions
+TS-21610,Troy Staebel,Consumer,United States,21,29,20351.39,4,5,5,455,14,Champions
+TS-21655,Trudy Schmidt,Consumer,United States,85,22,9448.72,2,4,3,243,9,At Risk
+TT-11070,Ted Trevino,Consumer,Ghana,38,1,1561.9199999999998,3,1,2,312,6,Potential Loyalists
+TT-11220,Thomas Thornton,Consumer,Tanzania,6,7,1802.47,5,2,2,522,9,New Customers
+TT-11265,Tim Taslimi,Corporate,Poland,95,9,5016.91,2,3,3,233,8,At Risk
+TT-11460,Tonja Turnell,Home Office,Albania,43,6,1591.29,3,2,2,322,7,Potential Loyalists
+TT-21070,Ted Trevino,Consumer,India,15,30,15611.98,4,5,5,455,14,Champions
+TT-21220,Thomas Thornton,Consumer,Guatemala,38,22,13163.03,3,4,4,344,11,Loyal Customers
+TT-21265,Tim Taslimi,Corporate,China,2,18,4662.26,5,3,3,533,11,Loyal Customers
+TT-21460,Tonja Turnell,Home Office,United States,35,27,18261.59,3,5,5,355,13,Loyal Customers
+TW-11025,Tamara Willingham,Home Office,Nigeria,20,8,317.52,4,3,1,431,8,Others
+TW-21025,Tamara Willingham,Home Office,France,42,26,13827.89,3,5,4,354,12,Loyal Customers
+TZ-11445,Tom Zandusky,Corporate,Romania,385,6,722.34,1,2,1,121,4,Lost Customers
+TZ-11580,Tracy Zic,Consumer,Turkmenistan,49,5,403.01,3,2,1,321,6,Others
+TZ-21445,Tom Zandusky,Corporate,China,39,25,14147.56,3,4,5,345,12,Loyal Customers
+TZ-21580,Tracy Zic,Consumer,United Kingdom,52,17,10336.43,3,3,4,334,10,Loyal Customers
+VB-11745,Victoria Brennan,Corporate,Republic of the Congo,5,4,765.39,5,1,1,511,7,New Customers
+VB-21745,Victoria Brennan,Corporate,United States,13,20,9925.1,5,4,4,544,13,Champions
+VD-11670,Valerie Dominguez,Consumer,Turkey,1,9,1201.74,5,3,1,531,9,Others
+VD-21670,Valerie Dominguez,Consumer,El Salvador,37,21,14647.42,3,4,5,345,12,Loyal Customers
+VF-11715,Vicky Freymann,Home Office,Democratic Republic of the Congo,95,4,588.55,2,1,1,211,4,Lost Customers
+VF-21715,Vicky Freymann,Home Office,Brazil,14,23,11855.970000000001,4,4,4,444,12,Champions
+VG-11790,Vivek Gonzalez,Consumer,Democratic Republic of the Congo,148,3,348.24,1,1,1,111,3,Lost Customers
+VG-11805,Vivek Grady,Corporate,Saudi Arabia,239,3,1161.1,1,1,1,111,3,Lost Customers
+VG-21790,Vivek Gonzalez,Consumer,Argentina,111,27,9843.41,2,5,4,254,11,At Risk
+VG-21805,Vivek Grady,Corporate,India,3,22,22465.81,5,4,5,545,14,Champions
+VM-11685,Valerie Mitchum,Home Office,Ukraine,14,5,781.73,4,2,1,421,7,New Customers
+VM-11835,Vivian Mathis,Consumer,Egypt,9,3,1250.28,5,1,1,511,7,New Customers
+VM-21685,Valerie Mitchum,Home Office,Netherlands,55,30,13649.15,3,5,4,354,12,Loyal Customers
+VM-21835,Vivian Mathis,Consumer,Germany,112,19,2541.66,2,3,2,232,7,At Risk
+VP-11730,Victor Preis,Home Office,Turkey,29,4,381.88,4,1,1,411,6,New Customers
+VP-11760,Victoria Pisteka,Corporate,Russia,418,2,1576.02,1,1,2,112,4,Lost Customers
+VP-21730,Victor Preis,Home Office,Australia,31,29,11537.369999999999,3,5,4,354,12,Loyal Customers
+VP-21760,Victoria Pisteka,Corporate,Spain,76,26,16556.41,2,5,5,255,12,At Risk
+VS-11820,Vivek Sundaresam,Consumer,Russia,23,6,1107.44,4,2,1,421,7,New Customers
+VS-21820,Vivek Sundaresam,Consumer,China,139,14,10240.92,2,3,4,234,9,At Risk
+VT-11700,Valerie Takahito,Home Office,Bulgaria,31,5,1255.94,3,2,1,321,6,Others
+VT-21700,Valerie Takahito,Home Office,New Zealand,8,25,17980.5,5,4,5,545,14,Champions
+VW-11775,Victoria Wilson,Corporate,Czech Republic,8,5,1247.87,5,2,1,521,8,New Customers
+VW-21775,Victoria Wilson,Corporate,United States,7,26,15653.62,5,5,5,555,15,Champions
+WB-11850,William Brown,Consumer,Turkey,115,2,182.53,2,1,1,211,4,Lost Customers
+WB-21850,William Brown,Consumer,United States,21,36,16635.15,4,5,5,455,14,Champions
+XP-11865,Xylona Preis,Consumer,Ukraine,161,3,1007.8100000000001,1,1,1,111,3,Lost Customers
+XP-21865,Xylona Preis,Consumer,El Salvador,44,25,11078.5,3,4,4,344,11,Loyal Customers
+YC-11895,Yoseph Carroll,Corporate,Canada,100,2,144.81,2,1,1,211,4,Lost Customers
+YC-21895,Yoseph Carroll,Corporate,United Kingdom,5,26,19759.18,5,5,5,555,15,Champions
+YS-11880,Yana Sorensen,Corporate,Saudi Arabia,5,5,1316.7,5,2,1,521,8,New Customers
+YS-21880,Yana Sorensen,Corporate,United States,10,24,18656.26,5,4,5,545,14,Champions
+ZC-21910,Zuschuss Carroll,Consumer,Germany,4,32,28268.600000000002,5,5,5,555,15,Champions
+ZD-11925,Zuschuss Donatelli,Consumer,Iraq,4,9,2942.47,5,3,2,532,10,Potential Loyalists
+ZD-21925,Zuschuss Donatelli,Consumer,Mexico,2,20,9463.36,5,4,3,543,12,Loyal Customers

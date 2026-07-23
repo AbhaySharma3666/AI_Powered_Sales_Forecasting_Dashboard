@@ -1,0 +1,168 @@
+-- ============================================================================
+-- AI-Powered Sales Forecasting Dashboard
+-- STAR SCHEMA ER DIAGRAM (Text-Based)
+-- ============================================================================
+--
+-- Use this reference to understand table relationships when writing queries.
+-- Import into any diagramming tool (dbdiagram.io, MySQL Workbench, etc.)
+--
+-- ============================================================================
+
+-- ┌─────────────────────────────────────────────────────────────────────────┐
+-- │                        STAR SCHEMA DIAGRAM                            │
+-- └─────────────────────────────────────────────────────────────────────────┘
+--
+--   ┌───────────────────────┐
+--   │    dim_customer       │
+--   │───────────────────────│
+--   │ PK  customer_key  INT │ ◄────────┐
+--   │     customer_id   VC  │          │
+--   │     customer_name VC  │          │
+--   │     segment       VC  │          │
+--   │     city          VC  │          │
+--   │     state         VC  │          │
+--   │     country       VC  │          │
+--   │     postal_code   VC  │          │
+--   └───────────────────────┘          │
+--                                      │
+--   ┌───────────────────────┐   ┌──────┴─────────────────────────────┐   ┌────────────────────────┐
+--   │    dim_product        │   │          fact_sales                 │   │     dim_region         │
+--   │───────────────────────│   │─────────────────────────────────────│   │────────────────────────│
+--   │ PK  product_key  INT │ ◄─│ PK  sale_id          INT           │──►│ PK  region_key    INT  │
+--   │     product_id   VC  │   │     order_id         VC            │   │     market         VC  │
+--   │     product_name VC  │   │     order_date       DATE          │   │     region         VC  │
+--   │     category     VC  │   │     ship_date        DATE          │   │     country        VC  │
+--   │     sub_category VC  │   │     ship_mode        VC            │   │     state          VC  │
+--   └───────────────────────┘   │     order_priority   VC            │   │     city           VC  │
+--                               │ FK  customer_key     INT ──────────│   └────────────────────────┘
+--                               │ FK  product_key      INT           │
+--                               │ FK  region_key       INT ──────────│
+--                               │ FK  date_key         INT ──────┐   │
+--                               │─────────── MEASURES ───────────│   │
+--                               │     sales            DEC(12,2) │   │
+--                               │     quantity         INT       │   │
+--                               │     discount         DEC(5,2)  │   │
+--                               │     profit           DEC(12,2) │   │
+--                               │     shipping_cost    DEC(10,2) │   │
+--                               │     profit_margin    DEC(8,2)  │   │
+--                               │     revenue_per_unit DEC(10,2) │   │
+--                               │     shipping_days    INT       │   │
+--                               └────────────────────────────────┘   │
+--                                                                    │
+--                               ┌────────────────────────────────┐   │
+--                               │        dim_date                │   │
+--                               │────────────────────────────────│   │
+--                               │ PK  date_key         INT      │ ◄─┘
+--                               │     full_date        DATE     │
+--                               │     day              INT      │
+--                               │     day_of_week      INT      │
+--                               │     day_name         VC       │
+--                               │     week_of_year     INT      │
+--                               │     month            INT      │
+--                               │     month_name       VC       │
+--                               │     quarter          INT      │
+--                               │     year             INT      │
+--                               │     is_weekend       TINYINT  │
+--                               │     is_month_start   TINYINT  │
+--                               │     is_month_end     TINYINT  │
+--                               │     is_quarter_start TINYINT  │
+--                               │     is_quarter_end   TINYINT  │
+--                               │     is_year_start    TINYINT  │
+--                               │     is_year_end      TINYINT  │
+--                               │     fiscal_year      INT      │
+--                               │     fiscal_quarter   INT      │
+--                               └────────────────────────────────┘
+--
+-- ============================================================================
+-- RELATIONSHIPS
+-- ============================================================================
+--
+-- fact_sales.customer_key  →  dim_customer.customer_key   (Many : 1)  51,290 → 1,590
+-- fact_sales.product_key   →  dim_product.product_key     (Many : 1)  51,290 → 10,292
+-- fact_sales.region_key    →  dim_region.region_key        (Many : 1)  51,290 → 3,819
+-- fact_sales.date_key      →  dim_date.date_key            (Many : 1)  51,290 → 1,468
+--
+-- ============================================================================
+-- ROW COUNTS
+-- ============================================================================
+--
+-- dim_customer:   1,590 rows  |  8 columns
+-- dim_product:   10,292 rows  |  5 columns
+-- dim_region:     3,819 rows  |  6 columns
+-- dim_date:       1,468 rows  | 19 columns
+-- fact_sales:    51,290 rows  | 18 columns
+--
+-- ============================================================================
+-- DBDIAGRAM.IO FORMAT (paste at https://dbdiagram.io)
+-- ============================================================================
+--
+-- Table dim_customer {
+--   customer_key int [pk]
+--   customer_id varchar
+--   customer_name varchar
+--   segment varchar
+--   city varchar
+--   state varchar
+--   country varchar
+--   postal_code varchar
+-- }
+--
+-- Table dim_product {
+--   product_key int [pk]
+--   product_id varchar
+--   product_name varchar
+--   category varchar
+--   sub_category varchar
+-- }
+--
+-- Table dim_region {
+--   region_key int [pk]
+--   market varchar
+--   region varchar
+--   country varchar
+--   state varchar
+--   city varchar
+-- }
+--
+-- Table dim_date {
+--   date_key int [pk]
+--   full_date date
+--   day int
+--   day_of_week int
+--   day_name varchar
+--   week_of_year int
+--   month int
+--   month_name varchar
+--   quarter int
+--   year int
+--   is_weekend tinyint
+--   is_month_start tinyint
+--   is_month_end tinyint
+--   is_quarter_start tinyint
+--   is_quarter_end tinyint
+--   is_year_start tinyint
+--   is_year_end tinyint
+--   fiscal_year int
+--   fiscal_quarter int
+-- }
+--
+-- Table fact_sales {
+--   sale_id int [pk]
+--   order_id varchar
+--   order_date date
+--   ship_date date
+--   ship_mode varchar
+--   order_priority varchar
+--   customer_key int [ref: > dim_customer.customer_key]
+--   product_key int [ref: > dim_product.product_key]
+--   region_key int [ref: > dim_region.region_key]
+--   date_key int [ref: > dim_date.date_key]
+--   sales decimal
+--   quantity int
+--   discount decimal
+--   profit decimal
+--   shipping_cost decimal
+--   profit_margin decimal
+--   revenue_per_unit decimal
+--   shipping_days int
+-- }
