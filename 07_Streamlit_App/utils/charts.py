@@ -19,7 +19,7 @@ def plot_monthly_sales_trend(df):
         labels={'order_date': 'Date', 'sales': 'Sales ($)'},
         color_discrete_sequence=[COLOR_PRIMARY]
     )
-    fig.update_traces(linewidth=2.5)
+    fig.update_traces(line_width=2.5)
     fig.update_layout(
         margin=dict(t=40, b=20, l=10, r=10),
         xaxis_title="Date",
