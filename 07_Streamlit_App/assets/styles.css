@@ -7,7 +7,7 @@ html, body, [class*="css"] {
 
 /* Sidebar styling */
 [data-testid="stSidebar"] {
-    background-color: #0E1E38;
+    /* background-color: #0E1E38; */
     color: #fffdfd;
 }
 
