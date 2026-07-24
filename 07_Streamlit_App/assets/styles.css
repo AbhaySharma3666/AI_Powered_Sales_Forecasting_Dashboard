@@ -5,17 +5,110 @@ html, body, [class*="css"] {
     font-family: 'Inter', sans-serif;
 }
 
-/* Sidebar styling */
+/* Sidebar Styling & High Contrast Typography */
 [data-testid="stSidebar"] {
-    color: #ffffff ;
-    background-color: #0E1E38;
+    color: #FFFFFF !important;
+    background-color: #0E1E38 !important;
 }
 
+/* Sidebar Text & Headings */
 [data-testid="stSidebar"] .stMarkdown p, 
 [data-testid="stSidebar"] .stMarkdown h1, 
 [data-testid="stSidebar"] .stMarkdown h2, 
-[data-testid="stSidebar"] .stMarkdown h3 {
+[data-testid="stSidebar"] .stMarkdown h3,
+[data-testid="stSidebar"] .stMarkdown h4,
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] span,
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] caption {
     color: #FFFFFF !important;
+}
+
+/* Sidebar Navigation Items (Multi-Page Navigation Links) */
+[data-testid="stSidebarNav"] {
+    background-color: transparent !important;
+    padding-top: 10px;
+}
+
+[data-testid="stSidebarNav"] a,
+[data-testid="stSidebarNav"] a span,
+[data-testid="stSidebarNavLink"],
+[data-testid="stSidebarNavLink"] span,
+[data-testid="stSidebarNavItems"] a,
+[data-testid="stSidebarNavItems"] span,
+[data-testid="stSidebarNavItems"] li div {
+    color: #F1F5F9 !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+}
+
+[data-testid="stSidebarNav"] svg,
+[data-testid="stSidebarNavLink"] svg,
+[data-testid="stSidebar"] svg {
+    fill: #FFFFFF !important;
+    color: #FFFFFF !important;
+}
+
+[data-testid="stSidebarNav"] a:hover,
+[data-testid="stSidebarNavLink"]:hover {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    color: #FFFFFF !important;
+    border-radius: 6px;
+}
+
+[data-testid="stSidebarNav"] a[aria-current="page"],
+[data-testid="stSidebarNav"] a[aria-current="page"] span,
+[data-testid="stSidebarNavLink"][aria-current="page"],
+[data-testid="stSidebarNavLink"][aria-current="page"] span {
+    background-color: #0074B7 !important;
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
+    border-radius: 6px;
+}
+
+/* Sidebar Search / Input Filter Box */
+[data-testid="stSidebarNav"] input,
+[data-testid="stSidebar"] input {
+    color: #FFFFFF !important;
+    background-color: #1A2E4C !important;
+    border: 1px solid #2C4366 !important;
+    border-radius: 6px !important;
+}
+
+[data-testid="stSidebarNav"] input::placeholder,
+[data-testid="stSidebar"] input::placeholder {
+    color: #94A3B8 !important;
+}
+
+/* Sidebar Info & Alert Component Styling */
+[data-testid="stSidebar"] .stAlert,
+[data-testid="stSidebar"] [data-testid="stNotification"] {
+    background-color: #132544 !important;
+    color: #E2E8F0 !important;
+    border: 1px solid #0074B7 !important;
+    border-radius: 8px !important;
+}
+
+[data-testid="stSidebar"] .stAlert p,
+[data-testid="stSidebar"] [data-testid="stNotification"] p,
+[data-testid="stSidebar"] .stAlert div {
+    color: #E2E8F0 !important;
+}
+
+/* Sidebar Form Widgets (Selectbox, Slider, Radio) */
+[data-testid="stSidebar"] [data-baseweb="select"] > div {
+    background-color: #1A2E4C !important;
+    color: #FFFFFF !important;
+    border-color: #2C4366 !important;
+}
+
+[data-testid="stSidebar"] [data-baseweb="select"] * {
+    color: #FFFFFF !important;
+}
+
+[data-testid="stSidebar"] hr {
+    border-color: rgba(255, 255, 255, 0.18) !important;
 }
 
 /* Banner Styling */
