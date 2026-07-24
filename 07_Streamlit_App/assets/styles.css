@@ -7,8 +7,8 @@ html, body, [class*="css"] {
 
 /* Sidebar styling */
 [data-testid="stSidebar"] {
-    /* background-color: #0E1E38; */
-    color: #fffdfd;
+    background-color: #0E1E38;
+    color: #fffdfd !important;
 }
 
 [data-testid="stSidebar"] .stMarkdown p, 
