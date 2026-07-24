@@ -9,6 +9,12 @@
 </p>
 
 <p align="center">
+  <a href="https://aipoweredsalesforecastingdashboard-9m42tgrcanglud7hdncp72.streamlit.app/">
+    <img src="https://img.shields.io/badge/Live_Demo-Streamlit_App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Demo">
+  </a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit">
   <img src="https://img.shields.io/badge/Prophet-Forecasting-003B73?logo=meta&logoColor=white" alt="Prophet">

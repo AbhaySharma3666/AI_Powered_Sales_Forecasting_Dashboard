@@ -1,6 +1,8 @@
 # 🚀 NEXUS AI — Enterprise Sales Forecasting & Analytics Streamlit App
 
 > **Phase 7 Deliverable** — Complete Multi-Page Analytics Portal integrating SQL Business Intelligence, RFM Customer Segmentation, Product Analytics, Regional Density Mapping, and AI Machine Learning Forecasting.
+>
+> 🌐 **Live Web Application**: [aipoweredsalesforecastingdashboard-9m42tgrcanglud7hdncp72.streamlit.app](https://aipoweredsalesforecastingdashboard-9m42tgrcanglud7hdncp72.streamlit.app/)
 
 ---
 
