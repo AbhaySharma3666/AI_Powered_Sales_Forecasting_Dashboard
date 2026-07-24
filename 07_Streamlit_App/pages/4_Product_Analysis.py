@@ -21,16 +21,20 @@ top_prod = sales_df.groupby('product_name')['sales'].sum().idxmax()
 top_prod_sales = sales_df.groupby('product_name')['sales'].sum().max()
 worst_prod = sales_df.groupby('product_name')['profit'].sum().idxmin()
 worst_prod_loss = sales_df.groupby('product_name')['profit'].sum().min()
+avg_unit_profit = sales_df['profit'].sum() / sales_df['quantity'].sum() if sales_df['quantity'].sum() > 0 else 0
 
 c1, c2, c3, c4 = st.columns(4)
 with c1:
     render_kpi_card("Total Products", format_number(prod_count), "Catalog Size", "#003B73")
 with c2:
-    render_kpi_card("Top Selling Product", top_prod[:20] + "...", format_currency(top_prod_sales), "#27AE60")
+    short_top = (top_prod[:24] + "...") if len(top_prod) > 24 else top_prod
+    render_kpi_card("Top Selling Product", format_currency(top_prod_sales), short_top, "#27AE60")
 with c3:
-    render_kpi_card("Most Unprofitable Product", worst_prod[:20] + "...", f"Loss: {format_currency(worst_prod_loss)}", "#BF212F")
+    short_worst = (worst_prod[:24] + "...") if len(worst_prod) > 24 else worst_prod
+    render_kpi_card("Most Unprofitable Product", format_currency(worst_prod_loss), f"Loss: {short_worst}", "#BF212F", value_color="#BF212F", subtext_color="#BF212F")
 with c4:
-    render_kpi_card("Avg Profit per Unit", format_currency(sales_df['profit'].sum() / sales_df['quantity'].sum()), "Unit Economics", "#0074B7")
+    unit_color = "#BF212F" if avg_unit_profit < 0 else "#0074B7"
+    render_kpi_card("Avg Profit per Unit", format_currency(avg_unit_profit), "Unit Economics", unit_color)
 
 st.markdown("---")
 
@@ -45,7 +49,7 @@ with col1:
         labels={'product_name': 'Product Name', 'sales': 'Sales ($)'},
         color_discrete_sequence=["#27AE60"]
     )
-    fig_top.update_layout(template="plotly_white", height=400, yaxis={'autorange': 'reversed'})
+    fig_top.update_layout(template="plotly_white", height=400, yaxis={'autorange': 'reversed'}, margin=dict(t=30, b=20, l=10, r=10))
     st.plotly_chart(fig_top, use_container_width=True)
 
 with col2:
@@ -53,10 +57,10 @@ with col2:
     bot_df = sales_df.groupby('product_name').agg({'sales': 'sum', 'profit': 'sum', 'quantity': 'sum'}).reset_index().sort_values('profit', ascending=True).head(10)
     fig_bot = px.bar(
         bot_df, y='product_name', x='profit', orientation='h', text_auto='.2s',
-        labels={'product_name': 'Product Name', 'profit': 'Profit Loss ($)'},
+        labels={'product_name': 'Product Name', 'profit': 'Net Loss ($)'},
         color_discrete_sequence=["#BF212F"]
     )
-    fig_bot.update_layout(template="plotly_white", height=400)
+    fig_bot.update_layout(template="plotly_white", height=400, yaxis={'autorange': 'reversed'}, margin=dict(t=30, b=20, l=10, r=10))
     st.plotly_chart(fig_bot, use_container_width=True)
 
 st.markdown("---")

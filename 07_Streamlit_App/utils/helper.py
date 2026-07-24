@@ -16,12 +16,20 @@ def render_banner(title, subtitle):
     </div>
     """, unsafe_allow_html=True)
 
-def render_kpi_card(label, value, subtext="", border_color="#003B73"):
+def render_kpi_card(label, value, subtext="", border_color="#003B73", value_color=None, subtext_color=None):
+    is_loss = "-" in str(value) or "Loss" in str(value) or "Loss" in str(subtext) or border_color == "#BF212F"
+    
+    if value_color is None:
+        value_color = "#BF212F" if is_loss else "#1E293B"
+        
+    if subtext_color is None:
+        subtext_color = "#BF212F" if is_loss else "#27AE60"
+        
     st.markdown(f"""
     <div class="kpi-card" style="border-left-color: {border_color};">
         <div class="kpi-label">{label}</div>
-        <div class="kpi-value">{value}</div>
-        {"<div class='kpi-subtext'>" + subtext + "</div>" if subtext else ""}
+        <div class="kpi-value" style="color: {value_color};">{value}</div>
+        {"<div class='kpi-subtext' style='color: " + subtext_color + ";'>" + subtext + "</div>" if subtext else ""}
     </div>
     """, unsafe_allow_html=True)
 
